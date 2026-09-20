@@ -1,0 +1,33 @@
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    environment:
+      POSTGRES_DB: hanzimate
+      POSTGRES_USER: hanzimate
+      POSTGRES_PASSWORD: hanzimate
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U hanzimate -d hanzimate"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    volumes:
+      - hanzimate-postgres:/var/lib/postgresql/data
+
+  redis:
+    image: redis:8-alpine
+    command: ["redis-server", "--appendonly", "yes"]
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    volumes:
+      - hanzimate-redis:/data
+
+volumes:
+  hanzimate-postgres:
+  hanzimate-redis:

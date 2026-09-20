@@ -1,0 +1,9336 @@
+{
+ "comment": "项目语法点全量表（构建输入，git 跟踪）。HSK1-6级与七—九级带全部语法细目，structure/verify 摘自官方《HSK考试大纲》(2025-11) 语法大纲对应等级章节（audit_hsk_kb.py 逐条校验 verify 出现在大纲文本中）；例句为项目自编（example_source=project-authored）或引自项目课程，逐条标注。带 provenance.reused_curated 的条目沿用 Phase 1 精选（名称/例句），其 verify 在 Phase 1 已通过同样校验。",
+ "schema_version": 2,
+ "points": [
+  {
+   "point": "不用关联词语的复句",
+   "level": 1,
+   "category": "复句",
+   "structure": "",
+   "verify": [
+    ""
+   ],
+   "example": {
+    "zh": "他拿起包，走了出去。",
+    "pinyin": "Tā ná qǐ bāo, zǒu le chūqu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 388
+   }
+  },
+  {
+   "point": "主语",
+   "level": 1,
+   "category": "句子成分·主语",
+   "structure": "名词、代词或名词性短语作主语",
+   "verify": [
+    "名词、代词或名词性短语作主语"
+   ],
+   "example": {
+    "zh": "小明是学生。",
+    "pinyin": "Xiǎomíng shì xuésheng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "主谓句1：动词谓语句",
+   "level": 1,
+   "category": "句子的类型·句型",
+   "structure": "主谓句1：动词谓语句",
+   "verify": [
+    "主谓句1：动词谓语句"
+   ],
+   "example": {
+    "zh": "我们学习汉语。",
+    "pinyin": "Wǒmen xuéxí Hànyǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "主谓句2：形容词谓语句",
+   "level": 1,
+   "category": "句子的类型·句型",
+   "structure": "主谓句2：形容词谓语句",
+   "verify": [
+    "主谓句2：形容词谓语句"
+   ],
+   "example": {
+    "zh": "天气很好。",
+    "pinyin": "Tiānqì hěn hǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "主谓句3：名词谓语句",
+   "level": 1,
+   "category": "句子的类型·句型",
+   "structure": "主谓句3：名词谓语句",
+   "verify": [
+    "主谓句3：名词谓语句"
+   ],
+   "example": {
+    "zh": "今天星期一。",
+    "pinyin": "Jīntiān xīngqīyī."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "人称代词",
+   "level": 1,
+   "category": "词类·代词",
+   "structure": "我、你、您、他、她、我们、你们、他们、她 们、它、它们、大家",
+   "verify": [
+    "我、你、您、他、她、我们、你们、他们、她 们、它、它们、大家"
+   ],
+   "example": {
+    "zh": "我们都喜欢他。",
+    "pinyin": "Wǒmen dōu xǐhuan tā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "关联副词",
+   "level": 1,
+   "category": "词类·副词",
+   "structure": "还1、也",
+   "verify": [
+    "还1、也"
+   ],
+   "example": {
+    "zh": "我也要去。",
+    "pinyin": "Wǒ yě yào qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "其他结构类型",
+   "level": 1,
+   "category": "短语·结构类型",
+   "structure": "（1）数量短语 （2）介宾短语 （3）方位短语",
+   "verify": [
+    "（1）数量短语 （2）介宾短语 （3）方位短语"
+   ],
+   "example": {
+    "zh": "他坐在椅子上。",
+    "pinyin": "Tā zuò zài yǐzi shang."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "前一动作是后一动作的方式",
+   "level": 1,
+   "category": "句子的类型·特殊句型",
+   "structure": "（2）前一动作是后一动作的方式",
+   "verify": [
+    "（2）前一动作是后一动作的方式"
+   ],
+   "example": {
+    "zh": "他坐车去上班。",
+    "pinyin": "Tā zuò chē qù shàngbān."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "前缀",
+   "level": 1,
+   "category": "语素·前缀",
+   "structure": "小—、第—",
+   "verify": [
+    "小—、第—"
+   ],
+   "example": {
+    "zh": "小张是我的好朋友。",
+    "pinyin": "Xiǎo Zhāng shì wǒ de hǎo péngyou."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "动态助词",
+   "level": 1,
+   "category": "词类·助词",
+   "structure": "了1",
+   "verify": [
+    "了1"
+   ],
+   "example": {
+    "zh": "我吃了饭再去。",
+    "pinyin": "Wǒ chī le fàn zài qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "双宾语句",
+   "level": 1,
+   "category": "特殊句型",
+   "structure": "主语+动词+宾语1+宾语2",
+   "verify": [
+    "主语+动词+宾语1+宾语2"
+   ],
+   "example": {
+    "zh": "老师教我们汉语。",
+    "pinyin": "Lǎoshī jiāo wǒmen Hànyǔ."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "兼语句"
+   ],
+   "provenance": {
+    "outline_page": 387,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "变化态了",
+   "level": 1,
+   "category": "动作的态",
+   "structure": "句末+了（变化态，用动态助词“了2”表示）",
+   "verify": [
+    "用动态助词“了2”表示"
+   ],
+   "example": {
+    "zh": "下雨了。",
+    "pinyin": "Xià yǔ le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "完成态了",
+    "要……了"
+   ],
+   "provenance": {
+    "outline_page": 388,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "叹词",
+   "level": 1,
+   "category": "词类·叹词",
+   "structure": "喂",
+   "verify": [
+    "喂"
+   ],
+   "example": {
+    "zh": "喂，你最近好吗？",
+    "pinyin": "Wéi, nǐ zuìjìn hǎo ma?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "名量词",
+   "level": 1,
+   "category": "词类",
+   "structure": "数词+量词+名词（本、个、家、口、块、件、只、元、杯）",
+   "verify": [
+    "（1）专用名量词：本、个、家、口、块、"
+   ],
+   "example": {
+    "zh": "我要一碗牛肉面。",
+    "pinyin": "Wǒ yào yì wǎn niúròu miàn."
+   },
+   "example_source": "course:campus-chinese-foundations/canteen-measure-words",
+   "related": [
+    "量词重叠"
+   ],
+   "provenance": {
+    "outline_page": 386,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "后缀",
+   "level": 1,
+   "category": "语素·后缀",
+   "structure": "—们、—边",
+   "verify": [
+    "—们、—边"
+   ],
+   "example": {
+    "zh": "我们住在河边。",
+    "pinyin": "Wǒmen zhù zài hébiān."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "否定副词",
+   "level": 1,
+   "category": "词类·副词",
+   "structure": "不、没（有）、不要",
+   "verify": [
+    "不、没（有）、不要"
+   ],
+   "example": {
+    "zh": "他不懂汉语。",
+    "pinyin": "Tā bù dǒng Hànyǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "基本结构类型",
+   "level": 1,
+   "category": "短语·结构类型",
+   "structure": "（1）联合短语 （2）偏正短语 （3）动宾短语 （4）主谓短语",
+   "verify": [
+    "（1）联合短语 （2）偏正短语 （3）动宾短语 （4）主谓短语"
+   ],
+   "example": {
+    "zh": "我喜欢喝茶。",
+    "pinyin": "Wǒ xǐhuan hē chá."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "存现句",
+   "level": 1,
+   "category": "特殊句型",
+   "structure": "处所+有+数量短语+名词 / 所处+是+名词",
+   "verify": [
+    "处所+有+数量短语+名词"
+   ],
+   "example": {
+    "zh": "桌子上有一杯茶。",
+    "pinyin": "Zhuōzi shang yǒu yì bēi chá."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "有字句",
+    "存现句（出现与消失）"
+   ],
+   "provenance": {
+    "outline_page": 387,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "完成态了",
+   "level": 1,
+   "category": "动作的态",
+   "structure": "动词+了（完成态，用动态助词“了1”表示）",
+   "verify": [
+    "用动态助词“了1”表示"
+   ],
+   "example": {
+    "zh": "我吃了两个包子。",
+    "pinyin": "Wǒ chī le liǎng ge bāozi."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "变化态了",
+    "经历态过"
+   ],
+   "provenance": {
+    "outline_page": 388,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "定语",
+   "level": 1,
+   "category": "句子成分·定语",
+   "structure": "名词性词语、形容词性短语、数量短语作定语",
+   "verify": [
+    "名词性词语、形容词性短语、数量短语作定语"
+   ],
+   "example": {
+    "zh": "这是我的新书。",
+    "pinyin": "Zhè shì wǒ de xīn shū."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "宾语",
+   "level": 1,
+   "category": "句子成分·宾语",
+   "structure": "名词、代词或名词性短语作宾语",
+   "verify": [
+    "名词、代词或名词性短语作宾语"
+   ],
+   "example": {
+    "zh": "我喜欢汉语。",
+    "pinyin": "Wǒ xǐhuan Hànyǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "并列复句",
+   "level": 1,
+   "category": "复句",
+   "structure": "……，也…… ……，还……",
+   "verify": [
+    "……，也…… ……，还……"
+   ],
+   "example": {
+    "zh": "他喜欢音乐，也喜欢运动。",
+    "pinyin": "Tā xǐhuan yīnyuè, yě xǐhuan yùndòng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 388
+   }
+  },
+  {
+   "point": "序数表达法",
+   "level": 1,
+   "category": "特殊表达法",
+   "structure": "第+数词",
+   "verify": [
+    "序数表达法1：第+数词"
+   ],
+   "example": {
+    "zh": "我住在三楼。",
+    "pinyin": "Wǒ zhù zài sān lóu."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "数词+形容词+量词"
+   ],
+   "provenance": {
+    "outline_page": 388,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "引出对象",
+   "level": 1,
+   "category": "词类·介词",
+   "structure": "和1、对",
+   "verify": [
+    "和1、对"
+   ],
+   "example": {
+    "zh": "我和她一起去的。",
+    "pinyin": "Wǒ hé tā yìqǐ qù de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "引出时间、处所",
+   "level": 1,
+   "category": "词类·介词",
+   "structure": "在",
+   "verify": [
+    "在"
+   ],
+   "example": {
+    "zh": "我住在上海。",
+    "pinyin": "Wǒ zhù zài Shànghǎi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "感叹句",
+   "level": 1,
+   "category": "句子的类型·句类",
+   "structure": "",
+   "verify": [
+    ""
+   ],
+   "example": {
+    "zh": "太好了！",
+    "pinyin": "Tài hǎo le!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "所处+是+名词",
+   "level": 1,
+   "category": "句子的类型·特殊句型",
+   "structure": "（1）所处+是+名词",
+   "verify": [
+    "（1）所处+是+名词"
+   ],
+   "example": {
+    "zh": "前边是图书馆。",
+    "pinyin": "Qiánbiān shì túshūguǎn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "指示代词",
+   "level": 1,
+   "category": "词类·代词",
+   "structure": "这、那、这儿、那儿、这里、那里、这些、那 些、有的、这个、那个、有些",
+   "verify": [
+    "这、那、这儿、那儿、这里、那里、这些、那 些、有的、这个、那个、有些"
+   ],
+   "example": {
+    "zh": "这本书很有意思。",
+    "pinyin": "Zhè běn shū hěn yǒu yìsi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "数词",
+   "level": 1,
+   "category": "词类·数词",
+   "structure": "一、二/两、三、四、五、六、七、八、九、 零、十、百、半、千",
+   "verify": [
+    "一、二/两、三、四、五、六、七、八、九、 零、十、百、半、千"
+   ],
+   "example": {
+    "zh": "我有两个弟弟。",
+    "pinyin": "Wǒ yǒu liǎng ge dìdi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "数量补语1",
+   "level": 1,
+   "category": "句子成分·补语",
+   "structure": "动词+动量补语",
+   "verify": [
+    "动词+动量补语"
+   ],
+   "example": {
+    "zh": "我去过一次北京。",
+    "pinyin": "Wǒ qù guò yī cì Běijīng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "方位名词",
+   "level": 1,
+   "category": "词类·名词",
+   "structure": "上、下、里、外、前、后",
+   "verify": [
+    "上、下、里、外、前、后"
+   ],
+   "example": {
+    "zh": "书在桌子上。",
+    "pinyin": "Shū zài zhuōzi shang."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "时量词",
+   "level": 1,
+   "category": "词类·量词",
+   "structure": "日、号、岁、点、分、年、天",
+   "verify": [
+    "日、号、岁、点、分、年、天"
+   ],
+   "example": {
+    "zh": "我学了两年汉语。",
+    "pinyin": "Wǒ xué le liǎng nián Hànyǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "时间副词",
+   "level": 1,
+   "category": "词类·副词",
+   "structure": "在、正在",
+   "verify": [
+    "在、正在"
+   ],
+   "example": {
+    "zh": "我正在吃饭。",
+    "pinyin": "Wǒ zhèngzài chīfàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "时间表示法",
+   "level": 1,
+   "category": "特殊表达法·时间表示法",
+   "structure": "（1）年、月、日、星期表示法 （2）钟点表示法",
+   "verify": [
+    "（1）年、月、日、星期表示法 （2）钟点表示法"
+   ],
+   "example": {
+    "zh": "现在是下午三点。",
+    "pinyin": "Xiànzài shì xiàwǔ sān diǎn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 388
+   }
+  },
+  {
+   "point": "是字句",
+   "level": 1,
+   "category": "特殊句型",
+   "structure": "主语+是+宾语（表示等同或类属）",
+   "verify": [
+    "表示等同或类属"
+   ],
+   "example": {
+    "zh": "我是留学生。",
+    "pinyin": "Wǒ shì liúxuéshēng."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "有字句",
+    "是……的句"
+   ],
+   "provenance": {
+    "outline_page": 387,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "是非问句",
+   "level": 1,
+   "category": "句子的类型",
+   "structure": "陈述句+吗？",
+   "verify": [
+    "（1）是非问句"
+   ],
+   "example": {
+    "zh": "你是学生吗？",
+    "pinyin": "Nǐ shì xuésheng ma?"
+   },
+   "example_source": "project-authored",
+   "related": [
+    "特指问句",
+    "正反问句",
+    "语气助词吗呢吧"
+   ],
+   "provenance": {
+    "outline_page": 387,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "有字句",
+   "level": 1,
+   "category": "特殊句型",
+   "structure": "主语+有+宾语（表示领有）",
+   "verify": [
+    "表示领有"
+   ],
+   "example": {
+    "zh": "我有一本汉语词典。",
+    "pinyin": "Wǒ yǒu yì běn Hànyǔ cídiǎn."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "是字句",
+    "存现句"
+   ],
+   "provenance": {
+    "outline_page": 387,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "正反问句",
+   "level": 1,
+   "category": "句子的类型",
+   "structure": "动词+不+动词？",
+   "verify": [
+    "（3）正反问句"
+   ],
+   "example": {
+    "zh": "你去不去图书馆？",
+    "pinyin": "Nǐ qù bu qù túshūguǎn?"
+   },
+   "example_source": "project-authored",
+   "related": [
+    "是非问句"
+   ],
+   "provenance": {
+    "outline_page": 387,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "特指问句",
+   "level": 1,
+   "category": "句子的类型",
+   "structure": "疑问代词+……？",
+   "verify": [
+    "（2）特指问句"
+   ],
+   "example": {
+    "zh": "你叫什么名字？",
+    "pinyin": "Nǐ jiào shénme míngzi?"
+   },
+   "example_source": "project-authored",
+   "related": [
+    "是非问句",
+    "疑问代词任指"
+   ],
+   "provenance": {
+    "outline_page": 387,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "状语",
+   "level": 1,
+   "category": "句子成分·状语",
+   "structure": "副词、形容词作状语 表示时间、处所的词语作状语",
+   "verify": [
+    "副词、形容词作状语 表示时间、处所的词语作状语"
+   ],
+   "example": {
+    "zh": "我们马上走。",
+    "pinyin": "Wǒmen mǎshàng zǒu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "疑问代词",
+   "level": 1,
+   "category": "词类·代词",
+   "structure": "多、多少、几、哪、哪儿、哪里、哪些、 什么、谁、怎么、怎么样",
+   "verify": [
+    "多、多少、几、哪、哪儿、哪里、哪些、 什么、谁、怎么、怎么样"
+   ],
+   "example": {
+    "zh": "你叫什么名字？",
+    "pinyin": "Nǐ jiào shénme míngzi?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "祈使句",
+   "level": 1,
+   "category": "句子的类型·句类",
+   "structure": "",
+   "verify": [
+    ""
+   ],
+   "example": {
+    "zh": "请坐。",
+    "pinyin": "Qǐng zuò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "离合词",
+   "level": 1,
+   "category": "词类·动词",
+   "structure": "看病、睡觉、说话、上课、下课、上班、 下班、生病",
+   "verify": [
+    "看病、睡觉、说话、上课、下课、上班、 下班、生病"
+   ],
+   "example": {
+    "zh": "他去医院看病了。",
+    "pinyin": "Tā qù yīyuàn kànbìng le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "程度副词",
+   "level": 1,
+   "category": "词类·副词",
+   "structure": "非常、很、太、真、有（一）点儿",
+   "verify": [
+    "非常、很、太、真、有（一）点儿"
+   ],
+   "example": {
+    "zh": "今天非常冷。",
+    "pinyin": "Jīntiān fēicháng lěng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "结构助词",
+   "level": 1,
+   "category": "词类·助词",
+   "structure": "的1",
+   "verify": [
+    "的1"
+   ],
+   "example": {
+    "zh": "这是我的书。",
+    "pinyin": "Zhè shì wǒ de shū."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "能愿动词",
+   "level": 1,
+   "category": "词类",
+   "structure": "会/能/想/要/可以+动词",
+   "verify": [
+    "会、能",
+    "可以"
+   ],
+   "example": {
+    "zh": "我可以坐这儿吗？",
+    "pinyin": "Wǒ kěyǐ zuò zhèr ma?"
+   },
+   "example_source": "project-authored",
+   "related": [
+    "可能补语",
+    "能愿动词扩展"
+   ],
+   "provenance": {
+    "outline_page": 386,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "范围副词",
+   "level": 1,
+   "category": "词类·副词",
+   "structure": "都1",
+   "verify": [
+    "都1"
+   ],
+   "example": {
+    "zh": "我们都去了。",
+    "pinyin": "Wǒmen dōu qù le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "语气助词吗呢吧",
+   "level": 1,
+   "category": "词类",
+   "structure": "句末+吗/呢/吧",
+   "verify": [
+    "吧1、了2、吗、呢1"
+   ],
+   "example": {
+    "zh": "我们走吧。",
+    "pinyin": "Wǒmen zǒu ba."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "是非问句"
+   ],
+   "provenance": {
+    "outline_page": 386,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "谓语",
+   "level": 1,
+   "category": "句子成分·谓语",
+   "structure": "名词、代词、数词或数量短语作谓语 动词或动词性短语、形容词或形容词性短语作 谓语",
+   "verify": [
+    "名词、代词、数词或数量短语作谓语 动词或动词性短语、形容词或形容词性短语作 谓语"
+   ],
+   "example": {
+    "zh": "今天星期一。",
+    "pinyin": "Jīntiān xīngqīyī."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "进行态",
+   "level": 1,
+   "category": "动作的态",
+   "structure": "在/正在+动词（+呢）",
+   "verify": [
+    "在/正在+动词"
+   ],
+   "example": {
+    "zh": "我正在写作业。",
+    "pinyin": "Wǒ zhèngzài xiě zuòyè."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "持续态着"
+   ],
+   "provenance": {
+    "outline_page": 388,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "连动句",
+   "level": 1,
+   "category": "特殊句型",
+   "structure": "动词1+动词2（动作先后、目的或方式）",
+   "verify": [
+    "后一动作是前一动作的目的"
+   ],
+   "example": {
+    "zh": "我去图书馆看书。",
+    "pinyin": "Wǒ qù túshūguǎn kàn shū."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "兼语句",
+    "连动句（着字伴随）"
+   ],
+   "provenance": {
+    "outline_page": 387,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "连接词语或短语",
+   "level": 1,
+   "category": "词类·连词",
+   "structure": "和2",
+   "verify": [
+    "和2"
+   ],
+   "example": {
+    "zh": "我和妈妈都喜欢音乐。",
+    "pinyin": "Wǒ hé māma dōu xǐhuan yīnyuè."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "陈述句",
+   "level": 1,
+   "category": "句子的类型·句类",
+   "structure": "",
+   "verify": [
+    ""
+   ],
+   "example": {
+    "zh": "我是学生。",
+    "pinyin": "Wǒ shì xuésheng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "非主谓句",
+   "level": 1,
+   "category": "句子的类型·句型",
+   "structure": "非主谓句",
+   "verify": [
+    "非主谓句"
+   ],
+   "example": {
+    "zh": "下雨了。",
+    "pinyin": "Xià yǔ le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 387
+   }
+  },
+  {
+   "point": "频率副词",
+   "level": 1,
+   "category": "词类·副词",
+   "structure": "再1",
+   "verify": [
+    "再1"
+   ],
+   "example": {
+    "zh": "请再说一遍。",
+    "pinyin": "Qǐng zài shuō yībiàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 386
+   }
+  },
+  {
+   "point": "A比B+动词+得+形容词/A+动词+得+比 +B+形容词",
+   "level": 2,
+   "category": "句子的类型·特殊句式",
+   "structure": "（4）A比B+动词+得+形容词/A+动词+得+比 +B+形容词",
+   "verify": [
+    "（4）A比B+动词+得+形容词/A+动词+得+比 +B+形容词"
+   ],
+   "example": {
+    "zh": "他跑得比我快。",
+    "pinyin": "Tā pǎo de bǐ wǒ kuài."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "A比B+形容词+数量补语/程度补语",
+   "level": 2,
+   "category": "句子的类型·特殊句式",
+   "structure": "（2）A比B+形容词+数量补语/程度补语",
+   "verify": [
+    "（2）A比B+形容词+数量补语/程度补语"
+   ],
+   "example": {
+    "zh": "他比我高一点儿。",
+    "pinyin": "Tā bǐ wǒ gāo yìdiǎnr."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "一……就……",
+   "level": 2,
+   "category": "复句",
+   "structure": "一……就……",
+   "verify": [
+    "一……就……"
+   ],
+   "example": {
+    "zh": "他一到家就给我打电话。",
+    "pinyin": "Tā yí dào jiā jiù gěi wǒ dǎ diànhuà."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "只要……就……"
+   ],
+   "provenance": {
+    "outline_page": 391,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "主语",
+   "level": 2,
+   "category": "句子成分·主语",
+   "structure": "受事主语",
+   "verify": [
+    "受事主语"
+   ],
+   "example": {
+    "zh": "饭做好了。",
+    "pinyin": "Fàn zuò hǎo le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "人称代词",
+   "level": 2,
+   "category": "词类·代词",
+   "structure": "自己",
+   "verify": [
+    "自己"
+   ],
+   "example": {
+    "zh": "我自己去的。",
+    "pinyin": "Wǒ zìjǐ qù de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "关联副词",
+   "level": 2,
+   "category": "词类·副词",
+   "structure": "再2、就1",
+   "verify": [
+    "再2、就1"
+   ],
+   "example": {
+    "zh": "你再想想就明白了。",
+    "pinyin": "Nǐ zài xiǎngxiang jiù míngbai le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "其他",
+   "level": 2,
+   "category": "短语·固定短语",
+   "structure": "什么的",
+   "verify": [
+    "什么的"
+   ],
+   "example": {
+    "zh": "我们买点水果什么的。",
+    "pinyin": "Wǒmen mǎi diǎn shuǐguǒ shénme de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "其他结构类型",
+   "level": 2,
+   "category": "短语·结构类型",
+   "structure": "（1）“的”字短语 （2）连谓短语 （3）兼语短语",
+   "verify": [
+    "（1）“的”字短语 （2）连谓短语 （3）兼语短语"
+   ],
+   "example": {
+    "zh": "卖菜的来了。",
+    "pinyin": "Mài cài de lái le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "兼语句",
+   "level": 2,
+   "category": "特殊句式",
+   "structure": "主语+请/叫/让……+宾语1+动词+宾语2（表使令）",
+   "verify": [
+    "表使令：主语+请/叫/让"
+   ],
+   "example": {
+    "zh": "老师让我回答问题。",
+    "pinyin": "Lǎoshī ràng wǒ huídá wèntí."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "双宾语句",
+    "兼语句扩展"
+   ],
+   "provenance": {
+    "outline_page": 391,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "别字祈使句",
+   "level": 2,
+   "category": "句子的类型",
+   "structure": "别+动词",
+   "verify": [
+    "用“别”的祈使句"
+   ],
+   "example": {
+    "zh": "别说话。",
+    "pinyin": "Bié shuōhuà."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "是非问句"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "动态助词",
+   "level": 2,
+   "category": "词类·助词",
+   "structure": "过 着",
+   "verify": [
+    "过 着"
+   ],
+   "example": {
+    "zh": "他去过中国。",
+    "pinyin": "Tā qù guò Zhōngguó."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "动词性短语",
+   "level": 2,
+   "category": "短语·功能类型",
+   "structure": "",
+   "verify": [
+    ""
+   ],
+   "example": {
+    "zh": "努力学习很重要。",
+    "pinyin": "Nǔlì xuéxí hěn zhòngyào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "动词重叠",
+   "level": 2,
+   "category": "词类",
+   "structure": "AA、A一A、A了A、ABAB",
+   "verify": [
+    "AA、A一A、A了A、ABAB"
+   ],
+   "example": {
+    "zh": "请你看看这个。",
+    "pinyin": "Qǐng nǐ kànkan zhège."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "形容词重叠",
+    "离合词"
+   ],
+   "provenance": {
+    "outline_page": 389,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "动量词",
+   "level": 2,
+   "category": "词类·量词",
+   "structure": "次",
+   "verify": [
+    "次"
+   ],
+   "example": {
+    "zh": "我去过两次长城。",
+    "pinyin": "Wǒ qù guò liǎng cì Chángchéng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "单句",
+   "level": 2,
+   "category": "句子的类型·句型",
+   "structure": "主谓句4：主谓谓语句",
+   "verify": [
+    "主谓句4：主谓谓语句"
+   ],
+   "example": {
+    "zh": "他身体很好。",
+    "pinyin": "Tā shēntǐ hěn hǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "双宾语句2",
+   "level": 2,
+   "category": "固定格式",
+   "structure": "主语+动词+给+宾语1+宾语2",
+   "verify": [
+    "主语+动词+给+宾语1+宾语2"
+   ],
+   "example": {
+    "zh": "他送给我一本书。",
+    "pinyin": "Tā sòng gěi wǒ yī běn shū."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 391
+   }
+  },
+  {
+   "point": "名词性短语",
+   "level": 2,
+   "category": "短语·功能类型",
+   "structure": "",
+   "verify": [
+    ""
+   ],
+   "example": {
+    "zh": "新来的老师很好。",
+    "pinyin": "Xīn lái de lǎoshī hěn hǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "名量词",
+   "level": 2,
+   "category": "词类·量词",
+   "structure": "（1）专用名量词：条、位、间、名 （2）借用名量词：包",
+   "verify": [
+    "（1）专用名量词：条、位、间、名 （2）借用名量词：包"
+   ],
+   "example": {
+    "zh": "我买了一包饼干。",
+    "pinyin": "Wǒ mǎi le yī bāo bǐnggān."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "后缀",
+   "level": 2,
+   "category": "语素·后缀",
+   "structure": "面",
+   "verify": [
+    "面"
+   ],
+   "example": {
+    "zh": "晚上我要学习。",
+    "pinyin": "Wǎnshang wǒ yào xuéxí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "否定副词",
+   "level": 2,
+   "category": "词类·副词",
+   "structure": "别",
+   "verify": [
+    "别"
+   ],
+   "example": {
+    "zh": "别说话。",
+    "pinyin": "Bié shuōhuà."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "因为……所以……",
+   "level": 2,
+   "category": "复句",
+   "structure": "因为……，所以……",
+   "verify": [
+    "因为……，所以……"
+   ],
+   "example": {
+    "zh": "因为下雨，所以我不去了。",
+    "pinyin": "Yīnwèi xià yǔ, suǒyǐ wǒ bú qù le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "既然……就……",
+    "由于……因此……"
+   ],
+   "provenance": {
+    "outline_page": 391,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "基本结构类型",
+   "level": 2,
+   "category": "词类·助词",
+   "structure": "动补短语1",
+   "verify": [
+    "动补短语1"
+   ],
+   "example": {
+    "zh": "他吃完了。",
+    "pinyin": "Tā chī wán le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "复合趋向补语",
+   "level": 2,
+   "category": "句子成分",
+   "structure": "动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上来/上去/下来/下去",
+   "verify": [
+    "动词+出来/出去/过来/过去/回来/回去/进来/进去/起来/上"
+   ],
+   "example": {
+    "zh": "请把学生证拿出来。",
+    "pinyin": "Qǐng bǎ xuéshēngzhèng ná chūlai."
+   },
+   "example_source": "course:campus-chinese-foundations/hsk-directional-complements",
+   "provenance": {
+    "reused_curated": true
+   },
+   "related": [
+    "趋向补语",
+    "把字句"
+   ]
+  },
+  {
+   "point": "存现句2",
+   "level": 2,
+   "category": "句子的类型·特殊句式",
+   "structure": "处所+动词+着(+数量短语)+名词",
+   "verify": [
+    "处所+动词+着(+数量短语)+名词"
+   ],
+   "example": {
+    "zh": "墙上挂着一幅画。",
+    "pinyin": "Qiáng shang guà zhe yī fú huà."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "定语",
+   "level": 2,
+   "category": "句子成分·定语",
+   "structure": "动词或动词性短语、主谓短语作定语",
+   "verify": [
+    "动词或动词性短语、主谓短语作定语"
+   ],
+   "example": {
+    "zh": "这是妈妈做的饭。",
+    "pinyin": "Zhè shì māma zuò de fàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "引出原因",
+   "level": 2,
+   "category": "词类·介词",
+   "structure": "因为1",
+   "verify": [
+    "因为1"
+   ],
+   "example": {
+    "zh": "因为下雨，我没去。",
+    "pinyin": "Yīnwèi xià yǔ, wǒ méi qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "引出对象",
+   "level": 2,
+   "category": "词类·介词",
+   "structure": "给 比 跟1",
+   "verify": [
+    "给 比 跟1"
+   ],
+   "example": {
+    "zh": "我给你打电话。",
+    "pinyin": "Wǒ gěi nǐ dǎ diànhuà."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "引出方向、路径",
+   "level": 2,
+   "category": "词类·介词",
+   "structure": "往 从2",
+   "verify": [
+    "往 从2"
+   ],
+   "example": {
+    "zh": "他一直往前走。",
+    "pinyin": "Tā yìzhí wǎng qián zǒu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "引出时间、处所",
+   "level": 2,
+   "category": "词类·介词",
+   "structure": "从1",
+   "verify": [
+    "从1"
+   ],
+   "example": {
+    "zh": "我从北京来。",
+    "pinyin": "Wǒ cóng Běijīng lái."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "形容词性短语",
+   "level": 2,
+   "category": "短语·功能类型",
+   "structure": "",
+   "verify": [
+    ""
+   ],
+   "example": {
+    "zh": "他非常聪明。",
+    "pinyin": "Tā fēicháng cōngming."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "形容词重叠",
+   "level": 2,
+   "category": "词类",
+   "structure": "AA、AABB",
+   "verify": [
+    "AA、AABB"
+   ],
+   "example": {
+    "zh": "她的房间干干净净。",
+    "pinyin": "Tā de fángjiān gāngānjìngjìng."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "动词重叠"
+   ],
+   "provenance": {
+    "outline_page": 389,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "持续态着",
+   "level": 2,
+   "category": "动作的态",
+   "structure": "动词+着（状态的持续/动作的持续）",
+   "verify": [
+    "动词+着：（1）表示状态的持续"
+   ],
+   "example": {
+    "zh": "门开着。",
+    "pinyin": "Mén kāizhe."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "进行态",
+    "连动句（着字伴随）"
+   ],
+   "provenance": {
+    "outline_page": 391,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "指示代词",
+   "level": 2,
+   "category": "词类·代词",
+   "structure": "那么、那样、这么、这样、每",
+   "verify": [
+    "那么、那样、这么、这样、每"
+   ],
+   "example": {
+    "zh": "那么，我们走吧。",
+    "pinyin": "Nàme, wǒmen zǒu ba."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "数词",
+   "level": 2,
+   "category": "词类·数词",
+   "structure": "万、好多、多",
+   "verify": [
+    "万、好多、多"
+   ],
+   "example": {
+    "zh": "他存了一万多块钱。",
+    "pinyin": "Tā cún le yī wàn duō kuài qián."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "数量补语2",
+   "level": 2,
+   "category": "句子成分·补语",
+   "structure": "（1）表示动作持续的时间 （2）形容词+数量补语",
+   "verify": [
+    "（1）表示动作持续的时间 （2）形容词+数量补语"
+   ],
+   "example": {
+    "zh": "他比我大三岁。",
+    "pinyin": "Tā bǐ wǒ dà sān suì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "方位名词",
+   "level": 2,
+   "category": "词类·名词",
+   "structure": "左、右",
+   "verify": [
+    "左、右"
+   ],
+   "example": {
+    "zh": "左边是我的座位。",
+    "pinyin": "Zuǒbiān shì wǒ de zuòwèi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "时间副词",
+   "level": 2,
+   "category": "词类·副词",
+   "structure": "还2、已经、有时（候）、快、快要、正",
+   "verify": [
+    "还2、已经、有时（候）、快、快要、正"
+   ],
+   "example": {
+    "zh": "他快要回来了。",
+    "pinyin": "Tā kuàiyào huílai le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "是……的句",
+   "level": 2,
+   "category": "特殊句式",
+   "structure": "是+……+的（强调时间、地点、方式、动作者）",
+   "verify": [
+    "强调时间、地点、方式、动作者"
+   ],
+   "example": {
+    "zh": "我是坐飞机来的。",
+    "pinyin": "Wǒ shì zuò fēijī lái de."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "是字句"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "是字句2",
+   "level": 2,
+   "category": "句子的类型·特殊句式",
+   "structure": "表示说明或特征",
+   "verify": [
+    "表示说明或特征"
+   ],
+   "example": {
+    "zh": "这朵花是红的。",
+    "pinyin": "Zhè duǒ huā shì hóng de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "有/没有比较",
+   "level": 2,
+   "category": "特殊句式",
+   "structure": "A有/没有B（+这么/那么）+形容词",
+   "verify": [
+    "A有/没有B（+这么/那么）+形容词"
+   ],
+   "example": {
+    "zh": "今天没有昨天那么冷。",
+    "pinyin": "Jīntiān méiyǒu zuótiān nàme lěng."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "比字句"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "有字句2",
+   "level": 2,
+   "category": "句子的类型·特殊句式",
+   "structure": "表示达到",
+   "verify": [
+    "表示达到"
+   ],
+   "example": {
+    "zh": "他有一米八。",
+    "pinyin": "Tā yǒu yī mǐ bā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "概数（几/多）",
+   "level": 2,
+   "category": "特殊表达法",
+   "structure": "几+量词；数词+多+量词；数词+量词+多",
+   "verify": [
+    "（1）用“几”表示概数"
+   ],
+   "example": {
+    "zh": "这本书三十多块。",
+    "pinyin": "Zhè běn shū sānshí duō kuài."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "概数（左右/前后/来）"
+   ],
+   "provenance": {
+    "outline_page": 391,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "比字句",
+   "level": 2,
+   "category": "特殊句式",
+   "structure": "A比B+形容词（+数量补语/程度补语）",
+   "verify": [
+    "A比B+形容词"
+   ],
+   "example": {
+    "zh": "新图书馆比旧图书馆安静一点儿。",
+    "pinyin": "Xīn túshūguǎn bǐ jiù túshūguǎn ānjìng yìdiǎnr."
+   },
+   "example_source": "course:campus-chinese-foundations/hsk-bi-comparison",
+   "related": [
+    "有/没有比较",
+    "A不如B",
+    "越来越"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "状态补语",
+   "level": 2,
+   "category": "句子成分",
+   "structure": "动词+得+形容词性短语",
+   "verify": [
+    "动词+得+形容词性短语"
+   ],
+   "example": {
+    "zh": "他跑得很快。",
+    "pinyin": "Tā pǎo de hěn kuài."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "程度补语",
+    "重动句"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "疑问代词",
+   "level": 2,
+   "category": "词类·代词",
+   "structure": "为什么",
+   "verify": [
+    "为什么"
+   ],
+   "example": {
+    "zh": "你为什么不来？",
+    "pinyin": "Nǐ wèishénme bù lái?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "离合词",
+   "level": 2,
+   "category": "词类·动词",
+   "structure": "帮忙、游泳、跳舞、跑步",
+   "verify": [
+    "帮忙、游泳、跳舞、跑步"
+   ],
+   "example": {
+    "zh": "我们一起去游泳吧。",
+    "pinyin": "Wǒmen yìqǐ qù yóuyǒng ba."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "程度副词",
+   "level": 2,
+   "category": "词类·副词",
+   "structure": "多、好、最",
+   "verify": [
+    "多、好、最"
+   ],
+   "example": {
+    "zh": "今天的作业好多啊。",
+    "pinyin": "Jīntiān de zuòyè hǎo duō a."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "经历态过",
+   "level": 2,
+   "category": "动作的态",
+   "structure": "动词+过 / 没+动词+过",
+   "verify": [
+    "用动态助词“过”表示"
+   ],
+   "example": {
+    "zh": "我去过西安。",
+    "pinyin": "Wǒ qùguo Xī'ān."
+   },
+   "example_source": "course:campus-chinese-foundations/hsk-experience-guo",
+   "related": [
+    "完成态了",
+    "变化态了"
+   ],
+   "provenance": {
+    "outline_page": 391,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "结构助词",
+   "level": 2,
+   "category": "词类·助词",
+   "structure": "得、地",
+   "verify": [
+    "得、地"
+   ],
+   "example": {
+    "zh": "他跑得很快。",
+    "pinyin": "Tā pǎo de hěn kuài."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "结果补语",
+   "level": 2,
+   "category": "句子成分",
+   "structure": "动词+错/懂/好/会/完",
+   "verify": [
+    "动词+错/懂/好/会/完"
+   ],
+   "example": {
+    "zh": "作业我写完了。",
+    "pinyin": "Zuòyè wǒ xiě wán le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "可能补语",
+    "趋向补语",
+    "结果补语扩展"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "能愿动词",
+   "level": 2,
+   "category": "词类·动词",
+   "structure": "可能",
+   "verify": [
+    "可能"
+   ],
+   "example": {
+    "zh": "他可能病了。",
+    "pinyin": "Tā kěnéng bìng le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "范围副词",
+   "level": 2,
+   "category": "词类·副词",
+   "structure": "一起",
+   "verify": [
+    "一起"
+   ],
+   "example": {
+    "zh": "我们一起去。",
+    "pinyin": "Wǒmen yìqǐ qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "虽然……但是……",
+   "level": 2,
+   "category": "复句",
+   "structure": "虽然……，但是……",
+   "verify": [
+    "虽然……，但是……"
+   ],
+   "example": {
+    "zh": "虽然宿舍离教室远，但是环境很安静。",
+    "pinyin": "Suīrán sùshè lí jiàoshì yuǎn, dànshì huánjìng hěn ānjìng."
+   },
+   "example_source": "course:campus-chinese-foundations/hsk-although-but-choice",
+   "related": [
+    "尽管……但是……",
+    "然而/不过"
+   ],
+   "provenance": {
+    "outline_page": 391,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "要……了",
+   "level": 2,
+   "category": "固定格式",
+   "structure": "要/快要/就要+动词+了",
+   "verify": [
+    "要/快要/就要……了"
+   ],
+   "example": {
+    "zh": "快要下雨了。",
+    "pinyin": "Kuài yào xià yǔ le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "变化态了",
+    "该……了"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "语气副词",
+   "level": 2,
+   "category": "词类·副词",
+   "structure": "都2、就2、还是1",
+   "verify": [
+    "都2、就2、还是1"
+   ],
+   "example": {
+    "zh": "他今年就十八岁了。",
+    "pinyin": "Tā jīnnián jiù shíbā suì le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "语气助词",
+   "level": 2,
+   "category": "词类·助词",
+   "structure": "呢4、吧2、的2、啊1",
+   "verify": [
+    "呢4、吧2、的2、啊1"
+   ],
+   "example": {
+    "zh": "你在做什么呢？",
+    "pinyin": "Nǐ zài zuò shénme ne?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "谓语",
+   "level": 2,
+   "category": "句子成分·谓语",
+   "structure": "名词性短语作谓语",
+   "verify": [
+    "名词性短语作谓语"
+   ],
+   "example": {
+    "zh": "他北京人。",
+    "pinyin": "Tā Běijīng rén."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 390
+   }
+  },
+  {
+   "point": "趋向补语",
+   "level": 2,
+   "category": "句子成分",
+   "structure": "动词+来/去；动词+上/下/进/出/过/回",
+   "verify": [
+    "（1）动词+来",
+    "动词+上/下/进/出/过/回"
+   ],
+   "example": {
+    "zh": "他回来了。",
+    "pinyin": "Tā huílai le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "复合趋向补语",
+    "趋向补语引申"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "还是……吧",
+   "level": 2,
+   "category": "固定格式",
+   "structure": "还是……吧",
+   "verify": [
+    "还是……吧"
+   ],
+   "example": {
+    "zh": "我们坐车去吧。",
+    "pinyin": "Wǒmen zuò chē qù ba."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "选择问句"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "连接分句或者句子",
+   "level": 2,
+   "category": "词类·连词",
+   "structure": "但、但是、那、虽然、还是2、因为2、所以",
+   "verify": [
+    "但、但是、那、虽然、还是2、因为2、所以"
+   ],
+   "example": {
+    "zh": "虽然很累，但是我很高兴。",
+    "pinyin": "Suīrán hěn lèi, dànshì wǒ hěn gāoxìng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "连接词或短语",
+   "level": 2,
+   "category": "词类·连词",
+   "structure": "跟2",
+   "verify": [
+    "跟2"
+   ],
+   "example": {
+    "zh": "我跟他都是学生。",
+    "pinyin": "Wǒ gēn tā dōu shì xuésheng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "选择复句",
+   "level": 2,
+   "category": "复句",
+   "structure": "（是）……，还是……",
+   "verify": [
+    "（是）……，还是……"
+   ],
+   "example": {
+    "zh": "你是喝茶，还是喝咖啡？",
+    "pinyin": "Nǐ shì hē chá, háishì hē kāfēi?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 391
+   }
+  },
+  {
+   "point": "选择问句",
+   "level": 2,
+   "category": "句子的类型",
+   "structure": "A还是B？",
+   "verify": [
+    "用“还是”连接的选择问句"
+   ],
+   "example": {
+    "zh": "你要咖啡还是茶？",
+    "pinyin": "Nǐ yào kāfēi háishi chá?"
+   },
+   "example_source": "project-authored",
+   "related": [
+    "或者……或者……",
+    "不是……就是……"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "都……了",
+   "level": 2,
+   "category": "固定格式",
+   "structure": "都……了",
+   "verify": [
+    "都……了"
+   ],
+   "example": {
+    "zh": "都八点了，快起床吧。",
+    "pinyin": "Dōu bā diǎn le, kuài qǐchuáng ba."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "变化态了"
+   ],
+   "provenance": {
+    "outline_page": 390,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "频率副词",
+   "level": 2,
+   "category": "词类·副词",
+   "structure": "常、经常",
+   "verify": [
+    "常、经常"
+   ],
+   "example": {
+    "zh": "他经常去图书馆。",
+    "pinyin": "Tā jīngcháng qù túshūguǎn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 389
+   }
+  },
+  {
+   "point": "A不比B+形容词",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "（4）A不比B+形容词",
+   "verify": [
+    "（4）A不比B+形容词"
+   ],
+   "example": {
+    "zh": "我不比他矮。",
+    "pinyin": "Wǒ bù bǐ tā ǎi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "A比B+多/少/早/晚+动词+数量短语",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "（5）A比B+多/少/早/晚+动词+数量短语",
+   "verify": [
+    "（5）A比B+多/少/早/晚+动词+数量短语"
+   ],
+   "example": {
+    "zh": "他比我早来十分钟。",
+    "pinyin": "Tā bǐ wǒ zǎo lái shí fēnzhōng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "A比B+更/还+形容词",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "（1）A比B+更/还+形容词",
+   "verify": [
+    "（1）A比B+更/还+形容词"
+   ],
+   "example": {
+    "zh": "今天比昨天更冷。",
+    "pinyin": "Jīntiān bǐ zuótiān gèng lěng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "A跟B一样",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "（2）A跟B一样",
+   "verify": [
+    "（2）A跟B一样"
+   ],
+   "example": {
+    "zh": "他跟我一样高。",
+    "pinyin": "Tā gēn wǒ yíyàng gāo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "A跟B一样+形容词",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "（3）A跟B一样+形容词",
+   "verify": [
+    "（3）A跟B一样+形容词"
+   ],
+   "example": {
+    "zh": "这本书跟那本一样厚。",
+    "pinyin": "Zhè běn shū gēn nà běn yíyàng hòu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "X什么（啊）",
+   "level": 3,
+   "category": "固定格式·固定短语",
+   "structure": "X什么（啊）",
+   "verify": [
+    "X什么（啊）"
+   ],
+   "example": {
+    "zh": "你喊什么啊？",
+    "pinyin": "Nǐ hǎn shénme a?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "……的话，就……",
+   "level": 3,
+   "category": "复句",
+   "structure": "……的话，就……",
+   "verify": [
+    "……的话，就……"
+   ],
+   "example": {
+    "zh": "明天下雨的话，我就不去了。",
+    "pinyin": "Míngtiān xià yǔ dehuà, wǒ jiù bú qù le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "如果……就……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "一……也/都+不/没……",
+   "level": 3,
+   "category": "固定格式·固定短语",
+   "structure": "一……也/都+不/没……",
+   "verify": [
+    "一……也/都+不/没……"
+   ],
+   "example": {
+    "zh": "他一句话也不说。",
+    "pinyin": "Tā yī jù huà yě bù shuō."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "一会儿……一会儿……",
+   "level": 3,
+   "category": "复句",
+   "structure": "一会儿……，一会儿……",
+   "verify": [
+    "一会儿……，一会儿……"
+   ],
+   "example": {
+    "zh": "他一会儿唱歌，一会儿跳舞。",
+    "pinyin": "Tā yìhuìr chànggē, yìhuìr tiàowǔ."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "一边……一边……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "一点儿也不",
+   "level": 3,
+   "category": "固定格式",
+   "structure": "一点儿也不/没……",
+   "verify": [
+    "一点儿也不"
+   ],
+   "example": {
+    "zh": "我一点儿也不累。",
+    "pinyin": "Wǒ yìdiǎnr yě bú lèi."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "怎么都/也+不/没……"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "一般来说",
+   "level": 3,
+   "category": "短语·固定短语",
+   "structure": "一般来说",
+   "verify": [
+    "一般来说"
+   ],
+   "example": {
+    "zh": "一般来说，早上的空气很好。",
+    "pinyin": "Yìbān lái shuō, zǎoshang de kōngqì hěn hǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "一边……一边……",
+   "level": 3,
+   "category": "复句",
+   "structure": "一边……，一边……",
+   "verify": [
+    "一边……，一边……"
+   ],
+   "example": {
+    "zh": "他一边走路一边听音乐。",
+    "pinyin": "Tā yìbiān zǒulù yìbiān tīng yīnyuè."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "又……又……",
+    "一会儿……一会儿……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "不A不B",
+   "level": 3,
+   "category": "固定短语",
+   "structure": "不A不B",
+   "verify": [
+    "不A 不 B"
+   ],
+   "example": {
+    "zh": "我们不做完作业不休息。",
+    "pinyin": "Wǒmen bú zuò wán zuòyè bù xiūxi."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "一A一B"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "不一会儿",
+   "level": 3,
+   "category": "短语·固定短语",
+   "structure": "不一会儿",
+   "verify": [
+    "不一会儿"
+   ],
+   "example": {
+    "zh": "不一会儿，雨就停了。",
+    "pinyin": "Bù yīhuìr, yǔ jiù tíng le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "不但……而且……",
+   "level": 3,
+   "category": "复句",
+   "structure": "不但……，而且……",
+   "verify": [
+    "不但……，而且……"
+   ],
+   "example": {
+    "zh": "他不但聪明，而且努力。",
+    "pinyin": "Tā búdàn cōngming, érqiě nǔlì."
+   },
+   "example_source": "project-authored",
+   "also_at": [
+    4
+   ],
+   "related": [
+    "不仅/不光……还/而且……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "不怎么样",
+   "level": 3,
+   "category": "短语·固定短语",
+   "structure": "不怎么样",
+   "verify": [
+    "不怎么样"
+   ],
+   "example": {
+    "zh": "他的字写得不怎么样。",
+    "pinyin": "Tā de zì xiě de bù zěnmeyàng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "为了……",
+   "level": 3,
+   "category": "复句",
+   "structure": "为了+目的，……",
+   "verify": [
+    "为了……，……"
+   ],
+   "example": {
+    "zh": "为了学好汉语，他每天练口语。",
+    "pinyin": "Wèile xué hǎo Hànyǔ, tā měitiān liàn kǒuyǔ."
+   },
+   "example_source": "project-authored",
+   "also_at": [
+    4
+   ],
+   "related": [
+    "……，好……",
+    "为了……而……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "主语",
+   "level": 3,
+   "category": "句子成分·主语",
+   "structure": "动词或动词性短语、形容词或形容词性短语作 主语 主谓短语作主语",
+   "verify": [
+    "动词或动词性短语、形容词或形容词性短语作 主语 主谓短语作主语"
+   ],
+   "example": {
+    "zh": "早睡早起对身体有好处。",
+    "pinyin": "Zǎo shuì zǎo qǐ duì shēntǐ yǒu hǎochu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "主语+把+宾语+动词+在/到+处所",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "（1）主语+把+宾语+动词+在/到+处所",
+   "verify": [
+    "（1）主语+把+宾语+动词+在/到+处所"
+   ],
+   "example": {
+    "zh": "我把书放在桌子上了。",
+    "pinyin": "Wǒ bǎ shū fàng zài zhuōzi shang le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "主语+把+宾语1+动词（+给）+宾语2",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "（2）主语+把+宾语1+动词（+给）+宾语2",
+   "verify": [
+    "（2）主语+把+宾语1+动词（+给）+宾语2"
+   ],
+   "example": {
+    "zh": "我把作业交给老师了。",
+    "pinyin": "Wǒ bǎ zuòyè jiāo gěi lǎoshī le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "主语+被+动词+其他成分",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "（2）主语+被+动词+其他成分",
+   "verify": [
+    "（2）主语+被+动词+其他成分"
+   ],
+   "example": {
+    "zh": "门被打开了。",
+    "pinyin": "Mén bèi dǎkāi le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "人称代词",
+   "level": 3,
+   "category": "词类·代词",
+   "structure": "别人、咱们",
+   "verify": [
+    "别人、咱们"
+   ],
+   "example": {
+    "zh": "咱们走吧。",
+    "pinyin": "Zánmen zǒu ba."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "介词把被",
+   "level": 3,
+   "category": "词类",
+   "structure": "把/被+宾语（引出施事、受事）",
+   "verify": [
+    "引出施事、受事",
+    "把、被"
+   ],
+   "example": {
+    "zh": "请把窗户打开。",
+    "pinyin": "Qǐng bǎ chuānghu dǎkāi."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "把字句",
+    "被字句"
+   ],
+   "provenance": {
+    "outline_page": 392,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "从……起",
+   "level": 3,
+   "category": "固定格式",
+   "structure": "从……起",
+   "verify": [
+    "从……起"
+   ],
+   "example": {
+    "zh": "从明天起，我要早起。",
+    "pinyin": "Cóng míngtiān qǐ, wǒ yào zǎoqǐ."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "在……以前/以后"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "先……再/然后……",
+   "level": 3,
+   "category": "复句",
+   "structure": "先……，再/然后……",
+   "verify": [
+    "先……，再/然后……"
+   ],
+   "example": {
+    "zh": "先一直往前走，再向右转。",
+    "pinyin": "Xiān yìzhí wǎng qián zǒu, zài xiàng yòu zhuǎn."
+   },
+   "example_source": "course:campus-chinese-foundations/directions-first-then",
+   "also_at": [
+    4
+   ],
+   "related": [
+    "首先……其次……",
+    "先、然后、最后"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "关联副词",
+   "level": 3,
+   "category": "词类·副词",
+   "structure": "一边",
+   "verify": [
+    "一边"
+   ],
+   "example": {
+    "zh": "他一边走一边唱。",
+    "pinyin": "Tā yìbiān zǒu yìbiān chàng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "其他助词",
+   "level": 3,
+   "category": "词类·助词",
+   "structure": "的话",
+   "verify": [
+    "的话"
+   ],
+   "example": {
+    "zh": "如果你去的话，请告诉我。",
+    "pinyin": "Rúguǒ nǐ qù dehuà, qǐng gàosu wǒ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "其他结构类型",
+   "level": 3,
+   "category": "短语·结构类型",
+   "structure": "同位短语 动补短语2 数量重叠：数词+量词+数词+量词",
+   "verify": [
+    "同位短语 动补短语2 数量重叠：数词+量词+数词+量词"
+   ],
+   "example": {
+    "zh": "他们一个一个地走进来。",
+    "pinyin": "Tāmen yī ge yī ge de zǒu jìnlai."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "前缀",
+   "level": 3,
+   "category": "语素·前缀",
+   "structure": "老—",
+   "verify": [
+    "老—"
+   ],
+   "example": {
+    "zh": "老王是我的邻居。",
+    "pinyin": "Lǎo Wáng shì wǒ de línjū."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "动量词",
+   "level": 3,
+   "category": "词类·量词",
+   "structure": "口、回、遍、声",
+   "verify": [
+    "口、回、遍、声"
+   ],
+   "example": {
+    "zh": "这本书我看了三遍。",
+    "pinyin": "Zhè běn shū wǒ kàn le sān biàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "又……又……",
+   "level": 3,
+   "category": "复句",
+   "structure": "又……，又……",
+   "verify": [
+    "又……，又……"
+   ],
+   "example": {
+    "zh": "这个菜又便宜又好吃。",
+    "pinyin": "Zhège cài yòu piányi yòu hǎochī."
+   },
+   "example_source": "project-authored",
+   "also_at": [
+    4
+   ],
+   "related": [
+    "既……又/也……",
+    "一边……一边……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "反问句（不是…吗）",
+   "level": 3,
+   "category": "句子的类型",
+   "structure": "不是……吗？",
+   "verify": [
+    "用反问句表示强调：不是……吗？"
+   ],
+   "example": {
+    "zh": "你不是知道了吗？",
+    "pinyin": "Nǐ bú shì zhīdào le ma?"
+   },
+   "example_source": "project-authored",
+   "also_at": [
+    4
+   ],
+   "related": [
+    "难道……吗",
+    "双重否定句"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "只有……才……",
+   "level": 3,
+   "category": "复句",
+   "structure": "只有……，才……",
+   "verify": [
+    "只有……，才……"
+   ],
+   "example": {
+    "zh": "只有带学生证，才能进入阅览室。",
+    "pinyin": "Zhǐyǒu dài xuéshēngzhèng, cái néng jìnrù yuèlǎnshì."
+   },
+   "example_source": "course:campus-chinese-foundations/hsk-notice-only-then",
+   "related": [
+    "只要……就……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "只要……就……",
+   "level": 3,
+   "category": "复句",
+   "structure": "只要……，就……",
+   "verify": [
+    "只要……，就……"
+   ],
+   "example": {
+    "zh": "只要你努力，就会进步。",
+    "pinyin": "Zhǐyào nǐ nǔlì, jiù huì jìnbù."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "只有……才……",
+    "一……就……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "可能补语",
+   "level": 3,
+   "category": "句子成分",
+   "structure": "动词+得/不+动词/形容词",
+   "verify": [
+    "动词+得/不+动词/形容词"
+   ],
+   "example": {
+    "zh": "这个箱子我拿得动。",
+    "pinyin": "Zhège xiāngzi wǒ ná de dòng."
+   },
+   "example_source": "project-authored",
+   "also_at": [
+    4
+   ],
+   "related": [
+    "结果补语",
+    "可能补语扩展"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "名量词",
+   "level": 3,
+   "category": "词类·量词",
+   "structure": "（1）专用名量词：把、双、张、种、层、 封、页、辆、节、所、班、段、头、句 公斤、斤、角、毛、刻、米 （2）借用名量词：碗、盘",
+   "verify": [
+    "（1）专用名量词：把、双、张、种、层、 封、页、辆、节、所、班、段、头、句 公斤、斤、角、毛、刻、米 （2）借用名量词：碗、盘"
+   ],
+   "example": {
+    "zh": "我买了一把新伞。",
+    "pinyin": "Wǒ mǎi le yī bǎ xīn sǎn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "后缀",
+   "level": 3,
+   "category": "语素·后缀",
+   "structure": "—家、—子、—员",
+   "verify": [
+    "—家、—子、—员"
+   ],
+   "example": {
+    "zh": "他是这家公司的员工。",
+    "pinyin": "Tā shì zhè jiā gōngsī de yuángōng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "否定副词",
+   "level": 3,
+   "category": "词类·副词",
+   "structure": "不必、不用",
+   "verify": [
+    "不必、不用"
+   ],
+   "example": {
+    "zh": "你不必着急。",
+    "pinyin": "Nǐ bùbì zháojí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "在……上/下/中",
+   "level": 3,
+   "category": "固定格式·固定短语",
+   "structure": "在……上/下/中",
+   "verify": [
+    "在……上/下/中"
+   ],
+   "example": {
+    "zh": "在学习上，他很努力。",
+    "pinyin": "Zài xuéxí shang, tā hěn nǔlì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "在……以前/以后",
+   "level": 3,
+   "category": "固定格式",
+   "structure": "（在）……以前/以后/前/后",
+   "verify": [
+    "（在）……以前/以后/前/后"
+   ],
+   "example": {
+    "zh": "吃饭以前要洗手。",
+    "pinyin": "Chīfàn yǐqián yào xǐshǒu."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "从……起"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "在……看来",
+   "level": 3,
+   "category": "短语·固定短语",
+   "structure": "在……看来",
+   "verify": [
+    "在……看来"
+   ],
+   "example": {
+    "zh": "在我看来，这个办法不错。",
+    "pinyin": "Zài wǒ kànlái, zhè ge bànfǎ bùcuò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "如果……就……",
+   "level": 3,
+   "category": "复句",
+   "structure": "如果……，就……",
+   "verify": [
+    "如果……，就……"
+   ],
+   "example": {
+    "zh": "如果明天下雨，我们就不去了。",
+    "pinyin": "Rúguǒ míngtiān xià yǔ, wǒmen jiù bú qù le."
+   },
+   "example_source": "project-authored",
+   "also_at": [
+    4
+   ],
+   "related": [
+    "……的话，就……",
+    "……，否则……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "存现句（出现与消失）",
+   "level": 3,
+   "category": "特殊句型",
+   "structure": "处所词+动词+趋向/结果补语+了+数量短语+人/物",
+   "verify": [
+    "表示出现：处所词+动词"
+   ],
+   "example": {
+    "zh": "前面来了一位老人。",
+    "pinyin": "Qiánmian lái le yí wèi lǎorén."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "存现句"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "定语",
+   "level": 3,
+   "category": "句子成分·定语",
+   "structure": "多项定语",
+   "verify": [
+    "多项定语"
+   ],
+   "example": {
+    "zh": "我买了两本有趣的书。",
+    "pinyin": "Wǒ mǎi le liǎng běn yǒuqù de shū."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "对……来说",
+   "level": 3,
+   "category": "固定格式",
+   "structure": "对……来说",
+   "verify": [
+    "对……来说"
+   ],
+   "example": {
+    "zh": "对我来说，汉语不难。",
+    "pinyin": "Duì wǒ láishuō, Hànyǔ bù nán."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "对于/关于"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "引出凭借、依据",
+   "level": 3,
+   "category": "词类·介词",
+   "structure": "根据",
+   "verify": [
+    "根据"
+   ],
+   "example": {
+    "zh": "根据天气预报，明天有雨。",
+    "pinyin": "Gēnjù tiānqì yùbào, míngtiān yǒu yǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "引出对象",
+   "level": 3,
+   "category": "词类·介词",
+   "structure": "为1、向1、关于",
+   "verify": [
+    "为1、向1、关于"
+   ],
+   "example": {
+    "zh": "关于这个问题，我们再谈谈。",
+    "pinyin": "Guānyú zhè ge wèntí, wǒmen zài tántan."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "引出方向、路径",
+   "level": 3,
+   "category": "词类·介词",
+   "structure": "向2",
+   "verify": [
+    "向2"
+   ],
+   "example": {
+    "zh": "他向学校走去。",
+    "pinyin": "Tā xiàng xuéxiào zǒu qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "引出目的、原因",
+   "level": 3,
+   "category": "词类·介词",
+   "structure": "为了、为2",
+   "verify": [
+    "为了、为2"
+   ],
+   "example": {
+    "zh": "为了考试，他每天都在复习。",
+    "pinyin": "Wèi le kǎoshì, tā měitiān dōu zài fùxí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "情态副词",
+   "level": 3,
+   "category": "词类·副词",
+   "structure": "大概、必须、差不多、一定、好像、几乎",
+   "verify": [
+    "大概、必须、差不多、一定、好像、几乎"
+   ],
+   "example": {
+    "zh": "他大概不会来了。",
+    "pinyin": "Tā dàgài bù huì lái le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "或者……或者……",
+   "level": 3,
+   "category": "复句",
+   "structure": "或者……，或者……",
+   "verify": [
+    "或者……，或者……"
+   ],
+   "example": {
+    "zh": "或者你去，或者我去。",
+    "pinyin": "Huòzhě nǐ qù, huòzhě wǒ qù."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "选择问句",
+    "不是……就是……"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "把字句",
+   "level": 3,
+   "category": "特殊句型",
+   "structure": "主语+把+宾语+动词+结果补语/趋向补语/状态补语；把+宾语+动词+在/到+处所",
+   "verify": [
+    "主语+把+宾语+动词+结果补语"
+   ],
+   "example": {
+    "zh": "我把作业写完了。",
+    "pinyin": "Wǒ bǎ zuòyè xiě wán le."
+   },
+   "example_source": "course:campus-chinese-foundations/ba-result-complement",
+   "also_at": [
+    4
+   ],
+   "related": [
+    "被字句",
+    "结果补语",
+    "复合趋向补语"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "指示代词",
+   "level": 3,
+   "category": "词类·代词",
+   "structure": "别的、其他",
+   "verify": [
+    "别的、其他"
+   ],
+   "example": {
+    "zh": "别的事情以后再说。",
+    "pinyin": "Bié de shìqing yǐhòu zài shuō."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "数的表达法",
+   "level": 3,
+   "category": "特殊表达法·数的表达法",
+   "structure": "概数表达法2：（1）用“大概”表示概数 （2）相邻数词连用表示概数",
+   "verify": [
+    "概数表达法2：（1）用“大概”表示概数 （2）相邻数词连用表示概数"
+   ],
+   "example": {
+    "zh": "教室里大概有一百多人。",
+    "pinyin": "Jiàoshì li dàgài yǒu yī bǎi duō rén."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "数量补语3",
+   "level": 3,
+   "category": "句子成分·补语",
+   "structure": "表示动作结束到某个时间点的间隔时间",
+   "verify": [
+    "表示动作结束到某个时间点的间隔时间"
+   ],
+   "example": {
+    "zh": "他到北京已经三天了。",
+    "pinyin": "Tā dào Běijīng yǐjīng sān tiān le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "方位名词",
+   "level": 3,
+   "category": "词类·名词",
+   "structure": "东、南、西、北、北方、东方、南方、西方、 中间",
+   "verify": [
+    "东、南、西、北、北方、东方、南方、西方、 中间"
+   ],
+   "example": {
+    "zh": "东方露出了鱼肚白。",
+    "pinyin": "Dōngfāng lù chū le yúdùbái."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "时间副词",
+   "level": 3,
+   "category": "词类·副词",
+   "structure": "才1、马上、先、一会儿、刚、刚刚、一直",
+   "verify": [
+    "才1、马上、先、一会儿、刚、刚刚、一直"
+   ],
+   "example": {
+    "zh": "他刚来，还没吃饭。",
+    "pinyin": "Tā gāng lái, hái méi chīfàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "是……的句2",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "强调说话人的看法或态度",
+   "verify": [
+    "强调说话人的看法或态度"
+   ],
+   "example": {
+    "zh": "这本书是我买的。",
+    "pinyin": "Zhè běn shū shì wǒ mǎi de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "疑问代词任指",
+   "level": 3,
+   "category": "词类",
+   "structure": "疑问代词+都……（任指）；疑问代词+疑问代词",
+   "verify": [
+    "任指用法：①疑问代词+都"
+   ],
+   "example": {
+    "zh": "我什么都不知道。",
+    "pinyin": "Wǒ shénme dōu bù zhīdào."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "特指问句"
+   ],
+   "provenance": {
+    "outline_page": 392,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "疑问句",
+   "level": 3,
+   "category": "句子的类型·句类",
+   "structure": "“怎样+动词”的特指问句",
+   "verify": [
+    "“怎样+动词”的特指问句"
+   ],
+   "example": {
+    "zh": "你怎样学习汉语？",
+    "pinyin": "Nǐ zěnyàng xuéxí Hànyǔ?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "看上去",
+   "level": 3,
+   "category": "短语·固定短语",
+   "structure": "看上去",
+   "verify": [
+    "看上去"
+   ],
+   "example": {
+    "zh": "她看上去很年轻。",
+    "pinyin": "Tā kàn shàngqù hěn niánqīng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "看来",
+   "level": 3,
+   "category": "短语·固定短语",
+   "structure": "看来",
+   "verify": [
+    "看来"
+   ],
+   "example": {
+    "zh": "看来他不会来了。",
+    "pinyin": "Kànlái tā bù huì lái le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "看起来",
+   "level": 3,
+   "category": "短语·固定短语",
+   "structure": "看起来",
+   "verify": [
+    "看起来"
+   ],
+   "example": {
+    "zh": "看起来他很累。",
+    "pinyin": "Kàn qǐlái tā hěn lèi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393
+   }
+  },
+  {
+   "point": "离合词",
+   "level": 3,
+   "category": "词类",
+   "structure": "动宾式离合词：放假、见面、结婚、洗澡（可扩展）",
+   "verify": [
+    "动宾式离合词：放假、见面、结婚、洗澡"
+   ],
+   "example": {
+    "zh": "我们明天见面。",
+    "pinyin": "Wǒmen míngtiān jiànmiàn."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "动词重叠"
+   ],
+   "provenance": {
+    "outline_page": 392,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "程度副词",
+   "level": 3,
+   "category": "词类·副词",
+   "structure": "比较、还3、更、特别、挺、有些、越、极",
+   "verify": [
+    "比较、还3、更、特别、挺、有些、越、极"
+   ],
+   "example": {
+    "zh": "今天特别冷。",
+    "pinyin": "Jīntiān tèbié lěng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "程度补语",
+   "level": 3,
+   "category": "句子成分",
+   "structure": "形容词+得很；形容词/动词+极了/坏了",
+   "verify": [
+    "形容词+得很"
+   ],
+   "example": {
+    "zh": "今天冷得很。",
+    "pinyin": "Jīntiān lěng de hěn."
+   },
+   "example_source": "project-authored",
+   "also_at": [
+    4
+   ],
+   "related": [
+    "状态补语",
+    "程度补语扩展"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "紧缩复句",
+   "level": 3,
+   "category": "句子的类型·复句",
+   "structure": "……了……（就）……",
+   "verify": [
+    "……了……（就）……"
+   ],
+   "example": {
+    "zh": "他下了课就回家了。",
+    "pinyin": "Tā xià le kè jiù huí jiā le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "结果补语扩展",
+   "level": 3,
+   "category": "句子成分",
+   "structure": "动词+到/住/走/上",
+   "verify": [
+    "动词+到/住/走/上"
+   ],
+   "example": {
+    "zh": "请抓住我的手。",
+    "pinyin": "Qǐng zhuāzhù wǒ de shǒu."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "结果补语"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "能愿动词扩展",
+   "level": 3,
+   "category": "词类",
+   "structure": "需要/该/应该/愿意/得+动词",
+   "verify": [
+    "需要、该、应该、愿意、得"
+   ],
+   "example": {
+    "zh": "你应该早点儿休息。",
+    "pinyin": "Nǐ yīnggāi zǎo diǎnr xiūxi."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "能愿动词"
+   ],
+   "provenance": {
+    "outline_page": 392,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "范围副词",
+   "level": 3,
+   "category": "词类·副词",
+   "structure": "就3、一块儿、一共、只、到处、只是",
+   "verify": [
+    "就3、一块儿、一共、只、到处、只是"
+   ],
+   "example": {
+    "zh": "我们一共十个人。",
+    "pinyin": "Wǒmen yígòng shí ge rén."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "表示消失：处所词+动词+结果补语+动 态助词（了）+数量短语+人/物",
+   "level": 3,
+   "category": "句子的类型·特殊句型",
+   "structure": "（2）表示消失：处所词+动词+结果补语+动 态助词（了）+数量短语+人/物",
+   "verify": [
+    "（2）表示消失：处所词+动词+结果补语+动 态助词（了）+数量短语+人/物"
+   ],
+   "example": {
+    "zh": "屋里走了一个人。",
+    "pinyin": "Wū li zǒu le yī ge rén."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "被字句",
+   "level": 3,
+   "category": "特殊句型",
+   "structure": "主语+被+（宾语+）动词+其他成分",
+   "verify": [
+    "主语+被+宾语+动词+其他成分"
+   ],
+   "example": {
+    "zh": "我的杯子被弟弟打破了。",
+    "pinyin": "Wǒ de bēizi bèi dìdi dǎ pò le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "叫/让被动句",
+    "把字句"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "该……了",
+   "level": 3,
+   "category": "固定格式",
+   "structure": "该……了",
+   "verify": [
+    "该……了"
+   ],
+   "example": {
+    "zh": "该上课了。",
+    "pinyin": "Gāi shàngkè le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "要……了",
+    "来得及/来不及"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "语气副词",
+   "level": 3,
+   "category": "词类·副词",
+   "structure": "当然、其实、终于、才2、才3、就4",
+   "verify": [
+    "当然、其实、终于、才2、才3、就4"
+   ],
+   "example": {
+    "zh": "你当然可以去。",
+    "pinyin": "Nǐ dāngrán kěyǐ qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "越……越……",
+   "level": 3,
+   "category": "固定格式",
+   "structure": "越……越……",
+   "verify": [
+    "越……越……"
+   ],
+   "example": {
+    "zh": "越学越有意思。",
+    "pinyin": "Yuè xué yuè yǒu yìsi."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "越来越"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "越来越",
+   "level": 3,
+   "category": "固定短语",
+   "structure": "越来越+形容词",
+   "verify": [
+    "越来越"
+   ],
+   "example": {
+    "zh": "天气越来越冷了。",
+    "pinyin": "Tiānqì yuèláiyuè lěng le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "越……越……"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "趋向补语引申",
+   "level": 3,
+   "category": "句子成分",
+   "structure": "动词+出/起/下（结果）；动词+上/起来（开始）；动词+下去/下来（持续）",
+   "verify": [
+    "趋向补语的引申用法"
+   ],
+   "example": {
+    "zh": "我想起来了。",
+    "pinyin": "Wǒ xiǎng qǐlai le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "趋向补语",
+    "复合趋向补语"
+   ],
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "转折复句",
+   "level": 3,
+   "category": "句子的类型·复句",
+   "structure": "虽然……，可是……",
+   "verify": [
+    "虽然……，可是……"
+   ],
+   "example": {
+    "zh": "虽然很贵，可是质量很好。",
+    "pinyin": "Suīrán hěn guì, kěshì zhìliàng hěn hǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 394
+   }
+  },
+  {
+   "point": "连动句（着字伴随）",
+   "level": 3,
+   "category": "特殊句型",
+   "structure": "动词1+着+动词2（“着”表示动作伴随）",
+   "verify": [
+    "“着”表示动作的伴随"
+   ],
+   "example": {
+    "zh": "他笑着跟我说。",
+    "pinyin": "Tā xiàozhe gēn wǒ shuō."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "连动句",
+    "持续态着"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "连接分句或句子",
+   "level": 3,
+   "category": "词类·连词",
+   "structure": "只有、只要、不但、而且、如果、可1、 可是、然后",
+   "verify": [
+    "只有、只要、不但、而且、如果、可1、 可是、然后"
+   ],
+   "example": {
+    "zh": "只要努力，就能成功。",
+    "pinyin": "Zhǐyào nǔlì, jiù néng chénggōng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "连接词或者短语",
+   "level": 3,
+   "category": "词类·连词",
+   "structure": "或、或者",
+   "verify": [
+    "或、或者"
+   ],
+   "example": {
+    "zh": "茶或者咖啡都可以。",
+    "pinyin": "Chá huòzhě kāfēi dōu kěyǐ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "重动句",
+   "level": 3,
+   "category": "特殊句型",
+   "structure": "主语+动词+宾语+动词+补语",
+   "verify": [
+    "主语+动词+宾语+动词+补语"
+   ],
+   "example": {
+    "zh": "他唱歌唱得很好。",
+    "pinyin": "Tā chànggē chàng de hěn hǎo."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "状态补语"
+   ],
+   "provenance": {
+    "outline_page": 394,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "量词重叠",
+   "level": 3,
+   "category": "词类",
+   "structure": "量词重叠（个个、张张）",
+   "verify": [
+    "个个、张张"
+   ],
+   "example": {
+    "zh": "个个学生都很努力。",
+    "pinyin": "Gège xuésheng dōu hěn nǔlì."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "名量词",
+    "一A一B"
+   ],
+   "provenance": {
+    "outline_page": 392,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "除了……以外",
+   "level": 3,
+   "category": "固定格式",
+   "structure": "除了……（以外），……还/也/都……",
+   "verify": [
+    "除了 ……（以外），……还/也/都……"
+   ],
+   "example": {
+    "zh": "除了汉语，我还会说英语。",
+    "pinyin": "Chúle Hànyǔ, wǒ hái huì shuō Yīngyǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 393,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "频率副词",
+   "level": 3,
+   "category": "词类·副词",
+   "structure": "总、总是、又、常常",
+   "verify": [
+    "总、总是、又、常常"
+   ],
+   "example": {
+    "zh": "他总是一个人去。",
+    "pinyin": "Tā zǒng shì yī ge rén qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 392
+   }
+  },
+  {
+   "point": "A不如B",
+   "level": 4,
+   "category": "句子的类型",
+   "structure": "A不如B（+形容词）",
+   "verify": [
+    "A不如B（+形容词）"
+   ],
+   "example": {
+    "zh": "走路不如骑车快。",
+    "pinyin": "Zǒulù bùrú qíchē kuài."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "比字句",
+    "跟……相比"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "X也得X，不X也得X",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "X也得X，不X也得X",
+   "verify": [
+    "X也得X，不X也得X"
+   ],
+   "example": {
+    "zh": "你去也得去，不去也得去。",
+    "pinyin": "Nǐ qù yě děi qù, bù qù yě děi qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "X就X（点儿）吧",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "X就X（点儿）吧",
+   "verify": [
+    "X就X（点儿）吧"
+   ],
+   "example": {
+    "zh": "贵就贵点儿吧，买！",
+    "pinyin": "Guì jiù guì diǎnr ba, mǎi!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "X就是了",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "X就是了",
+   "verify": [
+    "X就是了"
+   ],
+   "example": {
+    "zh": "你放心就是了。",
+    "pinyin": "Nǐ fàngxīn jiù shì le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "X是X",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "X是X",
+   "verify": [
+    "X是X"
+   ],
+   "example": {
+    "zh": "好是好，就是太贵了。",
+    "pinyin": "Hǎo shì hǎo, jiùshì tài guì le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "X是X，Y是Y",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "X是X，Y是Y",
+   "verify": [
+    "X是X，Y是Y"
+   ],
+   "example": {
+    "zh": "钱是钱，情是情，不能混在一起。",
+    "pinyin": "Qián shì qián, qíng shì qíng, bù néng hùn zài yìqǐ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "……,甚至……",
+   "level": 4,
+   "category": "句子的类型·复句",
+   "structure": "……,甚至……",
+   "verify": [
+    "……,甚至……"
+   ],
+   "example": {
+    "zh": "他最近很忙，甚至没时间吃饭。",
+    "pinyin": "Tā zuìjìn hěn máng, shènzhì méi shíjiān chīfàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 397
+   }
+  },
+  {
+   "point": "……X是X，就是/不过……",
+   "level": 4,
+   "category": "句子的类型·复句",
+   "structure": "……X是X，就是/不过……",
+   "verify": [
+    "……X是X，就是/不过……"
+   ],
+   "example": {
+    "zh": "贵是贵，不过质量很好。",
+    "pinyin": "Guì shì guì, búguò zhìliàng hěn hǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 397
+   }
+  },
+  {
+   "point": "……于是……",
+   "level": 4,
+   "category": "复句",
+   "structure": "……，于是……",
+   "verify": [
+    "……，于是……"
+   ],
+   "example": {
+    "zh": "雨太大了，于是比赛取消了。",
+    "pinyin": "Yǔ tài dà le, yúshì bǐsài qǔxiāo le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "因为……所以……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "……甚至……",
+   "level": 4,
+   "category": "复句",
+   "structure": "……，甚至……",
+   "verify": [
+    "甚至"
+   ],
+   "example": {
+    "zh": "他各门课都很好，甚至体育也不错。",
+    "pinyin": "Tā gè mén kè dōu hěn hǎo, shènzhì tǐyù yě búcuò."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "不但……而且……",
+    "不仅/不光……还/而且……"
+   ],
+   "provenance": {
+    "outline_page": 395,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "……，不过……",
+   "level": 4,
+   "category": "句子的类型·复句",
+   "structure": "……，不过……",
+   "verify": [
+    "……，不过……"
+   ],
+   "example": {
+    "zh": "这个想法不错，不过很难实现。",
+    "pinyin": "Zhè ge xiǎngfǎ bùcuò, búguò hěn nán shíxiàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 397
+   }
+  },
+  {
+   "point": "……，否则……",
+   "level": 4,
+   "category": "复句",
+   "structure": "……，否则……",
+   "verify": [
+    "……，否则……"
+   ],
+   "example": {
+    "zh": "快点儿，否则就迟到了。",
+    "pinyin": "Kuài diǎnr, fǒuzé jiù chídào le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "如果……就……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "……，好……",
+   "level": 4,
+   "category": "复句",
+   "structure": "……，好……（表目的）",
+   "verify": [
+    "……，好……"
+   ],
+   "example": {
+    "zh": "你快说，好让大家放心。",
+    "pinyin": "Nǐ kuài shuō, hǎo ràng dàjiā fàngxīn."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "为了……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "……，并且……",
+   "level": 4,
+   "category": "句子的类型·复句",
+   "structure": "……，并且……",
+   "verify": [
+    "……，并且……"
+   ],
+   "example": {
+    "zh": "他同意了，并且马上开始工作。",
+    "pinyin": "Tā tóngyì le, bìngqiě mǎshàng kāishǐ gōngzuò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 397
+   }
+  },
+  {
+   "point": "一+量词+比+一+量词",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "一+量词+比+一+量词",
+   "verify": [
+    "一+量词+比+一+量词"
+   ],
+   "example": {
+    "zh": "孩子们一个比一个有礼貌。",
+    "pinyin": "Háizi men yī ge bǐ yī ge yǒu lǐmào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "一A一B",
+   "level": 4,
+   "category": "固定短语",
+   "structure": "一A一B",
+   "verify": [
+    "一A一B"
+   ],
+   "example": {
+    "zh": "我们一个一个地说。",
+    "pinyin": "Wǒmen yí ge yí ge de shuō."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "量词重叠",
+    "不A不B"
+   ],
+   "provenance": {
+    "outline_page": 395,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "一方面……另一方面……",
+   "level": 4,
+   "category": "复句",
+   "structure": "一方面……，另一方面……",
+   "verify": [
+    "一方面……，另一方面……"
+   ],
+   "example": {
+    "zh": "一方面要复习，另一方面要多练习。",
+    "pinyin": "Yì fāngmiàn yào fùxí, lìng yì fāngmiàn yào duō liànxí."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "既……又/也……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "不……也……",
+   "level": 4,
+   "category": "复句",
+   "structure": "不……也……",
+   "verify": [
+    "不……也……"
+   ],
+   "example": {
+    "zh": "你不去也没关系。",
+    "pinyin": "Nǐ bú qù yě méi guānxi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "不仅/不光……还/而且……",
+   "level": 4,
+   "category": "复句",
+   "structure": "不仅/不光……，还/而且……",
+   "verify": [
+    "不仅/不光……，还/而且……"
+   ],
+   "example": {
+    "zh": "他不仅会说汉语，还会写汉字。",
+    "pinyin": "Tā bújǐn huì shuō Hànyǔ, hái huì xiě Hànzì."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "不但……而且……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "不怎么",
+   "level": 4,
+   "category": "短语·固定短语",
+   "structure": "不怎么",
+   "verify": [
+    "不怎么"
+   ],
+   "example": {
+    "zh": "我不怎么吃辣的。",
+    "pinyin": "Wǒ bù zěnme chī là de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "不是……就是……",
+   "level": 4,
+   "category": "复句",
+   "structure": "不是……，就是……",
+   "verify": [
+    "不是……，就是……"
+   ],
+   "example": {
+    "zh": "他不是看书，就是写字。",
+    "pinyin": "Tā bú shì kàn shū, jiùshì xiě zì."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "或者……或者……",
+    "选择问句"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "不是……而是……",
+   "level": 4,
+   "category": "复句",
+   "structure": "不是……，而是……",
+   "verify": [
+    "不是……，而是……"
+   ],
+   "example": {
+    "zh": "这不是我的书，而是图书馆的。",
+    "pinyin": "Zhè bú shì wǒ de shū, érshì túshūguǎn de."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "是字句",
+    "不是……就是……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "不管/无论……都/也……",
+   "level": 4,
+   "category": "复句",
+   "structure": "不管/无论……，都/也……",
+   "verify": [
+    "不管……，都/也……",
+    "无论……，都/也……"
+   ],
+   "example": {
+    "zh": "无论多难，我都不会放弃。",
+    "pinyin": "Wúlùn duō nán, wǒ dōu bú huì fàngqì."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "即使……也……",
+    "只要……就……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "为了……而……",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "为了……而……",
+   "verify": [
+    "为了……而……"
+   ],
+   "example": {
+    "zh": "为了理想而努力。",
+    "pinyin": "Wèile lǐxiǎng ér nǔlì."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "为了……"
+   ],
+   "provenance": {
+    "outline_page": 396,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "互相/相互",
+   "level": 4,
+   "category": "词类",
+   "structure": "互相/相互+动词",
+   "verify": [
+    "故意、互相、相互"
+   ],
+   "example": {
+    "zh": "我们应该互相帮助。",
+    "pinyin": "Wǒmen yīnggāi hùxiāng bāngzhù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "你X你的吧",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "你X你的吧",
+   "verify": [
+    "你X你的吧"
+   ],
+   "example": {
+    "zh": "你走你的吧，别管我。",
+    "pinyin": "Nǐ zǒu nǐ de ba, bié guǎn wǒ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "先、然后、最后",
+   "level": 4,
+   "category": "复句",
+   "structure": "先……，然后……，最后……",
+   "verify": [
+    "首先……，然后……"
+   ],
+   "example": {
+    "zh": "我先查了路线，然后坐地铁去学校，最后按时到了教室。",
+    "pinyin": "Wǒ xiān chá le lùxiàn, ránhòu zuò dìtiě qù xuéxiào, zuìhòu ànshí dào le jiàoshì."
+   },
+   "example_source": "course:campus-chinese-foundations/hsk-sequenced-narration",
+   "related": [
+    "先……再/然后……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "关联副词",
+   "level": 4,
+   "category": "词类·副词",
+   "structure": "却",
+   "verify": [
+    "却"
+   ],
+   "example": {
+    "zh": "他想去，却没去。",
+    "pinyin": "Tā xiǎng qù, què méi qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "其他助词",
+   "level": 4,
+   "category": "词类·助词",
+   "structure": "等2、者、之、就是",
+   "verify": [
+    "等2、者、之、就是"
+   ],
+   "example": {
+    "zh": "北京、上海等大城市我都去过。",
+    "pinyin": "Běijīng, Shànghǎi děng dà chéngshì wǒ dōu qù guò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "兼语句扩展",
+   "level": 4,
+   "category": "特殊句型",
+   "structure": "主语+动词+宾语1+做/当/为+宾语2（称谓/认定）；主语+使/让+人称代词+动词短语（致使）",
+   "verify": [
+    "表致使：主语+使/让"
+   ],
+   "example": {
+    "zh": "老师选他当班长。",
+    "pinyin": "Lǎoshī xuǎn tā dāng bānzhǎng."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "兼语句"
+   ],
+   "provenance": {
+    "outline_page": 396,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "再也不/没……",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "再也不/没……",
+   "verify": [
+    "再也不/没……"
+   ],
+   "example": {
+    "zh": "我再也不迟到了。",
+    "pinyin": "Wǒ zài yě bú chídào le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "不……也……",
+    "都……了"
+   ],
+   "provenance": {
+    "outline_page": 396,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "到底/究竟",
+   "level": 4,
+   "category": "词类",
+   "structure": "到底/究竟……？",
+   "verify": [
+    "究竟"
+   ],
+   "example": {
+    "zh": "你到底是谁？",
+    "pinyin": "Nǐ dàodǐ shì shéi?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "reused_curated": true
+   },
+   "related": [
+    "难道……吗"
+   ]
+  },
+  {
+   "point": "动词+一X是一X",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "动词+一X是一X",
+   "verify": [
+    "动词+一X是一X"
+   ],
+   "example": {
+    "zh": "他买一件是一件，从不犹豫。",
+    "pinyin": "Tā mǎi yī jiàn shì yī jiàn, cóng bù yóuyù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "动量词",
+   "level": 4,
+   "category": "词类·量词",
+   "structure": "场、顿、趟",
+   "verify": [
+    "场、顿、趟"
+   ],
+   "example": {
+    "zh": "我吃了一顿饭。",
+    "pinyin": "Wǒ chī le yī dùn fàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "即使……也……",
+   "level": 4,
+   "category": "复句",
+   "structure": "即使……，也……",
+   "verify": [
+    "即使……，也……"
+   ],
+   "example": {
+    "zh": "即使明天下雨，我也要去。",
+    "pinyin": "Jíshǐ míngtiān xià yǔ, wǒ yě yào qù."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "就是……也……",
+    "不管/无论……都/也……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "双重否定句",
+   "level": 4,
+   "category": "特殊句型",
+   "structure": "不/没+……+不/没……（表示强调）",
+   "verify": [
+    "用双重否定表示强调"
+   ],
+   "example": {
+    "zh": "她不可能不知道。",
+    "pinyin": "Tā bù kěnéng bù zhīdào."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "反问句（不是…吗）"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "叫/让被动句",
+   "level": 4,
+   "category": "特殊句型",
+   "structure": "主语+叫/让+宾语+动词+其他成分",
+   "verify": [
+    "主语+叫/让+宾语+动词+其他成分"
+   ],
+   "example": {
+    "zh": "我的自行车让弟弟骑走了。",
+    "pinyin": "Wǒ de zìxíngchē ràng dìdi qí zǒu le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "被字句"
+   ],
+   "provenance": {
+    "outline_page": 396,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "可能补语扩展",
+   "level": 4,
+   "category": "句子成分",
+   "structure": "动词+得/不+了",
+   "verify": [
+    "动词+得/不+了"
+   ],
+   "example": {
+    "zh": "这件事我忘不了。",
+    "pinyin": "Zhè jiàn shì wǒ wàng bú liǎo."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "可能补语"
+   ],
+   "provenance": {
+    "outline_page": 396,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "叹词",
+   "level": 4,
+   "category": "词类·叹词",
+   "structure": "啊、嗯",
+   "verify": [
+    "啊、嗯"
+   ],
+   "example": {
+    "zh": "啊，这里的风景真美！",
+    "pinyin": "A, zhèli de fēngjǐng zhēn měi!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "名量词",
+   "level": 4,
+   "category": "词类·量词",
+   "structure": "（1）专用名量词：打、袋、棵、台、幅 （2）借用名量词：脸、手、盒、屋子、桌子",
+   "verify": [
+    "（1）专用名量词：打、袋、棵、台、幅 （2）借用名量词：脸、手、盒、屋子、桌子"
+   ],
+   "example": {
+    "zh": "我买了一台新电脑。",
+    "pinyin": "Wǒ mǎi le yī tái xīn diànnǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "在……方面",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "在……方面",
+   "verify": [
+    "在……方面"
+   ],
+   "example": {
+    "zh": "他在汉语方面进步很快。",
+    "pinyin": "Tā zài Hànyǔ fāngmiàn jìnbù hěn kuài."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "对于/关于"
+   ],
+   "provenance": {
+    "outline_page": 396,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "够……的",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "够……的",
+   "verify": [
+    "够……的"
+   ],
+   "example": {
+    "zh": "他这个人真够朋友。",
+    "pinyin": "Tā zhè ge rén zhēn gòu péngyou."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "对于/关于",
+   "level": 4,
+   "category": "词类",
+   "structure": "对于/关于+对象，……",
+   "verify": [
+    "对于、与1"
+   ],
+   "example": {
+    "zh": "对于这个问题，我有不同的看法。",
+    "pinyin": "Duìyú zhège wèntí, wǒ yǒu bùtóng de kànfǎ."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "对……来说"
+   ],
+   "provenance": {
+    "outline_page": 395,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "就是……也……",
+   "level": 4,
+   "category": "复句",
+   "structure": "就是……，也……",
+   "verify": [
+    "就是……，也……"
+   ],
+   "example": {
+    "zh": "就是他来了，也解决不了问题。",
+    "pinyin": "Jiùshì tā lái le, yě jiějué bù liǎo wèntí."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "即使……也……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "就是说/这就是说",
+   "level": 4,
+   "category": "短语·固定短语",
+   "structure": "就是说/这就是说",
+   "verify": [
+    "就是说/这就是说"
+   ],
+   "example": {
+    "zh": "他不同意，就是说，这个办法行不通。",
+    "pinyin": "Tā bù tóngyì, jiùshì shuō, zhè ge bànfǎ xíng bu tōng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "尽管……但是……",
+   "level": 4,
+   "category": "复句",
+   "structure": "尽管……，但是/可是……",
+   "verify": [
+    "尽管……，但是/可是……"
+   ],
+   "example": {
+    "zh": "尽管很累，他还是坚持上课。",
+    "pinyin": "Jǐnguǎn hěn lèi, tā háishi jiānchí shàngkè."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "虽然……但是……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "差点儿",
+   "level": 4,
+   "category": "词类",
+   "structure": "差（一）点儿+动词/形容词",
+   "verify": [
+    "差（一）点儿"
+   ],
+   "example": {
+    "zh": "我差点儿迟到了。",
+    "pinyin": "Wǒ chà diǎnr chídào le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "该……了"
+   ],
+   "provenance": {
+    "outline_page": 395,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "引出原因",
+   "level": 4,
+   "category": "词类·介词",
+   "structure": "由于1",
+   "verify": [
+    "由于1"
+   ],
+   "example": {
+    "zh": "由于下雨，比赛取消了。",
+    "pinyin": "Yóuyú xià yǔ, bǐsài qǔxiāo le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "引出施事、受事",
+   "level": 4,
+   "category": "词类·介词",
+   "structure": "将、由2、叫、让",
+   "verify": [
+    "将、由2、叫、让"
+   ],
+   "example": {
+    "zh": "书叫弟弟借走了。",
+    "pinyin": "Shū jiào dìdi jiè zǒu le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "引出时间、处所",
+   "level": 4,
+   "category": "词类·介词",
+   "structure": "自、当、由1、随着、等1",
+   "verify": [
+    "自、当、由1、随着、等1"
+   ],
+   "example": {
+    "zh": "随着时间推移，他变了很多。",
+    "pinyin": "Suízhe shíjiān tuīyí, tā biàn le hěn duō."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "怎么都/也+不/没……",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "怎么都/也+不/没……",
+   "verify": [
+    "怎么都/也+不/没……"
+   ],
+   "example": {
+    "zh": "我怎么也睡不着。",
+    "pinyin": "Wǒ zěnme yě shuì bù zháo."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "一点儿也不"
+   ],
+   "provenance": {
+    "outline_page": 396,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "情态副词",
+   "level": 4,
+   "category": "词类·副词",
+   "structure": "也许、恐怕",
+   "verify": [
+    "也许、恐怕"
+   ],
+   "example": {
+    "zh": "也许明天会下雨。",
+    "pinyin": "Yěxǔ míngtiān huì xià yǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "把字句2",
+   "level": 4,
+   "category": "句子成分·特殊句型",
+   "structure": "（1）主语+把+宾语+动词（+一/了）+动词 （2）主语+把+宾语+动词+了 （3）主语+把+宾语+动词+动量补语/时量补语 （4）主语+把+宾语+状语+动词",
+   "verify": [
+    "（1）主语+把+宾语+动词（+一/了）+动词 （2）主语+把+宾语+动词+了 （3）主语+把+宾语+动词+动量补语/时量补语 （4）主语+把+宾语+状语+动词"
+   ],
+   "example": {
+    "zh": "他把窗户打开了。",
+    "pinyin": "Tā bǎ chuānghu dǎkāi le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "拿……来说",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "拿……来说",
+   "verify": [
+    "拿……来说"
+   ],
+   "example": {
+    "zh": "拿我来说，我坚决反对。",
+    "pinyin": "Ná wǒ lái shuō, wǒ jiānduì fǎnduì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "指示代词",
+   "level": 4,
+   "category": "词类·代词",
+   "structure": "各、各位、各种、任何、此",
+   "verify": [
+    "各、各位、各种、任何、此"
+   ],
+   "example": {
+    "zh": "各人有各人的想法。",
+    "pinyin": "Gè rén yǒu gè rén de xiǎngfǎ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "按照/按",
+   "level": 4,
+   "category": "词类",
+   "structure": "按/按照+依据+……",
+   "verify": [
+    "作为、按、按照"
+   ],
+   "example": {
+    "zh": "按照老师的要求做。",
+    "pinyin": "Ànzhao lǎoshī de yāoqiú zuò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "数词+形容词+量词",
+   "level": 4,
+   "category": "短语",
+   "structure": "数词+形容词+量词",
+   "verify": [
+    "数词+形容词+量词"
+   ],
+   "example": {
+    "zh": "他喝了一大瓶水。",
+    "pinyin": "Tā hē le yì dà píng shuǐ."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "名量词",
+    "概数（几/多）"
+   ],
+   "provenance": {
+    "outline_page": 395,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "无A无B",
+   "level": 4,
+   "category": "短语·固定短语",
+   "structure": "无A无B",
+   "verify": [
+    "无A无B"
+   ],
+   "example": {
+    "zh": "草原无边无际。",
+    "pinyin": "Cǎoyuán wúbiān-wújì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "无标记",
+   "level": 4,
+   "category": "句子的类型·复句",
+   "structure": "无标记",
+   "verify": [
+    "无标记"
+   ],
+   "example": {
+    "zh": "你不说我怎么知道？",
+    "pinyin": "Nǐ bù shuō wǒ zěnme zhīdào?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 397
+   }
+  },
+  {
+   "point": "无论……，都/也……",
+   "level": 4,
+   "category": "句子的类型·复句",
+   "structure": "无论……，都/也……",
+   "verify": [
+    "无论……，都/也……"
+   ],
+   "example": {
+    "zh": "无论多难，我都不会放弃。",
+    "pinyin": "Wúlùn duō nán, wǒ dōu bù huì fàngqì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 397
+   }
+  },
+  {
+   "point": "既……又/也……",
+   "level": 4,
+   "category": "复句",
+   "structure": "既……，又/也……",
+   "verify": [
+    "既……，又/也……"
+   ],
+   "example": {
+    "zh": "这本书既便宜又实用。",
+    "pinyin": "Zhè běn shū jì piányi yòu shíyòng."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "又……又……",
+    "一方面……另一方面……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "既然……就……",
+   "level": 4,
+   "category": "复句",
+   "structure": "既然……，就……",
+   "verify": [
+    "既然……，就……"
+   ],
+   "example": {
+    "zh": "既然你决定了，我就不劝你了。",
+    "pinyin": "Jìrán nǐ juédìng le, wǒ jiù bú quàn nǐ le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "因为……所以……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "时间副词",
+   "level": 4,
+   "category": "词类·副词",
+   "structure": "按时、从来、赶紧、赶快、已、忽然、将、将 要、从、本来",
+   "verify": [
+    "按时、从来、赶紧、赶快、已、忽然、将、将 要、从、本来"
+   ],
+   "example": {
+    "zh": "他从来不去酒吧。",
+    "pinyin": "Tā cónglái bù qù jiǔbā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "有A有B",
+   "level": 4,
+   "category": "短语·固定短语",
+   "structure": "有A有B",
+   "verify": [
+    "有A有B"
+   ],
+   "example": {
+    "zh": "他说话有板有眼。",
+    "pinyin": "Tā shuōhuà yǒubǎn-yǒuyǎn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "有的是",
+   "level": 4,
+   "category": "短语·固定短语",
+   "structure": "有的是",
+   "verify": [
+    "有的是"
+   ],
+   "example": {
+    "zh": "别着急，时间有的是。",
+    "pinyin": "Bié zháojí, shíjiān yǒu de shì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "来得及/来不及",
+   "level": 4,
+   "category": "固定短语",
+   "structure": "来得及/来不及",
+   "verify": [
+    "来得及/来不及"
+   ],
+   "example": {
+    "zh": "现在还来得及。",
+    "pinyin": "Xiànzài hái láidejí."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "该……了"
+   ],
+   "provenance": {
+    "outline_page": 395,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "概数（左右/前后/来）",
+   "level": 4,
+   "category": "特殊表达法",
+   "structure": "数词+来+量词；大约/左右/前后表示概数",
+   "verify": [
+    "数词+来+量词",
+    "用“大约、左右、前后”表示概数"
+   ],
+   "example": {
+    "zh": "他三十岁左右。",
+    "pinyin": "Tā sānshí suì zuǒyòu."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "概数（几/多）"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "然而/不过",
+   "level": 4,
+   "category": "复句",
+   "structure": "……，然而…… / ……，不过……",
+   "verify": [
+    "……，然而……",
+    "……，不过……"
+   ],
+   "example": {
+    "zh": "他很努力，然而成绩还是不好。",
+    "pinyin": "Tā hěn nǔlì, rán'ér chéngjì háishi bù hǎo."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "虽然……但是……",
+    "尽管……但是……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "由于……因此……",
+   "level": 4,
+   "category": "复句",
+   "structure": "（由于）……，因此……",
+   "verify": [
+    "（由于）……，因此……"
+   ],
+   "example": {
+    "zh": "由于下雨了，因此比赛取消了。",
+    "pinyin": "Yóuyú xià yǔ le, yīncǐ bǐsài qǔxiāo le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "因为……所以……",
+    "既然……就……"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "程度副词",
+   "level": 4,
+   "category": "词类·副词",
+   "structure": "十分、更加、稍、稍微、尤其、多么",
+   "verify": [
+    "十分、更加、稍、稍微、尤其、多么"
+   ],
+   "example": {
+    "zh": "这个问题尤其重要。",
+    "pinyin": "Zhè ge wèntí yóuqí zhòngyào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "程度补语扩展",
+   "level": 4,
+   "category": "句子成分",
+   "structure": "形容词/心理动词+死了/厉害",
+   "verify": [
+    "形容词/心理动词+死了/厉害"
+   ],
+   "example": {
+    "zh": "我饿死了。",
+    "pinyin": "Wǒ è sǐ le."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "程度补语"
+   ],
+   "provenance": {
+    "outline_page": 396,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "能愿动词",
+   "level": 4,
+   "category": "词类·动词",
+   "structure": "敢",
+   "verify": [
+    "敢"
+   ],
+   "example": {
+    "zh": "你敢一个人去吗？",
+    "pinyin": "Nǐ gǎn yī ge rén qù ma?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "范围副词",
+   "level": 4,
+   "category": "词类·副词",
+   "structure": "共、全、光、仅、仅仅、至少",
+   "verify": [
+    "共、全、光、仅、仅仅、至少"
+   ],
+   "example": {
+    "zh": "全班共四十个人。",
+    "pinyin": "Quán bān gòng sìshí ge rén."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "要是……，就……",
+   "level": 4,
+   "category": "句子的类型·复句",
+   "structure": "要是……，就……",
+   "verify": [
+    "要是……，就……"
+   ],
+   "example": {
+    "zh": "要是明天下雨，我们就不去了。",
+    "pinyin": "Yàoshi míngtiān xià yǔ, wǒmen jiù bù qù le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 397
+   }
+  },
+  {
+   "point": "要是……，（就）……，否则……",
+   "level": 4,
+   "category": "句子的类型·复句",
+   "structure": "要是……，（就）……，否则……",
+   "verify": [
+    "要是……，（就）……，否则……"
+   ],
+   "example": {
+    "zh": "要是你不舒服，就休息，否则会更严重。",
+    "pinyin": "Yàoshi nǐ bù shūfu, jiù xiūxi, fǒuzé huì gèng yánzhòng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 397
+   }
+  },
+  {
+   "point": "让/叫你X你就X",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "让/叫你X你就X",
+   "verify": [
+    "让/叫你X你就X"
+   ],
+   "example": {
+    "zh": "让他说，让他说完。",
+    "pinyin": "Ràng tā shuō, ràng tā shuō wán."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "说不定",
+   "level": 4,
+   "category": "短语·固定短语",
+   "structure": "说不定",
+   "verify": [
+    "说不定"
+   ],
+   "example": {
+    "zh": "说不定他明天会来。",
+    "pinyin": "Shuō bu dìng tā míngtiān huì lái."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "说什么/怎么（着）也得X",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "说什么/怎么（着）也得X",
+   "verify": [
+    "说什么/怎么（着）也得X"
+   ],
+   "example": {
+    "zh": "我今天说什么也得去。",
+    "pinyin": "Wǒ jīntiān shuō shénme yě děi qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "跟……相比",
+   "level": 4,
+   "category": "句子的类型",
+   "structure": "跟……相比",
+   "verify": [
+    "跟……相比"
+   ],
+   "example": {
+    "zh": "跟他相比，我还差得远。",
+    "pinyin": "Gēn tā xiāngbǐ, wǒ hái chà de yuǎn."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "比字句"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "还X呢",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "还X呢",
+   "verify": [
+    "还X呢"
+   ],
+   "example": {
+    "zh": "还早呢，再坐一会儿。",
+    "pinyin": "Hái zǎo ne, zài zuò yīhuìr."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "连……也/都……",
+   "level": 4,
+   "category": "复句",
+   "structure": "连……也/都……（，……更……）",
+   "verify": [
+    "连……也/都……"
+   ],
+   "example": {
+    "zh": "他连饭都不吃。",
+    "pinyin": "Tā lián fàn dōu bù chī."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "……甚至……",
+    "一点儿也不"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "连接词或词组",
+   "level": 4,
+   "category": "词类·连词",
+   "structure": "并2、而1、与2",
+   "verify": [
+    "并2、而1、与2"
+   ],
+   "example": {
+    "zh": "这个计划并不可行。",
+    "pinyin": "Zhè ge jìhuà bìng bù kěxíng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "难道……吗",
+   "level": 4,
+   "category": "句子的类型",
+   "structure": "难道……吗？",
+   "verify": [
+    "难道……吗？"
+   ],
+   "example": {
+    "zh": "难道你忘了吗？",
+    "pinyin": "Nándào nǐ wàng le ma?"
+   },
+   "example_source": "project-authored",
+   "related": [
+    "反问句（不是…吗）"
+   ],
+   "provenance": {
+    "outline_page": 396,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "频率副词",
+   "level": 4,
+   "category": "词类·副词",
+   "structure": "重新、往往、偶尔、再次、老",
+   "verify": [
+    "重新、往往、偶尔、再次、老"
+   ],
+   "example": {
+    "zh": "他往往第一个到教室。",
+    "pinyin": "Tā wǎngwǎng dì-yī ge dào jiàoshì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 395
+   }
+  },
+  {
+   "point": "首先……其次……",
+   "level": 4,
+   "category": "复句",
+   "structure": "首先……，其次…… / 首先……，然后……",
+   "verify": [
+    "首先……，其次……"
+   ],
+   "example": {
+    "zh": "我们首先要听懂，其次要会说。",
+    "pinyin": "Wǒmen shǒuxiān yào tīngdǒng, qícì yào huì shuō."
+   },
+   "example_source": "project-authored",
+   "related": [
+    "先……再/然后……",
+    "先、然后、最后"
+   ],
+   "provenance": {
+    "outline_page": 397,
+    "reused_curated": true
+   }
+  },
+  {
+   "point": "（没）有什么（好）X的",
+   "level": 4,
+   "category": "固定格式",
+   "structure": "（没）有什么（好）X的",
+   "verify": [
+    "（没）有什么（好）X的"
+   ],
+   "example": {
+    "zh": "这有什么好笑的？",
+    "pinyin": "Zhè yǒu shénme hǎo xiào de?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 396
+   }
+  },
+  {
+   "point": "A来A去",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "A来A去",
+   "verify": [
+    "A来A去"
+   ],
+   "example": {
+    "zh": "他走来走去，很着急。",
+    "pinyin": "Tā zǒu lái zǒu qù, hěn zháojí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "A的A，B的B",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "A的A，B的B",
+   "verify": [
+    "A的A，B的B"
+   ],
+   "example": {
+    "zh": "他们走的走，跑的跑。",
+    "pinyin": "Tāmen zǒu de zǒu, pǎo de pǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "A着A着",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "A着A着",
+   "verify": [
+    "A着A着"
+   ],
+   "example": {
+    "zh": "他说着说着就哭了。",
+    "pinyin": "Tā shuō zhe shuō zhe jiù kū le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "X也X不得，Y也Y不得",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "X也X不得，Y也Y不得",
+   "verify": [
+    "X也X不得，Y也Y不得"
+   ],
+   "example": {
+    "zh": "去也去不得，留也留不得。",
+    "pinyin": "Qù yě qù bu dé, liú yě liú bu dé."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "X也不是，Y也不是",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "X也不是，Y也不是",
+   "verify": [
+    "X也不是，Y也不是"
+   ],
+   "example": {
+    "zh": "你说也不是，不说也不是。",
+    "pinyin": "Nǐ shuō yě bù shì, bù shuō yě bù shì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "X什么X",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "X什么X",
+   "verify": [
+    "X什么X"
+   ],
+   "example": {
+    "zh": "哭什么哭！",
+    "pinyin": "Kū shénme kū!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "X是它，Y也是它",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "X是它，Y也是它",
+   "verify": [
+    "X是它，Y也是它"
+   ],
+   "example": {
+    "zh": "去也是他，留也是他。",
+    "pinyin": "Qù yě shì tā, liú yě shì tā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "X来X去，都是/就是……",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "X来X去，都是/就是……",
+   "verify": [
+    "X来X去，都是/就是……"
+   ],
+   "example": {
+    "zh": "想来想去，都是他的错。",
+    "pinyin": "Xiǎng lái xiǎng qù, dōu shì tā de cuò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "X着也是X着",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "X着也是X着",
+   "verify": [
+    "X着也是X着"
+   ],
+   "example": {
+    "zh": "闲着也是闲着，不如帮个忙。",
+    "pinyin": "Xián zhe yě shì xián zhe, bùrú bāng ge máng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "……，可见……",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "……，可见……",
+   "verify": [
+    "……，可见……"
+   ],
+   "example": {
+    "zh": "他每天都练习，可见他很努力。",
+    "pinyin": "Tā měitiān dōu liànxí, kějiàn tā hěn nǔlì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "……，因而……",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "……，因而……",
+   "verify": [
+    "……，因而……"
+   ],
+   "example": {
+    "zh": "他生病了，因而没来上班。",
+    "pinyin": "Tā shēngbìng le, yīn'ér méi lái shàngbān."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "……，要不然/不然……",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "……，要不然/不然……",
+   "verify": [
+    "……，要不然/不然……"
+   ],
+   "example": {
+    "zh": "快走，要不然就迟到了。",
+    "pinyin": "Kuài zǒu, yàoburán jiù chídào le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "一旦……，就……",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "一旦……，就……",
+   "verify": [
+    "一旦……，就……"
+   ],
+   "example": {
+    "zh": "一旦决定了，就不要后悔。",
+    "pinyin": "Yīdàn juédìng le, jiù bù yào hòuhuǐ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "万一……，（就）……",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "万一……，（就）……",
+   "verify": [
+    "万一……，（就）……"
+   ],
+   "example": {
+    "zh": "万一下雨怎么办？",
+    "pinyin": "Wànyī xià yǔ zěnme bàn?"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "不X白不X",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "不X白不X",
+   "verify": [
+    "不X白不X"
+   ],
+   "example": {
+    "zh": "不吃白不吃。",
+    "pinyin": "Bù chī bái bù chī."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "不但不/不但没有……，反而……",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "不但不/不但没有……，反而……",
+   "verify": [
+    "不但不/不但没有……，反而……"
+   ],
+   "example": {
+    "zh": "他不但不帮忙，反而添乱。",
+    "pinyin": "Tā búdàn bù bāngmáng, fǎn'ér tiānluàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "不得了",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "不得了",
+   "verify": [
+    "不得了"
+   ],
+   "example": {
+    "zh": "他高兴得不得了。",
+    "pinyin": "Tā gāoxìng de bùdéliǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "不是……，还/还是……",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "不是……，还/还是……",
+   "verify": [
+    "不是……，还/还是……"
+   ],
+   "example": {
+    "zh": "不是他不想去，还是时间不允许。",
+    "pinyin": "Bù shì tā bù xiǎng qù, háishì shíjiān bù yǔnxǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "不管怎样说",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "不管怎样说",
+   "verify": [
+    "不管怎样说"
+   ],
+   "example": {
+    "zh": "不管怎样说，你都应该道歉。",
+    "pinyin": "Bùguǎn zěnmeyàng shuō, nǐ dōu yīnggāi dàoqiàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "主语+把+宾语+一+动词",
+   "level": 5,
+   "category": "句子的类型·特殊句型",
+   "structure": "（1）主语+把+宾语+一+动词",
+   "verify": [
+    "（1）主语+把+宾语+一+动词"
+   ],
+   "example": {
+    "zh": "他把门一关就走了。",
+    "pinyin": "Tā bǎ mén yī guān jiù zǒu le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "主语+把+宾语1+动词+宾语2",
+   "level": 5,
+   "category": "句子的类型·特殊句型",
+   "structure": "（2）主语+把+宾语1+动词+宾语2",
+   "verify": [
+    "（2）主语+把+宾语1+动词+宾语2"
+   ],
+   "example": {
+    "zh": "他把孩子送去学校了。",
+    "pinyin": "Tā bǎ háizi sòng qù xuéxiào le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "什么X不X（的）",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "什么X不X（的）",
+   "verify": [
+    "什么X不X（的）"
+   ],
+   "example": {
+    "zh": "什么朋友不朋友的，都是假的。",
+    "pinyin": "Shénme péngyou bù péngyou de, dōu shì jiǎ de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "从……来看",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "从……来看",
+   "verify": [
+    "从……来看"
+   ],
+   "example": {
+    "zh": "从目前来看，情况还不错。",
+    "pinyin": "Cóng mùqián lái kàn, qíngkuàng hái bùcuò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "假如……，（就）……",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "假如……，（就）……",
+   "verify": [
+    "假如……，（就）……"
+   ],
+   "example": {
+    "zh": "假如明天下雨，比赛就推迟。",
+    "pinyin": "Jiǎrú míngtiān xià yǔ, bǐsài jiù tuīchí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "关联副词",
+   "level": 5,
+   "category": "词类·副词",
+   "structure": "便、一旦",
+   "verify": [
+    "便、一旦"
+   ],
+   "example": {
+    "zh": "一旦决定了，就别改。",
+    "pinyin": "Yīdàn juédìng le, jiù bié gǎi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "其他助词",
+   "level": 5,
+   "category": "词类·助词",
+   "structure": "似的",
+   "verify": [
+    "似的"
+   ],
+   "example": {
+    "zh": "他像孩子似的笑了。",
+    "pinyin": "Tā xiàng háizi shì de xiào le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "动词+什么（就）是什么",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "动词+什么（就）是什么",
+   "verify": [
+    "动词+什么（就）是什么"
+   ],
+   "example": {
+    "zh": "吃什么是什么，别挑了。",
+    "pinyin": "Chī shénme jiù shì shénme, bié tiāo le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "动量词",
+   "level": 5,
+   "category": "词类·量词",
+   "structure": "眼",
+   "verify": [
+    "眼"
+   ],
+   "example": {
+    "zh": "他看了我一眼。",
+    "pinyin": "Tā kàn le wǒ yī yǎn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "可能补语2",
+   "level": 5,
+   "category": "句子成分·补语",
+   "structure": "动词+得/不得",
+   "verify": [
+    "动词+得/不得"
+   ],
+   "example": {
+    "zh": "这种事做不得。",
+    "pinyin": "Zhè zhǒng shì zuò bu dé."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "名量词",
+   "level": 5,
+   "category": "词类·量词",
+   "structure": "册、朵、届、颗、匹、行、架、群、支、根、 批、束、副、集、周",
+   "verify": [
+    "册、朵、届、颗、匹、行、架、群、支、根、 批、束、副、集、周"
+   ],
+   "example": {
+    "zh": "我买了一束鲜花。",
+    "pinyin": "Wǒ mǎi le yī shù xiānhuā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "后缀",
+   "level": 5,
+   "category": "语素·后缀",
+   "structure": "—头",
+   "verify": [
+    "—头"
+   ],
+   "example": {
+    "zh": "我们买了一点儿馒头。",
+    "pinyin": "Wǒmen mǎi le yìdiǎnr mántou."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "引出凭借、依据",
+   "level": 5,
+   "category": "词类·介词",
+   "structure": "凭 据 依据",
+   "verify": [
+    "凭 据 依据"
+   ],
+   "example": {
+    "zh": "依据法律，他必须受到惩罚。",
+    "pinyin": "Yījù fǎlǜ, tā bìxū shòudào chéngfá."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "引出对象",
+   "level": 5,
+   "category": "词类·介词",
+   "structure": "替、同1、较2",
+   "verify": [
+    "替、同1、较2"
+   ],
+   "example": {
+    "zh": "我替你去吧。",
+    "pinyin": "Wǒ tì nǐ qù ba."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "引出方向、路径",
+   "level": 5,
+   "category": "词类·介词",
+   "structure": "朝、沿（着）",
+   "verify": [
+    "朝、沿（着）"
+   ],
+   "example": {
+    "zh": "我们沿着河边走。",
+    "pinyin": "Wǒmen yánzhe hébiān zǒu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "引出时间、处所",
+   "level": 5,
+   "category": "词类·介词",
+   "structure": "自从",
+   "verify": [
+    "自从"
+   ],
+   "example": {
+    "zh": "自从来了中国，我学到了很多。",
+    "pinyin": "Zìcóng lái le Zhōngguó, wǒ xué dào le hěn duō."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "情态副词",
+   "level": 5,
+   "category": "词类·副词",
+   "structure": "似乎、仿佛",
+   "verify": [
+    "似乎、仿佛"
+   ],
+   "example": {
+    "zh": "他似乎明白了。",
+    "pinyin": "Tā sìhū míngbai le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "承接复句",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "……，便……",
+   "verify": [
+    "……，便……"
+   ],
+   "example": {
+    "zh": "他一到家便开始做饭。",
+    "pinyin": "Tā yí dào jiā biàn kāishǐ zuòfàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "指示代词",
+   "level": 5,
+   "category": "词类·代词",
+   "structure": "彼此、如此、本",
+   "verify": [
+    "彼此、如此、本"
+   ],
+   "example": {
+    "zh": "彼此了解是合作的基础。",
+    "pinyin": "Bǐcǐ liǎojiě shì hézuò de jīchǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "方式副词",
+   "level": 5,
+   "category": "词类·副词",
+   "structure": "尽量、亲自",
+   "verify": [
+    "尽量、亲自"
+   ],
+   "example": {
+    "zh": "这件事你亲自去办吧。",
+    "pinyin": "Zhè jiàn shì nǐ qīnzì qù bàn ba."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "时间副词",
+   "level": 5,
+   "category": "词类·副词",
+   "structure": "时刻、曾经、立刻、连忙、始终、早已、 即将、急忙、渐渐、尽快、早晚",
+   "verify": [
+    "时刻、曾经、立刻、连忙、始终、早已、 即将、急忙、渐渐、尽快、早晚"
+   ],
+   "example": {
+    "zh": "他即将回国。",
+    "pinyin": "Tā jíjiāng huí guó."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "比较句4",
+   "level": 5,
+   "category": "句子的类型·特殊句型",
+   "structure": "A+形容词+B+数量补语",
+   "verify": [
+    "A+形容词+B+数量补语"
+   ],
+   "example": {
+    "zh": "他大我三岁。",
+    "pinyin": "Tā dà wǒ sān suì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "没A没B",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "没A没B",
+   "verify": [
+    "没A没B"
+   ],
+   "example": {
+    "zh": "他没日没夜地工作。",
+    "pinyin": "Tā méi rì méi yè de gōngzuò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "状态补语2",
+   "level": 5,
+   "category": "句子成分·补语",
+   "structure": "（1）动词/形容词+得+动词短语 （2）动词/形容词+得+主谓短语 （3）动词/形容词+得+固定短语",
+   "verify": [
+    "（1）动词/形容词+得+动词短语 （2）动词/形容词+得+主谓短语 （3）动词/形容词+得+固定短语"
+   ],
+   "example": {
+    "zh": "他气得说不出话来。",
+    "pinyin": "Tā qì de shuō bu chū huà lái."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "状语",
+   "level": 5,
+   "category": "句子成分·状语",
+   "structure": "多项状语",
+   "verify": [
+    "多项状语"
+   ],
+   "example": {
+    "zh": "他昨天在家认真地写作业。",
+    "pinyin": "Tā zuótiān zài jiā rènzhēn de xiě zuòyè."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "用不着",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "用不着",
+   "verify": [
+    "用不着"
+   ],
+   "example": {
+    "zh": "你用不着担心。",
+    "pinyin": "Nǐ yòngbuzhe dānxīn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "由……组成",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "由……组成",
+   "verify": [
+    "由……组成"
+   ],
+   "example": {
+    "zh": "这个班由二十个学生组成。",
+    "pinyin": "Zhè ge bān yóu èrshí ge xuésheng zǔchéng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "目的复句",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "……，为的是……",
+   "verify": [
+    "……，为的是……"
+   ],
+   "example": {
+    "zh": "他早起，为的是赶上第一班车。",
+    "pinyin": "Tā zǎo qǐ, wèi de shì gǎn shàng dì-yī bān chē."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 400
+   }
+  },
+  {
+   "point": "真有你/他/她的",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "真有你/他/她的",
+   "verify": [
+    "真有你/他/她的"
+   ],
+   "example": {
+    "zh": "真有你，这么晚才来！",
+    "pinyin": "Zhēn yǒu nǐ, zhème wǎn cái lái!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "程度副词",
+   "level": 5,
+   "category": "词类·副词",
+   "structure": "过于、相当、较1、可2、格外、极其",
+   "verify": [
+    "过于、相当、较1、可2、格外、极其"
+   ],
+   "example": {
+    "zh": "这道题格外难。",
+    "pinyin": "Zhè dào tí géwài nán."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "程度补语2",
+   "level": 5,
+   "category": "句子成分·补语",
+   "structure": "形容词/心理动词+得+不得了",
+   "verify": [
+    "形容词/心理动词+得+不得了"
+   ],
+   "example": {
+    "zh": "这孩子可爱得不得了。",
+    "pinyin": "Zhè háizi kě'ài de bùdéliǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "紧缩复句",
+   "level": 5,
+   "category": "固定格式",
+   "structure": "没有……就没有…… 不……不…… 再……也……",
+   "verify": [
+    "没有……就没有…… 不……不…… 再……也……"
+   ],
+   "example": {
+    "zh": "没有努力就没有成功。",
+    "pinyin": "Méiyǒu nǔlì jiù méiyǒu chénggōng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 400
+   }
+  },
+  {
+   "point": "表示存在、具有：主语+有+着+宾语",
+   "level": 5,
+   "category": "句子的类型·特殊句型",
+   "structure": "（1）表示存在、具有：主语+有+着+宾语",
+   "verify": [
+    "（1）表示存在、具有：主语+有+着+宾语"
+   ],
+   "example": {
+    "zh": "门前有着两棵老松树。",
+    "pinyin": "Mén qián yǒu zhe liǎng kē lǎo sōngshù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "表示附着：主语+动词+有+宾语",
+   "level": 5,
+   "category": "句子的类型·特殊句型",
+   "structure": "（2）表示附着：主语+动词+有+宾语",
+   "verify": [
+    "（2）表示附着：主语+动词+有+宾语"
+   ],
+   "example": {
+    "zh": "墙上挂有一张地图。",
+    "pinyin": "Qiáng shang guà yǒu yī zhāng dìtú."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "被动句3",
+   "level": 5,
+   "category": "句子的类型·特殊句型",
+   "structure": "主语+被/叫/让+宾语+给+动词+其他成分",
+   "verify": [
+    "主语+被/叫/让+宾语+给+动词+其他成分"
+   ],
+   "example": {
+    "zh": "钱被他给花光了。",
+    "pinyin": "Qián bèi tā gěi huā guāng le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "让步复句",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "哪怕……，也……",
+   "verify": [
+    "哪怕……，也……"
+   ],
+   "example": {
+    "zh": "哪怕下大雪，我也要去。",
+    "pinyin": "Nǎpà xià dàxuě, wǒ yě yào qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "语气副词",
+   "level": 5,
+   "category": "词类·副词",
+   "structure": "毕竟、居然、反正、根本、果然、简直、 绝对、的确、反而、白、刚好、可3",
+   "verify": [
+    "毕竟、居然、反正、根本、果然、简直、 绝对、的确、反而、白、刚好、可3"
+   ],
+   "example": {
+    "zh": "你简直太棒了！",
+    "pinyin": "Nǐ jiǎnzhí tài bàng le!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "说A就A",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "说A就A",
+   "verify": [
+    "说A就A"
+   ],
+   "example": {
+    "zh": "他说走就走。",
+    "pinyin": "Tā shuō zǒu jiù zǒu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "趋向补语3",
+   "level": 5,
+   "category": "句子成分·补语",
+   "structure": "趋向补语的引申用法：表示状态意义：动词/ 形容词+下来/下去/起来/过来/过去",
+   "verify": [
+    "趋向补语的引申用法：表示状态意义：动词/ 形容词+下来/下去/起来/过来/过去"
+   ],
+   "example": {
+    "zh": "天气渐渐暖和起来了。",
+    "pinyin": "Tiānqì jiànjiàn nuǎnhuo qǐlai le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "连动句3",
+   "level": 5,
+   "category": "句子的类型·特殊句型",
+   "structure": "前后两个动词性词语具有因果、转折、条件关 系",
+   "verify": [
+    "前后两个动词性词语具有因果、转折、条件关 系"
+   ],
+   "example": {
+    "zh": "他有事不能来了。",
+    "pinyin": "Tā yǒu shì bù néng lái le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "连接分句或句子",
+   "level": 5,
+   "category": "词类·连词",
+   "structure": "从而、可见、假如、总之",
+   "verify": [
+    "从而、可见、假如、总之"
+   ],
+   "example": {
+    "zh": "他努力学习，从而取得了好成绩。",
+    "pinyin": "Tā nǔlì xuéxí, cóng'ér qǔdé le hǎo chéngjì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "连接词或词组",
+   "level": 5,
+   "category": "词类·连词",
+   "structure": "以及、同2",
+   "verify": [
+    "以及、同2"
+   ],
+   "example": {
+    "zh": "老师、学生以及家长都参加了。",
+    "pinyin": "Lǎoshī, xuésheng yǐjí jiāzhǎng dōu cānjiā le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "选择复句",
+   "level": 5,
+   "category": "句子的类型·复句",
+   "structure": "或是……，或是……",
+   "verify": [
+    "或是……，或是……"
+   ],
+   "example": {
+    "zh": "或是你去，或是我去。",
+    "pinyin": "Huòshì nǐ qù, huòshì wǒ qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 399
+   }
+  },
+  {
+   "point": "频率副词",
+   "level": 5,
+   "category": "词类·副词",
+   "structure": "老是、通常、时常",
+   "verify": [
+    "老是、通常、时常"
+   ],
+   "example": {
+    "zh": "他老是迟到。",
+    "pinyin": "Tā lǎoshi chídào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "（自）……以来",
+   "level": 5,
+   "category": "短语·固定短语",
+   "structure": "（自）……以来",
+   "verify": [
+    "（自）……以来"
+   ],
+   "example": {
+    "zh": "自古以来，这里就是交通要道。",
+    "pinyin": "Zì gǔ yǐlái, zhèli jiù shì jiāotōng yàodào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 398
+   }
+  },
+  {
+   "point": "A一+量词，B一+量词",
+   "level": 6,
+   "category": "固定格式·固定短语",
+   "structure": "A一+量词，B一+量词",
+   "verify": [
+    "A一+量词，B一+量词"
+   ],
+   "example": {
+    "zh": "他一句一句地讲解。",
+    "pinyin": "Tā yī jù yī jù de jiǎngjiě."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "A这A那",
+   "level": 6,
+   "category": "短语·固定短语",
+   "structure": "A这A那",
+   "verify": [
+    "A这A那"
+   ],
+   "example": {
+    "zh": "他这也不是，那也不是。",
+    "pinyin": "Tā zhè yě bù shì, nà yě bù shì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "X到Y头上来了",
+   "level": 6,
+   "category": "固定格式·固定短语",
+   "structure": "X到Y头上来了",
+   "verify": [
+    "X到Y头上来了"
+   ],
+   "example": {
+    "zh": "麻烦都到他头上来了。",
+    "pinyin": "Máfan dōu dào tā tóu shang lái le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "不X不……，一X……",
+   "level": 6,
+   "category": "固定格式·固定短语",
+   "structure": "不X不……，一X……",
+   "verify": [
+    "不X不……，一X……"
+   ],
+   "example": {
+    "zh": "他不经劝，一劝就急了。",
+    "pinyin": "Tā bù jīng quàn, yī quàn jiù jí le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "东一A，西一A",
+   "level": 6,
+   "category": "固定格式·固定短语",
+   "structure": "东一A，西一A",
+   "verify": [
+    "东一A，西一A"
+   ],
+   "example": {
+    "zh": "他东一句，西一句，没说到正题。",
+    "pinyin": "Tā dōng yī jù, xī yī jù, méi shuō dào zhèngtí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "人称代词",
+   "level": 6,
+   "category": "词类·代词",
+   "structure": "人家",
+   "verify": [
+    "人家"
+   ],
+   "example": {
+    "zh": "人家等你半天了。",
+    "pinyin": "Rénjia děng nǐ bàn tiān le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "其他助词",
+   "level": 6,
+   "category": "词类·助词",
+   "structure": "也好",
+   "verify": [
+    "也好"
+   ],
+   "example": {
+    "zh": "去也好，不去也好，你决定。",
+    "pinyin": "Qù yě hǎo, bù qù yě hǎo, nǐ juédìng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "到……为止",
+   "level": 6,
+   "category": "固定格式·固定短语",
+   "structure": "到……为止",
+   "verify": [
+    "到……为止"
+   ],
+   "example": {
+    "zh": "到目前为止，一切正常。",
+    "pinyin": "Dào mùqián wéizhǐ, yīqiè zhèngcháng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "动量词",
+   "level": 6,
+   "category": "词类·量词",
+   "structure": "番",
+   "verify": [
+    "番"
+   ],
+   "example": {
+    "zh": "他说了一番话。",
+    "pinyin": "Tā shuō le yī fān huà."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "名量词",
+   "level": 6,
+   "category": "词类·量词",
+   "structure": "专用名量词：串、滴、枝、扇、卷1、卷2",
+   "verify": [
+    "专用名量词：串、滴、枝、扇、卷1、卷2"
+   ],
+   "example": {
+    "zh": "我买了一串葡萄。",
+    "pinyin": "Wǒ mǎi le yī chuàn pútao."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "否定副词",
+   "level": 6,
+   "category": "词类·副词",
+   "structure": "未必",
+   "verify": [
+    "未必"
+   ],
+   "example": {
+    "zh": "他未必知道这件事。",
+    "pinyin": "Tā wèibì zhīdào zhè jiàn shì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "好你个X",
+   "level": 6,
+   "category": "固定格式·固定短语",
+   "structure": "好你个X",
+   "verify": [
+    "好你个X"
+   ],
+   "example": {
+    "zh": "好你个家伙，真有两下子！",
+    "pinyin": "Hǎo nǐ ge jiāhuo, zhēn yǒu liǎng xiàzi!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "好（不）容易",
+   "level": 6,
+   "category": "短语·固定短语",
+   "structure": "好（不）容易",
+   "verify": [
+    "好（不）容易"
+   ],
+   "example": {
+    "zh": "好不容易才买到票。",
+    "pinyin": "Hǎobù róngyì cái mǎi dào piào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "左A右B",
+   "level": 6,
+   "category": "短语·固定短语",
+   "structure": "左A右B",
+   "verify": [
+    "左A右B"
+   ],
+   "example": {
+    "zh": "他左思右想，还是决定不去了。",
+    "pinyin": "Tā zuǒsī-yòuxiǎng, háishì juédìng bù qù le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "引出对象",
+   "level": 6,
+   "category": "词类·介词",
+   "structure": "至于",
+   "verify": [
+    "至于"
+   ],
+   "example": {
+    "zh": "至于这个问题，我们下次再谈。",
+    "pinyin": "Zhìyú zhè ge wèntí, wǒmen xià cì zài tán."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "引出时间、处所",
+   "level": 6,
+   "category": "词类·介词",
+   "structure": "于",
+   "verify": [
+    "于"
+   ],
+   "example": {
+    "zh": "他生于北京。",
+    "pinyin": "Tā shēng yú Běijīng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "引出目的、原因",
+   "level": 6,
+   "category": "词类·介词",
+   "structure": "因",
+   "verify": [
+    "因"
+   ],
+   "example": {
+    "zh": "因工作繁忙，他没能参加。",
+    "pinyin": "Yīn gōngzuò fánmáng, tā méi néng cānjiā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "得了",
+   "level": 6,
+   "category": "短语·固定短语",
+   "structure": "得了",
+   "verify": [
+    "得了"
+   ],
+   "example": {
+    "zh": "得了，别再抱怨了。",
+    "pinyin": "Dé le, bié zài bàoyuàn le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "方式副词",
+   "level": 6,
+   "category": "词类·副词",
+   "structure": "不禁、赶忙、特地、特意、偷偷",
+   "verify": [
+    "不禁、赶忙、特地、特意、偷偷"
+   ],
+   "example": {
+    "zh": "他不禁笑了起来。",
+    "pinyin": "Tā bùjīn xiào le qǐlai."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "早（也）不X，晚（也）不X",
+   "level": 6,
+   "category": "固定格式·固定短语",
+   "structure": "早（也）不X，晚（也）不X",
+   "verify": [
+    "早（也）不X，晚（也）不X"
+   ],
+   "example": {
+    "zh": "他早也不来，晚也不来。",
+    "pinyin": "Tā zǎo yě bù lái, wǎn yě bù lái."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "时间副词",
+   "level": 6,
+   "category": "词类·副词",
+   "structure": "一时、不时、仍旧、依旧、一向",
+   "verify": [
+    "一时、不时、仍旧、依旧、一向"
+   ],
+   "example": {
+    "zh": "他仍旧每天锻炼身体。",
+    "pinyin": "Tā réngjiǔ měitiān duànliàn shēntǐ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "看/瞧+把+宾语（施事）+X得",
+   "level": 6,
+   "category": "固定格式·固定短语",
+   "structure": "看/瞧+把+宾语（施事）+X得",
+   "verify": [
+    "看/瞧+把+宾语（施事）+X得"
+   ],
+   "example": {
+    "zh": "看把他急得！",
+    "pinyin": "Kàn bǎ tā jí de!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "程度副词",
+   "level": 6,
+   "category": "词类·副词",
+   "structure": "特、异常、较为",
+   "verify": [
+    "特、异常、较为"
+   ],
+   "example": {
+    "zh": "今天异常冷。",
+    "pinyin": "Jīntiān yìcháng lěng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "算了",
+   "level": 6,
+   "category": "短语·固定短语",
+   "structure": "算了",
+   "verify": [
+    "算了"
+   ],
+   "example": {
+    "zh": "算了，别说了。",
+    "pinyin": "Suàn le, bié shuō le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "类前缀",
+   "level": 6,
+   "category": "语素·类前缀",
+   "structure": "超—、多—、反—、无—、亚—、准—",
+   "verify": [
+    "超—、多—、反—、无—、亚—、准—"
+   ],
+   "example": {
+    "zh": "这是一个多方面的问题。",
+    "pinyin": "Zhè shì yī ge duō fāngmiàn de wèntí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "类后缀",
+   "level": 6,
+   "category": "语素·类后缀",
+   "structure": "—化、—式、—型、—性",
+   "verify": [
+    "—化、—式、—型、—性"
+   ],
+   "example": {
+    "zh": "现代化是国家富强的必由之路。",
+    "pinyin": "Xiàndàihuà shì guójiā fùqiáng de bìyóuzhīlù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "结构助词",
+   "level": 6,
+   "category": "词类·助词",
+   "structure": "所",
+   "verify": [
+    "所"
+   ],
+   "example": {
+    "zh": "这是我所见过的最美的风景。",
+    "pinyin": "Zhè shì wǒ suǒ jiàn guò de zuì měi de fēngjǐng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "范围副词",
+   "level": 6,
+   "category": "词类·副词",
+   "structure": "净、一同、大都",
+   "verify": [
+    "净、一同、大都"
+   ],
+   "example": {
+    "zh": "大家一同前往。",
+    "pinyin": "Dàjiā yìtóng qiánwǎng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "表示排除",
+   "level": 6,
+   "category": "词类·介词",
+   "structure": "除",
+   "verify": [
+    "除"
+   ],
+   "example": {
+    "zh": "除了他，大家都到了。",
+    "pinyin": "Chú le tā, dàjiā dōu dào le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "语气副词",
+   "level": 6,
+   "category": "词类·副词",
+   "structure": "恰好、倒是、干脆、明明、总算",
+   "verify": [
+    "恰好、倒是、干脆、明明、总算"
+   ],
+   "example": {
+    "zh": "他倒是挺大方。",
+    "pinyin": "Tā dàoshi tǐng dàfang."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "语气助词",
+   "level": 6,
+   "category": "词类·助词",
+   "structure": "啦、嘛",
+   "verify": [
+    "啦、嘛"
+   ],
+   "example": {
+    "zh": "时间到啦！",
+    "pinyin": "Shíjiān dào la!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "连接分句或句子",
+   "level": 6,
+   "category": "词类·连词",
+   "structure": "不料",
+   "verify": [
+    "不料"
+   ],
+   "example": {
+    "zh": "我们正想出门，不料下起雨来。",
+    "pinyin": "Wǒmen zhèng xiǎng chūmén, bùliào xià qǐ yǔ lái."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "那倒（也）是",
+   "level": 6,
+   "category": "短语·固定短语",
+   "structure": "那倒（也）是",
+   "verify": [
+    "那倒（也）是"
+   ],
+   "example": {
+    "zh": "“他很努力。”“那倒也是。”",
+    "pinyin": "“Tā hěn nǔlì.” “Nà dào yě shì.”"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "频率副词",
+   "level": 6,
+   "category": "词类·副词",
+   "structure": "一再、再三",
+   "verify": [
+    "一再、再三"
+   ],
+   "example": {
+    "zh": "他再三表示感谢。",
+    "pinyin": "Tā zàisān biǎoshì gǎnxiè."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 401
+   }
+  },
+  {
+   "point": "X也好，Y也罢",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "X也好，Y也罢",
+   "verify": [
+    "X也好，Y也罢"
+   ],
+   "example": {
+    "zh": "去也好，不去也罢，你决定。",
+    "pinyin": "Qù yě hǎo, bù qù yě bà, nǐ juédìng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "X了Y，Y了X",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "X了Y，Y了X",
+   "verify": [
+    "X了Y，Y了X"
+   ],
+   "example": {
+    "zh": "他们吃了睡，睡了吃。",
+    "pinyin": "Tāmen chī le shuì, shuì le chī."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "X到这个地步/份上",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "X到这个地步/份上",
+   "verify": [
+    "X到这个地步/份上"
+   ],
+   "example": {
+    "zh": "事情到了这个地步，没办法了。",
+    "pinyin": "Shìqing dào le zhè ge dìbù, méi bànfǎ le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "X就X个Y",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "X就X个Y",
+   "verify": [
+    "X就X个Y"
+   ],
+   "example": {
+    "zh": "说就说个痛快。",
+    "pinyin": "Shuō jiù shuō ge tòngkuài."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "X得要命/要死",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "X得要命/要死",
+   "verify": [
+    "X得要命/要死"
+   ],
+   "example": {
+    "zh": "他累得要命。",
+    "pinyin": "Tā lèi de yàomìng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "X都不/没X",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "X都不/没X",
+   "verify": [
+    "X都不/没X"
+   ],
+   "example": {
+    "zh": "他看都没看就签字了。",
+    "pinyin": "Tā kàn dōu méi kàn jiù qiānzì le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "X（倒）是X（了），……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "X（倒）是X（了），……",
+   "verify": [
+    "X（倒）是X（了），……"
+   ],
+   "example": {
+    "zh": "好倒是好，就是太贵。",
+    "pinyin": "Hǎo dàoshi hǎo, jiùshì tài guì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "……不说，还……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "……不说，还……",
+   "verify": [
+    "……不说，还……"
+   ],
+   "example": {
+    "zh": "他迟到不说，还找借口。",
+    "pinyin": "Tā chídào bù shuō, hái zhǎo jièkǒu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "……尚且……，（更）何况……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "……尚且……，（更）何况……",
+   "verify": [
+    "……尚且……，（更）何况……"
+   ],
+   "example": {
+    "zh": "大人尚且做不到，何况孩子。",
+    "pinyin": "Dàrén shàngqiě zuò bu dào, hékuàng háizi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "……，以……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "……，以……",
+   "verify": [
+    "……，以……"
+   ],
+   "example": {
+    "zh": "我们必须抓紧时间，以提高效率。",
+    "pinyin": "Wǒmen bìxū zhuājǐn shíjiān, yǐ tígāo xiàolǜ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "……，以至（于）……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "……，以至（于）……",
+   "verify": [
+    "……，以至（于）……"
+   ],
+   "example": {
+    "zh": "他工作太投入，以至于忘了吃饭。",
+    "pinyin": "Tā gōngzuò tài tóurù, yǐzhìyú wàng le chīfàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "……，更不用说……了",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "……，更不用说……了",
+   "verify": [
+    "……，更不用说……了"
+   ],
+   "example": {
+    "zh": "他连饭都吃不上，更不用说吃肉了。",
+    "pinyin": "Tā lián fàn dōu chī bu shàng, gèng bùyòng shuō chī ròu le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "一则……，二则……，三则……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "一则……，二则……，三则……",
+   "verify": [
+    "一则……，二则……，三则……"
+   ],
+   "example": {
+    "zh": "一则太累了，二则天太晚，明天再说吧。",
+    "pinyin": "Yīzé tài lèi le, èrzé tiān tài wǎn, míngtiān zàishuō ba."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "一来……，二来……，三来……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "一来……，二来……，三来……",
+   "verify": [
+    "一来……，二来……，三来……"
+   ],
+   "example": {
+    "zh": "一来没钱，二来没时间。",
+    "pinyin": "Yīlái méi qián, èrlái méi shíjiān."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "七A八B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "七A八B",
+   "verify": [
+    "七A八B"
+   ],
+   "example": {
+    "zh": "大家七嘴八舌地讨论起来。",
+    "pinyin": "Dàjiā qī zuǐ bā shé de tǎolùn qǐlai."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "不A不B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "不A不B",
+   "verify": [
+    "不A不B"
+   ],
+   "example": {
+    "zh": "他不卑不亢。",
+    "pinyin": "Tā bùbēi-bùkàng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "不A而B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "不A而B",
+   "verify": [
+    "不A而B"
+   ],
+   "example": {
+    "zh": "他不告而别。",
+    "pinyin": "Tā bùgào'érbié."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "不亚于……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "不亚于……",
+   "verify": [
+    "不亚于……"
+   ],
+   "example": {
+    "zh": "他的能力不亚于你。",
+    "pinyin": "Tā de nénglì bù yàyú nǐ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "不是",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "不是",
+   "verify": [
+    "不是"
+   ],
+   "example": {
+    "zh": "我们明天，不是，后天出发。",
+    "pinyin": "Wǒmen míngtiān, bùshì, hòutiān chūfā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "不是我说你",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "不是我说你",
+   "verify": [
+    "不是我说你"
+   ],
+   "example": {
+    "zh": "不是我说你，你也太粗心了。",
+    "pinyin": "Bù shì wǒ shuō nǐ, nǐ yě tài cūxīn le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "不瞒你说",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "不瞒你说",
+   "verify": [
+    "不瞒你说"
+   ],
+   "example": {
+    "zh": "不瞒你说，我也没听懂。",
+    "pinyin": "Bù mán nǐ shuō, wǒ yě méi tīng dǒng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "不知X是/才好",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "不知X是/才好",
+   "verify": [
+    "不知X是/才好"
+   ],
+   "example": {
+    "zh": "我不知说什么才好。",
+    "pinyin": "Wǒ bù zhī shuō shénme cái hǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "与其……，宁愿/宁可……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "与其……，宁愿/宁可……",
+   "verify": [
+    "与其……，宁愿/宁可……"
+   ],
+   "example": {
+    "zh": "与其等下去，宁可放弃。",
+    "pinyin": "Yǔqí děng xiàqù, nìngkě fàngqì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "东A西B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "东A西B",
+   "verify": [
+    "东A西B"
+   ],
+   "example": {
+    "zh": "孩子们东跑西跑。",
+    "pinyin": "Háizi men dōng pǎo xī pǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "为（了）……起见，……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "为（了）……起见，……",
+   "verify": [
+    "为（了）……起见，……"
+   ],
+   "example": {
+    "zh": "为安全起见，请系好安全带。",
+    "pinyin": "Wèi ānquán qǐjiàn, qǐng jì hǎo ānquándài."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "人称代词",
+   "level": 7,
+   "category": "词类·代词",
+   "structure": "我",
+   "verify": [
+    "我"
+   ],
+   "example": {
+    "zh": "我方代表已经到场。",
+    "pinyin": "Wǒfāng dàibiǎo yǐjīng dào chǎng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "什么A的B的",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "什么A的B的",
+   "verify": [
+    "什么A的B的"
+   ],
+   "example": {
+    "zh": "什么你的我的，都是大家的。",
+    "pinyin": "Shénme nǐ de wǒ de, dōu shì dàjiā de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "仅次于X",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "仅次于X",
+   "verify": [
+    "仅次于X"
+   ],
+   "example": {
+    "zh": "他的成绩仅次于班长。",
+    "pinyin": "Tā de chéngjì jǐn cìyú bānzhǎng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "任……也……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "任……也……",
+   "verify": [
+    "任……也……"
+   ],
+   "example": {
+    "zh": "任你怎么说，我也不去。",
+    "pinyin": "Rèn nǐ zěnme shuō, wǒ yě bù qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "何至于……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "何至于……",
+   "verify": [
+    "何至于……"
+   ],
+   "example": {
+    "zh": "这点小事，何至于生气。",
+    "pinyin": "Zhè diǎn xiǎoshì, hé zhìyú shēngqì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "你看你",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "你看你",
+   "verify": [
+    "你看你"
+   ],
+   "example": {
+    "zh": "你看你，又忘了。",
+    "pinyin": "Nǐ kàn nǐ, yòu wàng le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "你说你一个X，……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "你说你一个X，……",
+   "verify": [
+    "你说你一个X，……"
+   ],
+   "example": {
+    "zh": "你说你一个大人，还跟小孩计较。",
+    "pinyin": "Nǐ shuō nǐ yī ge dàren, hái gēn xiǎohái jìjiào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "值此……之际，……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "值此……之际，……",
+   "verify": [
+    "值此……之际，……"
+   ],
+   "example": {
+    "zh": "值此新年之际，我祝大家快乐。",
+    "pinyin": "Zhí cǐ xīnnián zhī jì, wǒ zhù dàjiā kuàilè."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "假若/假使……，……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "假若/假使……，……",
+   "verify": [
+    "假若/假使……，……"
+   ],
+   "example": {
+    "zh": "假若时间可以倒流，我一定努力学习。",
+    "pinyin": "Jiǎruò shíjiān kěyǐ dàoliú, wǒ yīdìng nǔlì xuéxí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "凡……（者），均（可）……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "凡……（者），均（可）……",
+   "verify": [
+    "凡……（者），均（可）……"
+   ],
+   "example": {
+    "zh": "凡是参加会议者，均可获得资料。",
+    "pinyin": "Fánshì cānjiā huìyì zhě, jūn kě huòdé zīliào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "判断副词",
+   "level": 7,
+   "category": "词类·副词",
+   "structure": "乃",
+   "verify": [
+    "乃"
+   ],
+   "example": {
+    "zh": "此乃上策。",
+    "pinyin": "Cǐ nǎi shàngcè."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "别提（有）多+形容词+了",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "别提（有）多+形容词+了",
+   "verify": [
+    "别提（有）多+形容词+了"
+   ],
+   "example": {
+    "zh": "收到礼物，他别提多高兴了。",
+    "pinyin": "Shōudào lǐwù, tā bié tí duō gāoxìng le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "别看……，……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "别看……，……",
+   "verify": [
+    "别看……，……"
+   ],
+   "example": {
+    "zh": "别看他年纪小，懂得可不少。",
+    "pinyin": "Bié kàn tā niánjì xiǎo, dǒngde kě bù shǎo."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "别说……，都/也……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "别说……，都/也……",
+   "verify": [
+    "别说……，都/也……"
+   ],
+   "example": {
+    "zh": "别说你不清楚，我也不明白。",
+    "pinyin": "Bié shuō nǐ bù qīngchu, wǒ yě bù míngbai."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "动不动就……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "动不动就……",
+   "verify": [
+    "动不动就……"
+   ],
+   "example": {
+    "zh": "他动不动就生气。",
+    "pinyin": "Tā dòngbùdòng jiù shēngqì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "动词",
+   "level": 7,
+   "category": "词类·动词",
+   "structure": "巴不得、并非、除外、犯不着、犯得着、恨不 得、可否、可谓、免不了、所谓、有所、予以",
+   "verify": [
+    "巴不得、并非、除外、犯不着、犯得着、恨不 得、可否、可谓、免不了、所谓、有所、予以"
+   ],
+   "example": {
+    "zh": "我巴不得现在就出发。",
+    "pinyin": "Wǒ bābude xiànzài jiù chūfā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "动词+个X",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "动词+个X",
+   "verify": [
+    "动词+个X"
+   ],
+   "example": {
+    "zh": "我们吃个饭再走。",
+    "pinyin": "Wǒmen chī ge fàn zài zǒu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "动词+得个……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "动词+得个……",
+   "verify": [
+    "动词+得个……"
+   ],
+   "example": {
+    "zh": "他玩得个痛快。",
+    "pinyin": "Tā wán de ge tòngkuài."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "动量词",
+   "level": 7,
+   "category": "词类·量词",
+   "structure": "通",
+   "verify": [
+    "通"
+   ],
+   "example": {
+    "zh": "他说了一通，没人听懂。",
+    "pinyin": "Tā shuō le yī tòng, méi rén tīng dǒng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "半A半B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "半A半B",
+   "verify": [
+    "半A半B"
+   ],
+   "example": {
+    "zh": "这件事半真半假。",
+    "pinyin": "Zhè jiàn shì bàn zhēn bàn jiǎ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "反过来（说）",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "反过来（说）",
+   "verify": [
+    "反过来（说）"
+   ],
+   "example": {
+    "zh": "反过来想，他也有道理。",
+    "pinyin": "Fǎn guòlai xiǎng, tā yě yǒu dàolǐ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "可A可B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "可A可B",
+   "verify": [
+    "可A可B"
+   ],
+   "example": {
+    "zh": "这个问题可有可无。",
+    "pinyin": "Zhè ge wèntí kě yǒu kě wú."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "可不（是嘛）",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "可不（是嘛）",
+   "verify": [
+    "可不（是嘛）"
+   ],
+   "example": {
+    "zh": "“他真聪明。”“可不是嘛！”",
+    "pinyin": "“Tā zhēn cōngming.” “Kě bù shì ma!”"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "名量词",
+   "level": 7,
+   "category": "词类·量词",
+   "structure": "重、截、缕、码、枚、摊、丸、则、幢、宗",
+   "verify": [
+    "重、截、缕、码、枚、摊、丸、则、幢、宗"
+   ],
+   "example": {
+    "zh": "一缕阳光照进房间。",
+    "pinyin": "Yī lǚ yángguāng zhào jìn fángjiān."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "向……致以……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "向……致以……",
+   "verify": [
+    "向……致以……"
+   ],
+   "example": {
+    "zh": "向大家致以新年的问候。",
+    "pinyin": "Xiàng dàjiā zhìyǐ xīnnián de wènhòu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "否定副词",
+   "level": 7,
+   "category": "词类·副词",
+   "structure": "不见得、绝不、无从、无须、无可、勿",
+   "verify": [
+    "不见得、绝不、无从、无须、无可、勿"
+   ],
+   "example": {
+    "zh": "我绝无此意。",
+    "pinyin": "Wǒ jué wú cǐ yì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "因……而……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "因……而……",
+   "verify": [
+    "因……而……"
+   ],
+   "example": {
+    "zh": "他因病而缺席。",
+    "pinyin": "Tā yīn bìng ér quēxí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "复合量词",
+   "level": 7,
+   "category": "词类·量词",
+   "structure": "人次",
+   "verify": [
+    "人次"
+   ],
+   "example": {
+    "zh": "参观的游客超过一万人次。",
+    "pinyin": "Cānguān de yóukè chāoguò yī wàn rén cì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "多重假设复句",
+   "level": 7,
+   "category": "句子的类型·多重复句",
+   "structure": "多重假设复句",
+   "verify": [
+    "多重假设复句"
+   ],
+   "example": {
+    "zh": "如果明天下雨，如果路又不好走，我们就取消活动。",
+    "pinyin": "Rúguǒ míngtiān xià yǔ, rúguǒ lù yòu bù hǎo zǒu, wǒmen jiù qǔxiāo huódòng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "多重因果复句",
+   "level": 7,
+   "category": "句子的类型·多重复句",
+   "structure": "多重因果复句",
+   "verify": [
+    "多重因果复句"
+   ],
+   "example": {
+    "zh": "因为准备充分，因为大家配合得好，所以比赛很顺利。",
+    "pinyin": "Yīnwèi zhǔnbèi chōngfèn, yīnwèi dàjiā pèihé de hǎo, suǒyǐ bǐsài hěn shùnlì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "多重复句",
+   "level": 7,
+   "category": "语段（句群）·多重复句",
+   "structure": "时间顺序 空间顺序 逻辑顺序 话题延伸 话题转换 承前省略 蒙后省略",
+   "verify": [
+    "时间顺序 空间顺序 逻辑顺序 话题延伸 话题转换 承前省略 蒙后省略"
+   ],
+   "example": {
+    "zh": "早晨他先跑步，然后吃早饭，接着去上班。",
+    "pinyin": "Zǎochén tā xiān pǎobù, ránhòu chī zǎofàn, jiēzhe qù shàngbān."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "多重并列复句",
+   "level": 7,
+   "category": "句子的类型·多重复句",
+   "structure": "多重并列复句",
+   "verify": [
+    "多重并列复句"
+   ],
+   "example": {
+    "zh": "他买了苹果、香蕉，还买了葡萄和西瓜。",
+    "pinyin": "Tā mǎi le píngguǒ, xiāngjiāo, hái mǎi le pútao hé xīguā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "多重转折复句",
+   "level": 7,
+   "category": "句子的类型·多重复句",
+   "structure": "多重转折复句",
+   "verify": [
+    "多重转折复句"
+   ],
+   "example": {
+    "zh": "虽然很累，虽然他很想休息，但是他还是坚持工作。",
+    "pinyin": "Suīrán hěn lèi, suīrán tā hěn xiǎng xiūxi, dànshì tā háishì jiānchí gōngzuò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "多重递进复句",
+   "level": 7,
+   "category": "句子的类型·多重复句",
+   "structure": "多重递进复句",
+   "verify": [
+    "多重递进复句"
+   ],
+   "example": {
+    "zh": "他不但学习好，不但体育棒，而且还乐于助人。",
+    "pinyin": "Tā búdàn xuéxí hǎo, búdàn tǐyù bàng, érqiě hái lèyú zhùrén."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "宁可/宁愿……，也不……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "宁可/宁愿……，也不……",
+   "verify": [
+    "宁可/宁愿……，也不……"
+   ],
+   "example": {
+    "zh": "我宁愿走路，也不坐他的车。",
+    "pinyin": "Wǒ nìngyuàn zǒulù, yě bù zuò tā de chē."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "幸亏/幸好……，不然/否则……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "幸亏/幸好……，不然/否则……",
+   "verify": [
+    "幸亏/幸好……，不然/否则……"
+   ],
+   "example": {
+    "zh": "幸亏带了伞，不然就淋湿了。",
+    "pinyin": "Xìngkuī dài le sǎn, bùrán jiù línshī le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "引出凭借、依据",
+   "level": 7,
+   "category": "词类·介词",
+   "structure": "本着、基于、鉴于1、经、依",
+   "verify": [
+    "本着、基于、鉴于1、经、依"
+   ],
+   "example": {
+    "zh": "本着公平原则，我们重新投票。",
+    "pinyin": "Běnzhe gōngpíng yuánzé, wǒmen chóngxīn tóupiào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "引出对象",
+   "level": 7,
+   "category": "词类·介词",
+   "structure": "当着、就6",
+   "verify": [
+    "当着、就6"
+   ],
+   "example": {
+    "zh": "你当着大家的面说清楚。",
+    "pinyin": "Nǐ dāngzhe dàjiā de miàn shuō qīngchu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "引出时间、处所",
+   "level": 7,
+   "category": "词类·介词",
+   "structure": "打",
+   "verify": [
+    "打"
+   ],
+   "example": {
+    "zh": "他打小时候就爱画画。",
+    "pinyin": "Tā dǎ xiǎo shíhou jiù ài huàhuà."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "归根到底",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "归根到底",
+   "verify": [
+    "归根到底"
+   ],
+   "example": {
+    "zh": "归根到底，还是钱的问题。",
+    "pinyin": "Guīgēn-dàodǐ, háishì qián de wèntí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "忽A忽B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "忽A忽B",
+   "verify": [
+    "忽A忽B"
+   ],
+   "example": {
+    "zh": "这几天天气忽冷忽热。",
+    "pinyin": "Zhè jǐ tiān tiānqì hū lěng hū rè."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "总的来说",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "总的来说",
+   "verify": [
+    "总的来说"
+   ],
+   "example": {
+    "zh": "总的来说，成绩不错。",
+    "pinyin": "Zǒng de lái shuō, chéngjì bùcuò."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "总而言之",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "总而言之",
+   "verify": [
+    "总而言之"
+   ],
+   "example": {
+    "zh": "总而言之，我们不能放弃。",
+    "pinyin": "Zǒng'éryánzhī, wǒmen bù néng fàngqì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "想X之所想，急X之所急",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "想X之所想，急X之所急",
+   "verify": [
+    "想X之所想，急X之所急"
+   ],
+   "example": {
+    "zh": "他想员工之所想，急员工之所急。",
+    "pinyin": "Tā xiǎng yuángōng zhī suǒ xiǎng, jí yuángōng zhī suǒ jí."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "或A或B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "或A或B",
+   "verify": [
+    "或A或B"
+   ],
+   "example": {
+    "zh": "他或早或晚总会明白的。",
+    "pinyin": "Tā huò zǎo huò wǎn zǒng huì míngbai de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "或……，或……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "或……，或……",
+   "verify": [
+    "或……，或……"
+   ],
+   "example": {
+    "zh": "或去或留，你自己选吧。",
+    "pinyin": "Huò qù huò liú, nǐ zìjǐ xuǎn ba."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "指示代词",
+   "level": 7,
+   "category": "词类·代词",
+   "structure": "彼、这么着、兹",
+   "verify": [
+    "彼、这么着、兹"
+   ],
+   "example": {
+    "zh": "兹定于下周一上午开会。",
+    "pinyin": "Zī dìng yú xià zhōuyī shàngwǔ kāihuì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "换句话说",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "换句话说",
+   "verify": [
+    "换句话说"
+   ],
+   "example": {
+    "zh": "换句话说，你不同意。",
+    "pinyin": "Huàn jù huà shuō, nǐ bù tóngyì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "数量代词",
+   "level": 7,
+   "category": "词类·代词",
+   "structure": "若干",
+   "verify": [
+    "若干"
+   ],
+   "example": {
+    "zh": "若干问题有待解决。",
+    "pinyin": "Ruògān wèntí yǒudài jiějué."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "方式副词",
+   "level": 7,
+   "category": "词类·副词",
+   "structure": "按理、按说、百般、不由得、趁机、趁早、大 肆、断然、公然、火速、截然、竭力、尽情、 就近、刻意、拼命、强行、任意、日趋、如 期、擅自、私自、特此、瞎、一并、一举、 一手、毅然、有意、照常、照例、照样、 执意、骤然、逐一、专程",
+   "verify": [
+    "按理、按说、百般、不由得、趁机、趁早、大 肆、断然、公然、火速、截然、竭力、尽情、 就近、刻意、拼命、强行、任意、日趋、如 期、擅自、私自、特此、瞎、一并、一举、 一手、毅然、有意、照常、照例、照样、 执意、骤然、逐一、专程"
+   ],
+   "example": {
+    "zh": "他竭力保持冷静。",
+    "pinyin": "Tā jiélì bǎochí lěngjìng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "无A不B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "无A不B",
+   "verify": [
+    "无A不B"
+   ],
+   "example": {
+    "zh": "他博学多才，无所不知。",
+    "pinyin": "Tā bóxué-duōcái, wú suǒ bù zhī."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "无A可B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "无A可B",
+   "verify": [
+    "无A可B"
+   ],
+   "example": {
+    "zh": "我无话可说。",
+    "pinyin": "Wǒ wú huà kě shuō."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "无论……与否，都……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "无论……与否，都……",
+   "verify": [
+    "无论……与否，都……"
+   ],
+   "example": {
+    "zh": "无论成功与否，都要试试。",
+    "pinyin": "Wúlùn chénggōng yǔ fǒu, dōu yào shìshi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "无论如何",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "无论如何",
+   "verify": [
+    "无论如何"
+   ],
+   "example": {
+    "zh": "无论如何，我都支持你。",
+    "pinyin": "Wúlùn rúhé, wǒ dōu zhīchí nǐ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "无非/不过/只是……罢了/而已",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "无非/不过/只是……罢了/而已",
+   "verify": [
+    "无非/不过/只是……罢了/而已"
+   ],
+   "example": {
+    "zh": "他无非是想要个说法。",
+    "pinyin": "Tā wúfēi shì xiǎng yào ge shuōfǎ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "时A时B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "时A时B",
+   "verify": [
+    "时A时B"
+   ],
+   "example": {
+    "zh": "他的情绪时好时坏。",
+    "pinyin": "Tā de qíngxù shí hǎo shí huài."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "时间副词",
+   "level": 7,
+   "category": "词类·副词",
+   "structure": "姑且、即、即时、届时、尽早、就此、历来、 尚、随即、向来、一经、暂且、早日",
+   "verify": [
+    "姑且、即、即时、届时、尽早、就此、历来、 尚、随即、向来、一经、暂且、早日"
+   ],
+   "example": {
+    "zh": "会议即将开始。",
+    "pinyin": "Huìyì jíjiāng kāishǐ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "有什么+动词+头儿",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "有什么+动词+头儿",
+   "verify": [
+    "有什么+动词+头儿"
+   ],
+   "example": {
+    "zh": "这有什么吃头儿。",
+    "pinyin": "Zhè yǒu shénme chītóur."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "有何X",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "有何X",
+   "verify": [
+    "有何X"
+   ],
+   "example": {
+    "zh": "这有何难。",
+    "pinyin": "Zhè yǒu hé nán."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "概括来说",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "概括来说",
+   "verify": [
+    "概括来说"
+   ],
+   "example": {
+    "zh": "概括来说，主要有三个原因。",
+    "pinyin": "Gàikuò lái shuō, zhǔyào yǒu sān ge yuányīn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "比较句5",
+   "level": 7,
+   "category": "句子的类型·特殊句型",
+   "structure": "A+形容词+于/过+B",
+   "verify": [
+    "A+形容词+于/过+B"
+   ],
+   "example": {
+    "zh": "他的成绩优于我。",
+    "pinyin": "Tā de chéngjì yōuyú wǒ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "没什么+动词+头儿",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "没什么+动词+头儿",
+   "verify": [
+    "没什么+动词+头儿"
+   ],
+   "example": {
+    "zh": "这没什么看头儿。",
+    "pinyin": "Zhè méi shénme kàntóur."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "没什么好+动词+的",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "没什么好+动词+的",
+   "verify": [
+    "没什么好+动词+的"
+   ],
+   "example": {
+    "zh": "这没什么好担心的。",
+    "pinyin": "Zhè méi shénme hǎo dānxīn de."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "爱A不A",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "爱A不A",
+   "verify": [
+    "爱A不A"
+   ],
+   "example": {
+    "zh": "你爱去不去。",
+    "pinyin": "Nǐ ài qù bù qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "疑问代词",
+   "level": 7,
+   "category": "词类·代词",
+   "structure": "何、怎么着",
+   "verify": [
+    "何、怎么着"
+   ],
+   "example": {
+    "zh": "此事谈何容易。",
+    "pinyin": "Cǐ shì tán hé róngyì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "看在X的面子上",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "看在X的面子上",
+   "verify": [
+    "看在X的面子上"
+   ],
+   "example": {
+    "zh": "看在我的面子上，原谅他吧。",
+    "pinyin": "Kàn zài wǒ de miànzi shang, yuánliàng tā ba."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "真是的",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "真是的",
+   "verify": [
+    "真是的"
+   ],
+   "example": {
+    "zh": "真是的，又迟到了。",
+    "pinyin": "Zhēn shì de, yòu chídào le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "程度副词",
+   "level": 7,
+   "category": "词类·副词",
+   "structure": "大为、分外、何等、极度、极力、略、略微、 颇、稍稍、万分、微、尤为、愈加、越发",
+   "verify": [
+    "大为、分外、何等、极度、极力、略、略微、 颇、稍稍、万分、微、尤为、愈加、越发"
+   ],
+   "example": {
+    "zh": "他万分激动。",
+    "pinyin": "Tā wànfēn jīdòng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "简（而）言之",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "简（而）言之",
+   "verify": [
+    "简（而）言之"
+   ],
+   "example": {
+    "zh": "简而言之，计划取消了。",
+    "pinyin": "Jiǎn'éryánzhī, jìhuà qǔxiāo le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "类前缀",
+   "level": 7,
+   "category": "语素·类前缀",
+   "structure": "后—、亲—",
+   "verify": [
+    "后—、亲—"
+   ],
+   "example": {
+    "zh": "他十分关心后代的教育。",
+    "pinyin": "Tā shífēn guānxīn hòudài de jiàoyù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "类后缀",
+   "level": 7,
+   "category": "语素·类后缀",
+   "structure": "—观、—鬼、—界、—然、—坛、—为、—制",
+   "verify": [
+    "—观、—鬼、—界、—然、—坛、—为、—制"
+   ],
+   "example": {
+    "zh": "他学的是法律专业。",
+    "pinyin": "Tā xué de shì fǎlǜ zhuānyè."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "纵然/纵使……，也……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "纵然/纵使……，也……",
+   "verify": [
+    "纵然/纵使……，也……"
+   ],
+   "example": {
+    "zh": "纵然有再多困难，我也不会退缩。",
+    "pinyin": "Zòngrán yǒu zài duō kùnnan, wǒ yě bù huì tuìsuō."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "综上所述",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "综上所述",
+   "verify": [
+    "综上所述"
+   ],
+   "example": {
+    "zh": "综上所述，这个方案可行。",
+    "pinyin": "Zōngshàng suǒ shù, zhè ge fāng'àn kěxíng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "老实说",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "老实说",
+   "verify": [
+    "老实说"
+   ],
+   "example": {
+    "zh": "老实说，我不太想去。",
+    "pinyin": "Lǎoshi shuō, wǒ bù tài xiǎng qù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "自A自B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "自A自B",
+   "verify": [
+    "自A自B"
+   ],
+   "example": {
+    "zh": "他自言自语。",
+    "pinyin": "Tā zìyán-zìyǔ."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "范围副词",
+   "level": 7,
+   "category": "词类·副词",
+   "structure": "大体、概、皆、尽、均、通通、统统、唯、唯 独、唯有、无非、一概",
+   "verify": [
+    "大体、概、皆、尽、均、通通、统统、唯、唯 独、唯有、无非、一概"
+   ],
+   "example": {
+    "zh": "大家统统同意了。",
+    "pinyin": "Dàjiā tǒngtǒng tóngyì le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "莫过于……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "莫过于……",
+   "verify": [
+    "莫过于……"
+   ],
+   "example": {
+    "zh": "最大的幸福莫过于家人的陪伴。",
+    "pinyin": "Zuì dà de xìngfú mòguòyú jiārén de péibàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "虽说……，但/可……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "虽说……，但/可……",
+   "verify": [
+    "虽说……，但/可……"
+   ],
+   "example": {
+    "zh": "虽说贵了点儿，可质量好啊。",
+    "pinyin": "Suī shuō guì le diǎnr, kě zhìliàng hǎo a."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "要X有/没X，要Y有/没Y",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "要X有/没X，要Y有/没Y",
+   "verify": [
+    "要X有/没X，要Y有/没Y"
+   ],
+   "example": {
+    "zh": "他现在要钱有钱，要名有名。",
+    "pinyin": "Tā xiànzài yào qián yǒu qián, yào míng yǒu míng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "要（让）我说",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "要（让）我说",
+   "verify": [
+    "要（让）我说"
+   ],
+   "example": {
+    "zh": "要我说，就这么办。",
+    "pinyin": "Yào wǒ shuō, jiù zhème bàn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "视……而定",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "视……而定",
+   "verify": [
+    "视……而定"
+   ],
+   "example": {
+    "zh": "去不去视情况而定。",
+    "pinyin": "Qù bu qù shì qíngkuàng ér dìng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "解说复句",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "所谓……，就是……",
+   "verify": [
+    "所谓……，就是……"
+   ],
+   "example": {
+    "zh": "所谓文化，就是一个民族的生活方式。",
+    "pinyin": "Suǒwèi wénhuà, jiùshì yī ge mínzú de shēnghuó fāngshì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "话是这么说",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "话是这么说",
+   "verify": [
+    "话是这么说"
+   ],
+   "example": {
+    "zh": "话是这么说，可做起来难。",
+    "pinyin": "Huà shì zhème shuō, kě zuò qǐlai nán."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "话（又）说回来",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "话（又）说回来",
+   "verify": [
+    "话（又）说回来"
+   ],
+   "example": {
+    "zh": "话又说回来，他也挺可怜。",
+    "pinyin": "Huà yòu shuō huílai, tā yě tǐng kělián."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "该X（就）X，该Y（就）Y",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "该X（就）X，该Y（就）Y",
+   "verify": [
+    "该X（就）X，该Y（就）Y"
+   ],
+   "example": {
+    "zh": "该吃就吃，该睡就睡。",
+    "pinyin": "Gāi chī jiù chī, gāi shuì jiù shuì."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "语气副词",
+   "level": 7,
+   "category": "词类·副词",
+   "structure": "必定、必将、不妨、不免、反倒、非得、分 明、怪不得、果真、好在、何必、竟、愣、 莫非、难怪、宁可、宁愿、碰巧、偏偏、恰 巧、切、情愿、势必、索性、万万、未免、 务必、幸好、幸亏、终究、何不、何尝、何苦",
+   "verify": [
+    "必定、必将、不妨、不免、反倒、非得、分 明、怪不得、果真、好在、何必、竟、愣、 莫非、难怪、宁可、宁愿、碰巧、偏偏、恰 巧、切、情愿、势必、索性、万万、未免、 务必、幸好、幸亏、终究、何不、何尝、何苦"
+   ],
+   "example": {
+    "zh": "他偏偏不信。",
+    "pinyin": "Tā piānpian bù xìn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "语气助词",
+   "level": 7,
+   "category": "词类·助词",
+   "structure": "罢了、也罢、矣",
+   "verify": [
+    "罢了、也罢、矣"
+   ],
+   "example": {
+    "zh": "他只是说说罢了。",
+    "pinyin": "Tā zhǐshì shuō shuō bàle."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "说到哪儿去了",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "说到哪儿去了",
+   "verify": [
+    "说到哪儿去了"
+   ],
+   "example": {
+    "zh": "你看你，说到哪儿去了。",
+    "pinyin": "Nǐ kàn nǐ, shuō dào nǎr qù le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "说真的",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "说真的",
+   "verify": [
+    "说真的"
+   ],
+   "example": {
+    "zh": "说真的，我不知道。",
+    "pinyin": "Shuō zhēn de, wǒ bù zhīdào."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "谈何……",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "谈何……",
+   "verify": [
+    "谈何……"
+   ],
+   "example": {
+    "zh": "谈何容易！",
+    "pinyin": "Tán hé róngyì!"
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  },
+  {
+   "point": "这不",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "这不",
+   "verify": [
+    "这不"
+   ],
+   "example": {
+    "zh": "这不，他来了。",
+    "pinyin": "Zhè bù, tā lái le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "这样一来",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "这样一来",
+   "verify": [
+    "这样一来"
+   ],
+   "example": {
+    "zh": "这样一来，问题就解决了。",
+    "pinyin": "Zhèyàng yīlái, wèntí jiù jiějué le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "连A带B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "连A带B",
+   "verify": [
+    "连A带B"
+   ],
+   "example": {
+    "zh": "他连人带车翻进了沟里。",
+    "pinyin": "Tā lián rén dài chē fān jìn le gōu li."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "连……都……，更不用说……了",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "连……都……，更不用说……了",
+   "verify": [
+    "连……都……，更不用说……了"
+   ],
+   "example": {
+    "zh": "连老师都不会，更不用说我们了。",
+    "pinyin": "Lián lǎoshī dōu bù huì, gèng bùyòng shuō wǒmen le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "连接分句或句子",
+   "level": 7,
+   "category": "词类·连词",
+   "structure": "鉴于2、况且、免得、若、倘若、以防",
+   "verify": [
+    "鉴于2、况且、免得、若、倘若、以防"
+   ],
+   "example": {
+    "zh": "明天有雨，况且路远，别去了。",
+    "pinyin": "Míngtiān yǒu yǔ, kuǎngqiě lù yuǎn, bié qù le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "连接词或词组以及 分句或句子",
+   "level": 7,
+   "category": "词类·连词",
+   "structure": "加之、乃至、且",
+   "verify": [
+    "加之、乃至、且"
+   ],
+   "example": {
+    "zh": "天气不好，加之身体不舒服，他请假了。",
+    "pinyin": "Tiānqì bù hǎo, jiāzhī shēntǐ bù shūfu, tā qǐng jià le."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "退一步说",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "退一步说",
+   "verify": [
+    "退一步说"
+   ],
+   "example": {
+    "zh": "退一步说，我们也可以原谅他。",
+    "pinyin": "Tuì yī bù shuō, wǒmen yě kěyǐ yuánliàng tā."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "非A非B",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "非A非B",
+   "verify": [
+    "非A非B"
+   ],
+   "example": {
+    "zh": "咱们非亲非故，不用这么客气。",
+    "pinyin": "Zánmen fēi qīn fēi gù, bùyòng zhème kèqi."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "非得……才……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "非得……才……",
+   "verify": [
+    "非得……才……"
+   ],
+   "example": {
+    "zh": "他非得亲眼看见才相信。",
+    "pinyin": "Tā fēiděi qīnyǎn kànjiàn cái xiāngxìn."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "频率副词",
+   "level": 7,
+   "category": "词类·副词",
+   "structure": "连连、屡次、屡屡、频、时而、时时、相继、 一个劲（儿）、一连、再度",
+   "verify": [
+    "连连、屡次、屡屡、频、时而、时时、相继、 一个劲（儿）、一连、再度"
+   ],
+   "example": {
+    "zh": "他连连点头。",
+    "pinyin": "Tā liánlián diǎntóu."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 403
+   }
+  },
+  {
+   "point": "（你）还别说",
+   "level": 7,
+   "category": "短语·固定短语",
+   "structure": "（你）还别说",
+   "verify": [
+    "（你）还别说"
+   ],
+   "example": {
+    "zh": "你还别说，这个办法真管用。",
+    "pinyin": "Nǐ hái bié shuō, zhè ge bànfǎ zhēn guǎnyòng."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 404
+   }
+  },
+  {
+   "point": "（因）……，故……",
+   "level": 7,
+   "category": "句子的类型·简单复句",
+   "structure": "（因）……，故……",
+   "verify": [
+    "（因）……，故……"
+   ],
+   "example": {
+    "zh": "因时间关系，故不再详述。",
+    "pinyin": "Yīn shíjiān guānxì, gù bù zài xiáng shù."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 406
+   }
+  },
+  {
+   "point": "（在）……之余",
+   "level": 7,
+   "category": "固定格式",
+   "structure": "（在）……之余",
+   "verify": [
+    "（在）……之余"
+   ],
+   "example": {
+    "zh": "工作之余，他喜欢读书。",
+    "pinyin": "Gōngzuò zhī yú, tā xǐhuan dúshū."
+   },
+   "example_source": "project-authored",
+   "provenance": {
+    "outline_page": 405
+   }
+  }
+ ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "hanzimate-ai",
+  "version": "0.1.0",
+  "private": true,
+  "packageManager": "pnpm@11.19.0",
+  "scripts": {
+    "dev:web": "pnpm --filter @hanzimate/web dev",
+    "build:web": "pnpm --filter @hanzimate/web build",
+    "lint:web": "pnpm --filter @hanzimate/web lint",
+    "typecheck:web": "pnpm --filter @hanzimate/web typecheck"
+  }
+}

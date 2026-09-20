@@ -1,0 +1,31 @@
+.DS_Store
+Thumbs.db
+
+.env
+.env.*
+!.env.example
+
+node_modules/
+.next/
+out/
+coverage/
+pnpm-debug.log*
+output/
+.playwright-cli/
+*.tsbuildinfo
+
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+*.egg-info/
+
+.idea/
+.vscode/
+
+data/
+# HSK 知识库来源资料：官方 PDF 本体与种子仓库不入 git（见
+# docs/architecture/hsk-kb-sources.md 的 URL/哈希/许可证清单；可被管线重下）
+apps/api/data/sources/
+*.sqlite3

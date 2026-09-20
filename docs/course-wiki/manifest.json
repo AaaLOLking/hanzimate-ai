@@ -1,0 +1,111 @@
+{
+  "format_version": 1,
+  "releases": [
+    {
+      "course_id": "10000000-0000-4000-8000-000000000001",
+      "version_id": "11000000-0000-4000-8000-000000000001",
+      "version": 1,
+      "catalog_sha256": "01ab4cbbf7bbd46e5a55ca9fcbb8ac38ced4b7d66fce139750ddba1807e808c6",
+      "lessons": [
+        {
+          "id": "12000000-0000-4000-8000-000000000001",
+          "slug": "canteen-measure-words",
+          "track": "legacy",
+          "sha256": "0447ab196ad0659866b0316d895960e191123f3d609596f1e755c01c50617f6d"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000002",
+          "slug": "directions-first-then",
+          "track": "legacy",
+          "sha256": "e25c85926f964f98ce19b35afbd9e57352f6cae5d23d2514fb7729afc26639a0"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000003",
+          "slug": "ba-result-complement",
+          "track": "legacy",
+          "sha256": "90f7191f69668872688957a9747eb87f7f97040d6bcfcdd0543a10d520afa135"
+        }
+      ]
+    },
+    {
+      "course_id": "10000000-0000-4000-8000-000000000001",
+      "version_id": "11000000-0000-4000-8000-000000000002",
+      "version": 2,
+      "catalog_sha256": "155c9eef7e37554f5665c800c51efdb9d5352109ae528545df15901e12b40b31",
+      "lessons": [
+        {
+          "id": "12000000-0000-4000-8000-000000000101",
+          "slug": "canteen-measure-words",
+          "track": "daily-life",
+          "sha256": "09c01db9ab34c5a8b9ef77789327d32c56d0692865291600047e268c0ff5aff1"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000102",
+          "slug": "directions-first-then",
+          "track": "daily-life",
+          "sha256": "f1b67e94789cca5d5cf34251ed24e28a62153c905eea691117d90b58e17999f6"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000103",
+          "slug": "ba-result-complement",
+          "track": "daily-life",
+          "sha256": "9a8c43de2faf4085b3a19a93a2ac27403c3d4e83ad75b2f81132a854a580d5d5"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000104",
+          "slug": "dorm-repair-request",
+          "track": "daily-life",
+          "sha256": "469ad5313d6e88db7babaec5d9f6c2f31e877aa95159207ba78ac09a79e8f27d"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000105",
+          "slug": "parcel-pickup-code",
+          "track": "daily-life",
+          "sha256": "c84ac822d2a17e049586ca5dfe846c1a94dda3c49a27068fb9553d8a7aeefe01"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000106",
+          "slug": "reschedule-campus-appointment",
+          "track": "daily-life",
+          "sha256": "ebd2ed5311853652f3a1b276f016b60a31051f7af804f60988ebb5ac88c0eb9c"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000107",
+          "slug": "hsk-bi-comparison",
+          "track": "hsk",
+          "sha256": "1181286a02b569975e7c993578808668b5c85fc67f858048ca293ac120abda14"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000108",
+          "slug": "hsk-experience-guo",
+          "track": "hsk",
+          "sha256": "f0617ed826a81bd508c37e6700759bd30d3837c5412741e08dd9cf96e4364a66"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000109",
+          "slug": "hsk-notice-only-then",
+          "track": "hsk",
+          "sha256": "f8c90bba477cf0e06ea93f1cafd24e599657e43a07d7b81967a472aaed82cebe"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000110",
+          "slug": "hsk-although-but-choice",
+          "track": "hsk",
+          "sha256": "54b5387a799e1b0d1fd0aa72afcf26149bec370002b51b33590ac6726fdf8011"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000111",
+          "slug": "hsk-directional-complements",
+          "track": "hsk",
+          "sha256": "f426e8393279837b2050f7d012235f7bef489ef4e499de9b9f00ebeed9817d9d"
+        },
+        {
+          "id": "12000000-0000-4000-8000-000000000112",
+          "slug": "hsk-sequenced-narration",
+          "track": "hsk",
+          "sha256": "8f3d7806dd68779aeacc355660f478917d602d4d6cd4fa25acc06e4616bdcff2"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+.reviewPromo { display: flex; flex: 1; flex-direction: column; gap: 14px; min-height: 0; }
+.reviewPromo h1 { font-size: 28px; line-height: 1.35; font-weight: 500; margin: 0; }
+.reviewPromo p { font-size: 12px; color: #b8c9c0; line-height: 1.9; margin: 0; }
+.reviewPromo .footnote { margin-top: auto; padding-top: 24px; }
+
+.stats { display: flex; gap: 30px; padding: 18px 0; border-top: 1px solid #3b5045; border-bottom: 1px solid #3b5045; }
+.stats div { display: grid; gap: 9px; }
+.stats strong { font-size: 26px; }.stats span { font-size: 11px; color: #bacbbf; }
+
+.reviewMain { padding: 32px clamp(20px, 3vw, 48px) 60px; min-width: 0; }
+.header { display: flex; justify-content: space-between; align-items: center; gap: 10px; margin-bottom: 24px; }
+.header h2, .rhythm h2 { margin: 10px 0; font-size: 26px; font-weight: 500; }
+.practice { padding: 30px; border: 1px solid #dbe3db; border-radius: 18px; background: white; }
+.practiceTop { display: flex; justify-content: space-between; gap: 8px; color: #6d8274; font-size: 11px; }
+.practice h2 { font-size: 27px; margin: 24px 0 12px; font-weight: 500; }
+.prompt { font-size: 16px; line-height: 1.9; margin-bottom: 28px; }
+.practice label { display: block; font-size: 13px; margin-bottom: 12px; }
+.practice textarea { width: 100%; resize: vertical; min-height: 140px; padding: 16px; background: #f8faf6; border: 1px solid #cad8cd; border-radius: 10px; color: #1c392f; font: inherit; line-height: 1.8; }
+.reviewMain button:disabled { opacity: .55; cursor: not-allowed; }
+.submitRow { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-top: 20px; }
+.submitRow small, .footnote, .upcoming small { color: #758378; font-size: 12px; line-height: 1.8; }
+.feedback { border-top: 1px solid #e0e7df; padding-top: 22px; line-height: 1.8; font-size: 14px; }
+.feedback small { color: #708374; }.feedback > div { margin-top: 18px; }
+.reference { background: #eef5ed; padding: 20px; border-radius: 12px; }.reference strong { display: block; font-size: 19px; margin-top: 8px; }
+.ratings { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.ratings button { text-align: left; background: white; color: #234b3d; border: 1px solid #c6d5c9; border-radius: 10px; padding: 14px; cursor: pointer; }
+.ratings button:hover { background: #eef5ed; border-color: #477b63; }.ratings strong, .ratings small { display: block; }.ratings strong { margin-bottom: 6px; }
+.success, .reminder { display: flex; flex-direction: column; gap: 8px; padding: 18px 22px; background: #eaf4e9; border: 1px solid #c5d9c4; border-radius: 12px; margin-bottom: 22px; font-size: 13px; line-height: 1.6; }
+.reminder { flex-direction: row; align-items: center; justify-content: space-between; }.reminder p { margin: 0; }.reminder button { border: 0; background: transparent; cursor: pointer; white-space: nowrap; text-decoration: underline; }
+.error { color: #a83835; background: #fff0e9; padding: 16px; border-radius: 10px; line-height: 1.7; }
+.empty { border: 1px solid #dce5da; border-radius: 16px; background: white; padding: 48px 28px; text-align: center; }
+.empty > span { display: inline-grid; place-items: center; background: #e6f1e3; border-radius: 50%; width: 56px; height: 56px; font-size: 24px; }.empty h2 { font-weight: 500; }.empty p { color: #718373; line-height: 1.8; margin-bottom: 28px; }.empty a { display: inline-flex; }
+.upcoming { margin-top: 28px; }.upcoming h3 { font-weight: 500; }.upcoming > div { display: flex; justify-content: space-between; gap: 12px; border-bottom: 1px solid #dce3d9; padding: 14px 0; font-size: 13px; }.upcoming > div span { color: #788577; white-space: nowrap; }.upcoming small { display: block; margin-top: 14px; }
+.history { margin-top: 30px; font-size: 12px; color: #768271; line-height: 1.9; }.history summary { cursor: pointer; }
+.rhythm { border-left: 0; padding: 30px 24px 40px; }
+.rhythm > p { color: #798674; font-size: 12px; line-height: 1.8; }
+.rhythm form { display: flex; flex-direction: column; gap: 11px; margin-top: 26px; }.rhythm label, .rhythm legend { font-size: 12px; color: #52705c; }
+.rhythm input:not([type=checkbox]), .rhythm select { width: 100%; border: 1px solid #d0ddcd; background: #fafcf8; border-radius: 7px; padding: 11px; font: inherit; font-size: 13px; color: #2b4b38; }
+.rhythm small { font-size: 11px; line-height: 1.8; color: #73846f; }.rhythm fieldset { padding: 14px 0; border: 0; }
+.days { display: flex; justify-content: space-between; gap: 6px; margin-top: 10px; }.days label { display: flex; flex-direction: column; align-items: center; gap: 7px; }.days input, .checkLabel input { accent-color: #23513f; }
+.rhythm .checkLabel { display: flex; gap: 8px; align-items: center; margin-top: 12px; }.rhythm button { justify-content: center; margin-top: 12px; }.saved { font-size: 12px; color: #267448; line-height: 1.8; }

@@ -1,0 +1,462 @@
+.hero {
+  background:
+    radial-gradient(circle at 75% 20%, rgba(103, 169, 133, 0.2), transparent 30%),
+    #172720;
+  color: #ffffff;
+  padding: 54px max(24px, calc((100% - 1040px) / 2)) 78px;
+}
+
+.hero h1 {
+  font-family: "Noto Serif SC", "Songti SC", serif;
+  font-size: clamp(34px, 5vw, 52px);
+  font-weight: 500;
+  margin: 12px 0;
+}
+
+.hero > p:last-child {
+  color: #adbbb4;
+  font-size: 12px;
+  line-height: 1.8;
+  max-width: 650px;
+}
+
+.kicker {
+  color: #628572;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.13em;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.hero .kicker {
+  color: #83a894;
+}
+
+.content {
+  display: grid;
+  gap: 20px;
+  margin: -34px auto 0;
+  max-width: 1088px;
+  padding: 0 24px 90px;
+  position: relative;
+}
+
+.identityCard,
+.panel,
+.usagePanel,
+.dataPanel {
+  background: #ffffff;
+  border: 1px solid #dfe4df;
+  border-radius: 15px;
+  box-shadow: 0 14px 38px rgba(27, 42, 35, 0.055);
+}
+
+.identityCard {
+  align-items: center;
+  display: grid;
+  gap: 17px;
+  grid-template-columns: 52px 1fr auto;
+  padding: 23px 26px;
+}
+
+.avatar {
+  align-items: center;
+  background: #193b2f;
+  border-radius: 14px;
+  color: #ffffff;
+  display: flex;
+  font-size: 14px;
+  height: 50px;
+  justify-content: center;
+  width: 50px;
+}
+
+.identityCard h2,
+.panel h2,
+.usagePanel h2,
+.dataPanel h2 {
+  font-family: "Noto Serif SC", "Songti SC", serif;
+  font-weight: 500;
+}
+
+.identityCard h2 {
+  font-size: 21px;
+  margin: 5px 0 3px;
+}
+
+.identityCard div > p:last-child,
+.bodyCopy,
+.usageIntro > p:last-child,
+.dataPanel > div > p:last-child {
+  color: #69736f;
+  font-size: 10px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.identityCard > a,
+.inlineLink {
+  color: #1d6b4f;
+  font-size: 10px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.stats {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.stats article,
+.usageNumbers article {
+  background: #eaf1eb;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 18px 20px;
+}
+
+.stats strong,
+.usageNumbers strong {
+  color: #204f3d;
+  font-family: ui-monospace, Consolas, monospace;
+  font-size: 22px;
+}
+
+.stats span,
+.usageNumbers span {
+  color: #708078;
+  font-size: 9px;
+}
+
+.twoColumns {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.panel {
+  padding: 26px;
+}
+
+.panel h2,
+.usagePanel h2,
+.dataPanel h2 {
+  font-size: 21px;
+  margin: 8px 0 10px;
+}
+
+.definitionList {
+  border-bottom: 1px solid #e8ece8;
+  border-top: 1px solid #e8ece8;
+  display: grid;
+  gap: 12px;
+  margin: 20px 0;
+  padding: 15px 0;
+}
+
+.definitionList div {
+  display: flex;
+  font-size: 9px;
+  justify-content: space-between;
+}
+
+.definitionList dt {
+  color: #7b8680;
+}
+
+.definitionList dd {
+  margin: 0;
+}
+
+.skillScores {
+  display: grid;
+  gap: 9px;
+}
+
+.skillScores > div {
+  align-items: center;
+  display: grid;
+  font-size: 9px;
+  gap: 10px;
+  grid-template-columns: 32px 1fr 25px;
+}
+
+.skillScores i {
+  background: #e8ece8;
+  border-radius: 99px;
+  height: 5px;
+  overflow: hidden;
+}
+
+.skillScores b {
+  background: #3f8868;
+  display: block;
+  height: 100%;
+}
+
+.policyList {
+  list-style: none;
+  margin: 18px 0;
+  padding: 0;
+}
+
+.policyList li {
+  border-top: 1px solid #e8ece8;
+  display: flex;
+  font-size: 9px;
+  justify-content: space-between;
+  padding: 13px 0;
+}
+
+.policyList strong {
+  color: #2f7556;
+}
+
+.usagePanel {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 1.2fr 1fr;
+  padding: 27px;
+}
+
+.usageNumbers {
+  display: grid;
+  gap: 8px;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.usageNumbers article {
+  padding: 14px;
+}
+
+.costNote,
+.emptyRuns {
+  background: #faf8f0;
+  border: 1px solid #ede7d4;
+  border-radius: 9px;
+  color: #766d55;
+  font-size: 9px;
+  grid-column: 1 / -1;
+  line-height: 1.6;
+  margin: 0;
+  padding: 10px 12px;
+}
+
+.runList {
+  border-top: 1px solid #e8ece8;
+  grid-column: 1 / -1;
+  list-style: none;
+  margin: 0;
+  padding: 8px 0 0;
+}
+
+.runList li {
+  align-items: center;
+  border-bottom: 1px solid #eef1ee;
+  display: grid;
+  gap: 12px;
+  grid-template-columns: 56px 1fr auto;
+  padding: 11px 2px;
+}
+
+.runList li > span:nth-child(2) {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.runList strong,
+.runList small,
+.runList time {
+  font-size: 9px;
+}
+
+.runList small,
+.runList time {
+  color: #808b85;
+}
+
+.runStatus {
+  background: #e8f2eb;
+  border-radius: 99px;
+  color: #397457;
+  font-size: 8px;
+  padding: 5px 8px;
+  text-align: center;
+}
+
+.runStatus.failed,
+.runStatus.blocked {
+  background: #f6e9dc;
+  color: #945b36;
+}
+
+.dataPanel {
+  align-items: start;
+  display: grid;
+  gap: 24px;
+  grid-template-columns: 1fr auto;
+  padding: 27px;
+}
+
+.exportButton {
+  background: #193b2f;
+  border: 0;
+  border-radius: 9px;
+  color: #ffffff;
+  font-size: 10px;
+  padding: 11px 15px;
+}
+
+.exportButton:disabled,
+.dangerZone button:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+}
+
+.dangerZone {
+  border-top: 1px solid #e8ece8;
+  grid-column: 1 / -1;
+  padding-top: 16px;
+}
+
+.dangerZone summary {
+  color: #9a4e40;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.dangerZone > p {
+  color: #7d716c;
+  font-size: 9px;
+}
+
+.dangerZone form {
+  display: grid;
+  gap: 8px;
+  max-width: 440px;
+}
+
+.dangerZone label {
+  color: #6f7974;
+  font-size: 9px;
+}
+
+.dangerZone input {
+  border: 1px solid #d9dfda;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+.dangerZone button {
+  background: #8b453a;
+  border: 0;
+  border-radius: 8px;
+  color: #ffffff;
+  justify-self: start;
+  margin-top: 4px;
+  padding: 10px 14px;
+}
+
+.error,
+.loading {
+  margin: 30px auto;
+  max-width: 1040px;
+  padding: 14px 20px;
+}
+
+.error {
+  background: #f6e7e4;
+  color: #8b453a;
+}
+
+.deletedShell {
+  align-items: center;
+  background: #172720;
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 24px;
+}
+
+.deletedCard {
+  background: #ffffff;
+  border-radius: 16px;
+  max-width: 520px;
+  padding: 42px;
+  text-align: center;
+}
+
+.deletedCard > span {
+  align-items: center;
+  background: #2f7556;
+  border-radius: 50%;
+  color: #ffffff;
+  display: flex;
+  font-size: 20px;
+  height: 46px;
+  justify-content: center;
+  margin: 0 auto 18px;
+  width: 46px;
+}
+
+.deletedCard h1 {
+  font-family: "Noto Serif SC", serif;
+}
+
+.deletedCard p {
+  color: #69736f;
+  font-size: 10px;
+  line-height: 1.7;
+}
+
+.deletedCard a {
+  color: #1d6b4f;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+@media (max-width: 760px) {
+  .hero {
+    padding-bottom: 65px;
+  }
+
+  .content {
+    padding-left: 16px;
+    padding-right: 16px;
+  }
+
+  .identityCard {
+    grid-template-columns: 45px 1fr;
+  }
+
+  .identityCard > a {
+    grid-column: 2;
+  }
+
+  .stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .twoColumns,
+  .usagePanel,
+  .dataPanel {
+    grid-template-columns: 1fr;
+  }
+
+  .usageNumbers {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .dataPanel > *,
+  .dangerZone,
+  .costNote,
+  .runList {
+    grid-column: 1;
+  }
+}

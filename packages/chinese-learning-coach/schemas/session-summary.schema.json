@@ -1,0 +1,41 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hanzimate.local/schemas/session-summary.schema.json",
+  "title": "Learning Session Summary",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "session_id",
+    "task_result",
+    "highlights",
+    "candidate_errors",
+    "next_step",
+    "model_version",
+    "skill_version"
+  ],
+  "properties": {
+    "session_id": {"type": "string", "minLength": 1},
+    "task_result": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "explanation"],
+      "properties": {
+        "status": {"type": "string", "enum": ["completed", "partially-completed", "not-completed"]},
+        "explanation": {"type": "string", "minLength": 1}
+      }
+    },
+    "highlights": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {"type": "string", "minLength": 1}
+    },
+    "candidate_errors": {
+      "type": "array",
+      "maxItems": 3,
+      "items": {"$ref": "error-event.schema.json"}
+    },
+    "next_step": {"type": "string", "minLength": 1},
+    "model_version": {"type": "string", "minLength": 1},
+    "skill_version": {"type": "string", "minLength": 1}
+  }
+}

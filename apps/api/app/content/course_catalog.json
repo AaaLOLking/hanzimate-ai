@@ -1,0 +1,239 @@
+{
+  "course": {
+    "id": "10000000-0000-4000-8000-000000000001",
+    "version_id": "11000000-0000-4000-8000-000000000001",
+    "slug": "campus-chinese-foundations",
+    "version": 1,
+    "title": "校园中文生存课",
+    "description": "把 HSK 2–4 的高频语言点放进食堂、问路和宿舍场景，每课只解决一个可观察目标。",
+    "framework": "GF0025-2021 + current-hsk-1-6",
+    "level": "HSK2–4",
+    "skill_version": "0.1.0"
+  },
+  "source_catalog": [
+    {
+      "id": "GF0025-2021",
+      "title": "国际中文教育中文水平等级标准",
+      "publisher": "中华人民共和国教育部、国家语言文字工作委员会",
+      "url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/202111/t20211118_580755.html"
+    },
+    {
+      "id": "HSK2-SYLLABUS",
+      "title": "汉语水平考试 HSK（二级）考试大纲",
+      "publisher": "中文考试服务网",
+      "url": "https://download.chinesetest.cn/newhsk-site/Syllabus/H2_DG.pdf"
+    },
+    {
+      "id": "HSK3-SYLLABUS",
+      "title": "汉语水平考试 HSK（三级）考试大纲",
+      "publisher": "中文考试服务网",
+      "url": "https://download.chinesetest.cn/newhsk-site/Syllabus/H3_DG.pdf"
+    }
+  ],
+  "lessons": [
+    {
+      "position": 1,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000001",
+        "slug": "canteen-measure-words",
+        "version": 1,
+        "title": "在食堂说对一碗、一份、一杯",
+        "framework": "current-hsk-1-6",
+        "level": "HSK2–3",
+        "objective": "在食堂点餐时正确使用“一碗、一份、一杯”完成两项点餐并提出一个礼貌要求。",
+        "prerequisites": ["能使用数字一", "认识常见食物和饮料"],
+        "estimated_minutes": 9,
+        "targets": ["量词", "一碗", "一份", "一杯", "点餐"],
+        "sources": ["GF0025-2021", "HSK2-SYLLABUS"],
+        "explanation": "中文里，数字和名词之间通常需要量词。食物按盛放方式选择量词：碗装食物常用“碗”，按份售卖的餐食用“份”，杯装饮料用“杯”。",
+        "examples": [
+          {
+            "chinese": "我要一碗牛肉面。",
+            "pinyin": "Wǒ yào yì wǎn niúròu miàn.",
+            "support_text": "I would like one bowl of beef noodles.",
+            "note": "面装在碗里，所以用“碗”。"
+          },
+          {
+            "chinese": "我要一杯咖啡。",
+            "pinyin": "Wǒ yào yì bēi kāfēi.",
+            "support_text": "I would like one cup of coffee.",
+            "note": "杯装饮料用“杯”，不能直接用通用量词“个”。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "看着提示完成点餐：你想要 one bowl of beef noodles。请说完整的一句话。",
+          "answer_rule": "回答必须包含“一碗牛肉面”，可使用“我要、请给我、麻烦给我”等自然开头。",
+          "feedback_rule": "先确认食物和量词，再只纠正一个最重要的问题，并要求立即重说。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：你想买 one cup of coffee。请用中文完整点餐。",
+          "answer_rule": "回答必须包含“一杯咖啡”，不能用“一个咖啡”。",
+          "feedback_rule": "正确则说明已完成无提示提取；错误时只提醒饮料需要容器量词。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：你在食堂想点一份炒饭和一杯茶，并礼貌地请服务员少放辣。请一次说完整。",
+          "answer_rule": "回答必须包含“一份炒饭”和“一杯茶”，并包含“请、麻烦、可以”中的至少一个礼貌标记。",
+          "feedback_rule": "分别检查两个量词和一个礼貌标记；通过后记录迁移证据。"
+        },
+        "completion_evidence": "无提示完成迁移任务，两个量词均正确且包含一个礼貌标记。",
+        "next_review": "建议 2–4 天后换成便利店场景再次提取容器量词。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["一碗牛肉面"],
+          "required_any": [],
+          "success_feedback": "量词和食物搭配正确。现在把例子收起来，试一次无提示提取。",
+          "retry_feedback": "食物表达出来了，但请把数量、量词和“牛肉面”连在一起，再说一次。"
+        },
+        "retrieval": {
+          "required_all": ["一杯咖啡"],
+          "required_any": [],
+          "success_feedback": "你在没有提示答案的情况下正确提取了“一杯咖啡”。",
+          "retry_feedback": "咖啡是杯装饮料。先想容器量词，再完整点餐。"
+        },
+        "transfer": {
+          "required_all": ["一份炒饭", "一杯茶"],
+          "required_any": ["请", "麻烦", "可以"],
+          "success_feedback": "两个量词和礼貌表达都迁移到了新任务，本课目标已完成。",
+          "retry_feedback": "再检查两种食物各自的量词，并加一个礼貌标记后重试。"
+        }
+      }
+    },
+    {
+      "position": 2,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000002",
+        "slug": "directions-first-then",
+        "version": 1,
+        "title": "用“先…再…”说清校园路线",
+        "framework": "current-hsk-1-6",
+        "level": "HSK2–3",
+        "objective": "问路后用“先…再…”复述包含两个步骤的校园路线。",
+        "prerequisites": ["认识左、右、前", "能使用怎么走"],
+        "estimated_minutes": 8,
+        "targets": ["先…再…", "问路", "路线", "顺序"],
+        "sources": ["GF0025-2021", "HSK3-SYLLABUS"],
+        "explanation": "“先…再…”把两个动作按时间顺序连接起来。先说第一步，再说第二步；两个动作都要清楚，听者才能照着路线走。",
+        "examples": [
+          {
+            "chinese": "先一直往前走，再向右转。",
+            "pinyin": "Xiān yìzhí wǎng qián zǒu, zài xiàng yòu zhuǎn.",
+            "support_text": "First go straight, then turn right.",
+            "note": "“先”和“再”分别标记第一步和第二步。"
+          },
+          {
+            "chinese": "先坐电梯到二楼，再往左走。",
+            "pinyin": "Xiān zuò diàntī dào èr lóu, zài wǎng zuǒ zǒu.",
+            "support_text": "First take the elevator to the second floor, then go left.",
+            "note": "地点变化也可以放进两个连续步骤。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "根据提示复述路线：first go straight, then turn right。",
+          "answer_rule": "回答必须包含“先、再、右转”，顺序合理。",
+          "feedback_rule": "只检查顺序标记和转向，不扩展无关路线词。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：first go upstairs, then turn left。请说一句完整路线。",
+          "answer_rule": "回答必须包含“先、再、左转”，第一步表达上楼。",
+          "feedback_rule": "先验证两个顺序标记，再纠正最影响理解的方向词。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：同学问图书馆怎么走。请用“先…再…”给出两个合理步骤。",
+          "answer_rule": "回答必须包含“先、再、图书馆”，并有两个可执行动作。",
+          "feedback_rule": "通过时记录顺序表达的迁移证据；不足时要求补全缺少的步骤。"
+        },
+        "completion_evidence": "无提示用“先…再…”完成含两个动作的图书馆路线说明。",
+        "next_review": "建议 3 天后在医院或地铁场景中复述另一条两步路线。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["先", "再", "右转"],
+          "required_any": [],
+          "success_feedback": "两个步骤和方向都清楚，进入无提示提取。",
+          "retry_feedback": "请明确标出第一步和第二步，并保留“右转”。"
+        },
+        "retrieval": {
+          "required_all": ["先", "再", "左转"],
+          "required_any": ["上楼", "楼上", "二楼"],
+          "success_feedback": "顺序标记和方向词都已从记忆中正确提取。",
+          "retry_feedback": "需要同时说出上楼、随后左转，并用两个顺序标记连接。"
+        },
+        "transfer": {
+          "required_all": ["先", "再", "图书馆"],
+          "required_any": ["走", "转", "上楼", "下楼"],
+          "success_feedback": "你把顺序结构迁移到了新的校园问路任务，本课完成。",
+          "retry_feedback": "请保留图书馆这个目标，并给出由“先、再”连接的两个动作。"
+        }
+      }
+    },
+    {
+      "position": 3,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000003",
+        "slug": "ba-result-complement",
+        "version": 1,
+        "title": "用把字句说明事情做完了",
+        "framework": "GF0025-2021",
+        "level": "HSK3–4",
+        "objective": "使用“把 + 事物 + 动词 + 结果 + 了”说明三个校园任务已经完成。",
+        "prerequisites": ["认识把", "能使用完成、放、关等动作词"],
+        "estimated_minutes": 11,
+        "targets": ["把字句", "结果补语", "完", "好", "上"],
+        "sources": ["GF0025-2021", "HSK3-SYLLABUS"],
+        "explanation": "把字句把受影响的事物提前。表达已经完成的结果时，常用“把 + 事物 + 动词 + 结果 + 了”，例如“把作业写完了”。结果词紧跟动词，“了”放在结果之后。",
+        "examples": [
+          {
+            "chinese": "我把作业写完了。",
+            "pinyin": "Wǒ bǎ zuòyè xiě wán le.",
+            "support_text": "I finished writing the homework.",
+            "note": "“完”紧跟“写”，“了”放在最后。"
+          },
+          {
+            "chinese": "请把门关上。",
+            "pinyin": "Qǐng bǎ mén guān shàng.",
+            "support_text": "Please close the door.",
+            "note": "“上”说明门从开着变成关着。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "根据提示说完整：I closed the door。使用“把”和结果词“上”。",
+          "answer_rule": "回答必须包含“把、门、关上、了”。",
+          "feedback_rule": "检查受影响事物和结果词位置，只纠正一个结构问题。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：I finished writing the homework。请用把字句表达。",
+          "answer_rule": "回答必须包含“把、作业、写完、了”。",
+          "feedback_rule": "错误时只提醒结果词紧跟动词，不直接展示完整答案。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：离开教室前，你已经把书放在桌子上了。请用把字句告诉同学。",
+          "answer_rule": "回答必须包含“把、书、放在、桌子、了”，语序自然。",
+          "feedback_rule": "检查把字句框架和地点结果；通过后记录迁移证据。"
+        },
+        "completion_evidence": "无提示在新场景中正确使用把字句和结果成分。",
+        "next_review": "建议 3–5 天后用宿舍报修场景复习另一组动词和结果。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["把", "门", "关上", "了"],
+          "required_any": [],
+          "success_feedback": "受影响的事物和结果词位置正确，进入无提示提取。",
+          "retry_feedback": "先把“门”放到动词前，再让结果词紧跟“关”。"
+        },
+        "retrieval": {
+          "required_all": ["把", "作业", "写完", "了"],
+          "required_any": [],
+          "success_feedback": "你正确提取了“把 + 事物 + 动词 + 结果 + 了”。",
+          "retry_feedback": "结果词“完”要紧跟“写”，完成标记放在结果之后。"
+        },
+        "transfer": {
+          "required_all": ["把", "书", "放在", "桌子", "了"],
+          "required_any": [],
+          "success_feedback": "把字句结构已迁移到新的教室任务，本课完成。",
+          "retry_feedback": "请明确书受到什么动作、放在哪里，并保留完成标记。"
+        }
+      }
+    }
+  ]
+}

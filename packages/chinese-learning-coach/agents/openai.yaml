@@ -1,0 +1,4 @@
+interface:
+  display_name: "Chinese Learning Coach"
+  short_description: "Create personalized HSK and spoken Chinese lessons"
+  default_prompt: "Use $chinese-learning-coach to teach a level-appropriate Chinese lesson and record evidence-based feedback."

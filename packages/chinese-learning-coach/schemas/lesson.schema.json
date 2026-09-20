@@ -1,0 +1,75 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hanzimate.local/schemas/lesson.schema.json",
+  "title": "Chinese Learning Lesson",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "slug",
+    "version",
+    "title",
+    "framework",
+    "level",
+    "objective",
+    "estimated_minutes",
+    "targets",
+    "sources",
+    "explanation",
+    "examples",
+    "guided_practice",
+    "retrieval_practice",
+    "transfer_task",
+    "completion_evidence"
+  ],
+  "properties": {
+    "id": {"type": "string", "minLength": 1},
+    "slug": {"type": "string", "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"},
+    "version": {"type": "integer", "minimum": 1},
+    "title": {"type": "string", "minLength": 1},
+    "track": {"type": "string", "enum": ["daily-life", "hsk"]},
+    "framework": {
+      "type": "string",
+      "enum": ["GF0025-2021", "hsk-3.0", "current-hsk-1-6", "hsk-7-9", "daily-life"]
+    },
+    "level": {"type": "string", "minLength": 1},
+    "objective": {"type": "string", "minLength": 1},
+    "prerequisites": {"type": "array", "items": {"type": "string"}},
+    "estimated_minutes": {"type": "integer", "minimum": 5, "maximum": 20},
+    "targets": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "sources": {"type": "array", "minItems": 1, "items": {"type": "string"}},
+    "explanation": {"type": "string", "minLength": 1},
+    "examples": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["chinese", "note"],
+        "properties": {
+          "chinese": {"type": "string", "minLength": 1},
+          "pinyin": {"type": "string"},
+          "support_text": {"type": "string"},
+          "note": {"type": "string", "minLength": 1}
+        }
+      }
+    },
+    "guided_practice": {"$ref": "#/$defs/activity"},
+    "retrieval_practice": {"$ref": "#/$defs/activity"},
+    "transfer_task": {"$ref": "#/$defs/activity"},
+    "completion_evidence": {"type": "string", "minLength": 1},
+    "next_review": {"type": "string"}
+  },
+  "$defs": {
+    "activity": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["prompt", "answer_rule", "feedback_rule"],
+      "properties": {
+        "prompt": {"type": "string", "minLength": 1},
+        "answer_rule": {"type": "string", "minLength": 1},
+        "feedback_rule": {"type": "string", "minLength": 1}
+      }
+    }
+  }
+}

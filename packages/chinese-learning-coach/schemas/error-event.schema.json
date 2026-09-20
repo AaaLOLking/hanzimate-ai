@@ -1,0 +1,56 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hanzimate.local/schemas/error-event.schema.json",
+  "title": "Learner Error Event",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "source_type",
+    "source_id",
+    "learner_text",
+    "corrected_text",
+    "error_type",
+    "subtype",
+    "severity",
+    "confidence",
+    "status",
+    "evidence_span",
+    "observed_at",
+    "model_version",
+    "skill_version"
+  ],
+  "properties": {
+    "source_type": {
+      "type": "string",
+      "enum": ["conversation", "lesson", "assessment", "review", "pronunciation"]
+    },
+    "source_id": {"type": "string", "minLength": 1},
+    "learner_text": {"type": "string", "minLength": 1},
+    "corrected_text": {"type": "string", "minLength": 1},
+    "explanation": {"type": "string"},
+    "error_type": {
+      "type": "string",
+      "enum": ["pronunciation", "lexical", "grammar", "character-writing", "listening", "pragmatics"]
+    },
+    "subtype": {"type": "string", "minLength": 1},
+    "severity": {
+      "type": "string",
+      "enum": ["blocking", "major", "minor", "optional"]
+    },
+    "confidence": {"type": "number", "minimum": 0.5, "maximum": 1},
+    "status": {
+      "type": "string",
+      "enum": ["candidate", "confirmed", "rejected", "superseded"]
+    },
+    "evidence_span": {"type": "string", "minLength": 1},
+    "canonical_key": {"type": "string"},
+    "hsk_tags": {
+      "type": "array",
+      "items": {"type": "string"},
+      "uniqueItems": true
+    },
+    "observed_at": {"type": "string", "format": "date-time"},
+    "model_version": {"type": "string", "minLength": 1},
+    "skill_version": {"type": "string", "minLength": 1}
+  }
+}

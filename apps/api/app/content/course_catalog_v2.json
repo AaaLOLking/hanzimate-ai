@@ -1,0 +1,849 @@
+{
+  "course": {
+    "id": "10000000-0000-4000-8000-000000000001",
+    "version_id": "11000000-0000-4000-8000-000000000002",
+    "slug": "campus-chinese-foundations",
+    "version": 2,
+    "title": "来华学习中文核心课",
+    "description": "6 节生活与校园沟通课，加 6 节 HSK 2–4 能力课；每课用一次真实产出证明掌握。",
+    "framework": "GF0025-2021 + HSK3.0",
+    "level": "HSK2–4",
+    "skill_version": "0.2.0"
+  },
+  "source_catalog": [
+    {
+      "id": "GF0025-2021",
+      "title": "国际中文教育中文水平等级标准",
+      "publisher": "中华人民共和国教育部、国家语言文字工作委员会",
+      "url": "https://www.moe.gov.cn/jyb_sjzl/ziliao/A19/202111/t20211118_580755.html"
+    },
+    {
+      "id": "HSK3.0-SYLLABUS",
+      "title": "新版 HSK 考试大纲",
+      "publisher": "中文考试服务网",
+      "url": "https://hsk.cn-bj.ufileos.com/3.0/%E6%96%B0%E7%89%88HSK%E8%80%83%E8%AF%95%E5%A4%A7%E7%BA%B21219.pdf"
+    }
+  ],
+  "lessons": [
+    {
+      "position": 1,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000101",
+        "slug": "canteen-measure-words",
+        "version": 2,
+        "title": "在食堂说对一碗、一份、一杯",
+        "track": "daily-life",
+        "framework": "hsk-3.0",
+        "level": "HSK2–3",
+        "objective": "在食堂点餐时正确使用“一碗、一份、一杯”完成两项点餐并提出一个礼貌要求。",
+        "prerequisites": ["能使用数字一", "认识常见食物和饮料"],
+        "estimated_minutes": 9,
+        "targets": ["量词", "一碗", "一份", "一杯", "点餐"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "中文里，数字和名词之间通常需要量词。食物按盛放方式选择量词：碗装食物常用“碗”，按份售卖的餐食用“份”，杯装饮料用“杯”。",
+        "examples": [
+          {
+            "chinese": "我要一碗牛肉面。",
+            "pinyin": "Wǒ yào yì wǎn niúròu miàn.",
+            "support_text": "I would like one bowl of beef noodles.",
+            "note": "面装在碗里，所以用“碗”。"
+          },
+          {
+            "chinese": "我要一杯咖啡。",
+            "pinyin": "Wǒ yào yì bēi kāfēi.",
+            "support_text": "I would like one cup of coffee.",
+            "note": "杯装饮料用“杯”，不能直接用通用量词“个”。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "看着提示完成点餐：你想要 one bowl of beef noodles。请说完整的一句话。",
+          "answer_rule": "回答必须包含“一碗牛肉面”，可使用“我要、请给我、麻烦给我”等自然开头。",
+          "feedback_rule": "先确认食物和量词，再只纠正一个最重要的问题，并要求立即重说。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：你想买 one cup of coffee。请用中文完整点餐。",
+          "answer_rule": "回答必须包含“一杯咖啡”，不能用“一个咖啡”。",
+          "feedback_rule": "正确则说明已完成无提示提取；错误时只提醒饮料需要容器量词。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：你在食堂想点一份炒饭和一杯茶，并礼貌地请服务员少放辣。请一次说完整。",
+          "answer_rule": "回答必须包含“一份炒饭”和“一杯茶”，并包含“请、麻烦、可以”中的至少一个礼貌标记。",
+          "feedback_rule": "分别检查两个量词和一个礼貌标记；通过后记录迁移证据。"
+        },
+        "completion_evidence": "无提示完成迁移任务，两个量词均正确且包含一个礼貌标记。",
+        "next_review": "建议 2–4 天后换成便利店场景再次提取容器量词。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["一碗牛肉面"],
+          "required_any": [],
+          "success_feedback": "量词和食物搭配正确。现在把例子收起来，试一次无提示提取。",
+          "retry_feedback": "食物表达出来了，但请把数量、量词和“牛肉面”连在一起，再说一次。"
+        },
+        "retrieval": {
+          "required_all": ["一杯咖啡"],
+          "required_any": [],
+          "success_feedback": "你在没有提示答案的情况下正确提取了“一杯咖啡”。",
+          "retry_feedback": "咖啡是杯装饮料。先想容器量词，再完整点餐。"
+        },
+        "transfer": {
+          "required_all": ["一份炒饭", "一杯茶"],
+          "required_any": ["请", "麻烦", "可以"],
+          "success_feedback": "两个量词和礼貌表达都迁移到了新任务，本课目标已完成。",
+          "retry_feedback": "再检查两种食物各自的量词，并加一个礼貌标记后重试。"
+        }
+      }
+    },
+    {
+      "position": 2,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000102",
+        "slug": "directions-first-then",
+        "version": 2,
+        "title": "用“先…再…”说清校园路线",
+        "track": "daily-life",
+        "framework": "hsk-3.0",
+        "level": "HSK2–3",
+        "objective": "问路后用“先…再…”复述包含两个步骤的校园路线。",
+        "prerequisites": ["认识左、右、前", "能使用怎么走"],
+        "estimated_minutes": 8,
+        "targets": ["先…再…", "问路", "路线", "顺序"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "“先…再…”把两个动作按时间顺序连接起来。先说第一步，再说第二步；两个动作都要清楚，听者才能照着路线走。",
+        "examples": [
+          {
+            "chinese": "先一直往前走，再向右转。",
+            "pinyin": "Xiān yìzhí wǎng qián zǒu, zài xiàng yòu zhuǎn.",
+            "support_text": "First go straight, then turn right.",
+            "note": "“先”和“再”分别标记第一步和第二步。"
+          },
+          {
+            "chinese": "先坐电梯到二楼，再往左走。",
+            "pinyin": "Xiān zuò diàntī dào èr lóu, zài wǎng zuǒ zǒu.",
+            "support_text": "First take the elevator to the second floor, then go left.",
+            "note": "地点变化也可以放进两个连续步骤。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "根据提示复述路线：first go straight, then turn right。",
+          "answer_rule": "回答必须包含“先、再、右转”，顺序合理。",
+          "feedback_rule": "只检查顺序标记和转向，不扩展无关路线词。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：first go upstairs, then turn left。请说一句完整路线。",
+          "answer_rule": "回答必须包含“先、再、左转”，第一步表达上楼。",
+          "feedback_rule": "先验证两个顺序标记，再纠正最影响理解的方向词。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：同学问图书馆怎么走。请用“先…再…”给出两个合理步骤。",
+          "answer_rule": "回答必须包含“先、再、图书馆”，并有两个可执行动作。",
+          "feedback_rule": "通过时记录顺序表达的迁移证据；不足时要求补全缺少的步骤。"
+        },
+        "completion_evidence": "无提示用“先…再…”完成含两个动作的图书馆路线说明。",
+        "next_review": "建议 3 天后在医院或地铁场景中复述另一条两步路线。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["先", "再", "右转"],
+          "required_any": [],
+          "success_feedback": "两个步骤和方向都清楚，进入无提示提取。",
+          "retry_feedback": "请明确标出第一步和第二步，并保留“右转”。"
+        },
+        "retrieval": {
+          "required_all": ["先", "再", "左转"],
+          "required_any": ["上楼", "楼上", "二楼"],
+          "success_feedback": "顺序标记和方向词都已从记忆中正确提取。",
+          "retry_feedback": "需要同时说出上楼、随后左转，并用两个顺序标记连接。"
+        },
+        "transfer": {
+          "required_all": ["先", "再", "图书馆"],
+          "required_any": ["走", "转", "上楼", "下楼"],
+          "success_feedback": "你把顺序结构迁移到了新的校园问路任务，本课完成。",
+          "retry_feedback": "请保留图书馆这个目标，并给出由“先、再”连接的两个动作。"
+        }
+      }
+    },
+    {
+      "position": 3,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000103",
+        "slug": "ba-result-complement",
+        "version": 2,
+        "title": "用把字句说明事情做完了",
+        "track": "daily-life",
+        "framework": "GF0025-2021",
+        "level": "HSK3–4",
+        "objective": "使用“把 + 事物 + 动词 + 结果 + 了”说明三个校园任务已经完成。",
+        "prerequisites": ["认识把", "能使用完成、放、关等动作词"],
+        "estimated_minutes": 11,
+        "targets": ["把字句", "结果补语", "完", "好", "上"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "把字句把受影响的事物提前。表达已经完成的结果时，常用“把 + 事物 + 动词 + 结果 + 了”，例如“把作业写完了”。结果词紧跟动词，“了”放在结果之后。",
+        "examples": [
+          {
+            "chinese": "我把作业写完了。",
+            "pinyin": "Wǒ bǎ zuòyè xiě wán le.",
+            "support_text": "I finished writing the homework.",
+            "note": "“完”紧跟“写”，“了”放在最后。"
+          },
+          {
+            "chinese": "请把门关上。",
+            "pinyin": "Qǐng bǎ mén guān shàng.",
+            "support_text": "Please close the door.",
+            "note": "“上”说明门从开着变成关着。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "根据提示说完整：I closed the door。使用“把”和结果词“上”。",
+          "answer_rule": "回答必须包含“把、门、关上、了”。",
+          "feedback_rule": "检查受影响事物和结果词位置，只纠正一个结构问题。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：I finished writing the homework。请用把字句表达。",
+          "answer_rule": "回答必须包含“把、作业、写完、了”。",
+          "feedback_rule": "错误时只提醒结果词紧跟动词，不直接展示完整答案。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：离开教室前，你已经把书放在桌子上了。请用把字句告诉同学。",
+          "answer_rule": "回答必须包含“把、书、放在、桌子、了”，语序自然。",
+          "feedback_rule": "检查把字句框架和地点结果；通过后记录迁移证据。"
+        },
+        "completion_evidence": "无提示在新场景中正确使用把字句和结果成分。",
+        "next_review": "建议 3–5 天后用宿舍报修场景复习另一组动词和结果。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["把", "门", "关上", "了"],
+          "required_any": [],
+          "success_feedback": "受影响的事物和结果词位置正确，进入无提示提取。",
+          "retry_feedback": "先把“门”放到动词前，再让结果词紧跟“关”。"
+        },
+        "retrieval": {
+          "required_all": ["把", "作业", "写完", "了"],
+          "required_any": [],
+          "success_feedback": "你正确提取了“把 + 事物 + 动词 + 结果 + 了”。",
+          "retry_feedback": "结果词“完”要紧跟“写”，完成标记放在结果之后。"
+        },
+        "transfer": {
+          "required_all": ["把", "书", "放在", "桌子", "了"],
+          "required_any": [],
+          "success_feedback": "把字句结构已迁移到新的教室任务，本课完成。",
+          "retry_feedback": "请明确书受到什么动作、放在哪里，并保留完成标记。"
+        }
+      }
+    },
+    {
+      "position": 4,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000104",
+        "slug": "dorm-repair-request",
+        "version": 1,
+        "title": "宿舍报修时说清哪里坏了",
+        "track": "daily-life",
+        "framework": "hsk-3.0",
+        "level": "HSK2–3",
+        "objective": "宿舍报修时说出物品、具体问题，并提出一个礼貌的处理请求。",
+        "prerequisites": ["认识常见宿舍物品", "能使用有、没有、不能"],
+        "estimated_minutes": 10,
+        "targets": ["报修", "坏了", "不能", "没有", "礼貌请求"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "报修要让对方快速知道三件事：什么东西、出现什么问题、希望对方做什么。可以用“物品 + 坏了/不能用了/没有……”说明问题，再用“麻烦帮我看看”提出请求。",
+        "examples": [
+          {
+            "chinese": "宿舍的空调坏了，不能制冷。",
+            "pinyin": "Sùshè de kōngtiáo huài le, bù néng zhìlěng.",
+            "support_text": "The dorm air conditioner is broken and cannot cool.",
+            "note": "先说物品，再说可观察的问题。"
+          },
+          {
+            "chinese": "洗衣机不能用了，麻烦帮我看看。",
+            "pinyin": "Xǐyījī bù néng yòng le, máfan bāng wǒ kànkan.",
+            "support_text": "The washing machine no longer works; please take a look.",
+            "note": "请求简短、礼貌，并且不替维修人员判断原因。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "台灯坏了，不能开。请向宿管说清问题并礼貌报修。",
+          "answer_rule": "回答必须包含“台灯、坏了、不能开”，并有一个礼貌请求。",
+          "feedback_rule": "先检查物品和问题是否具体，再提醒补一个礼貌请求。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：洗衣机不能用了。请用一句话完成报修。",
+          "answer_rule": "回答必须包含“洗衣机、不能用了”，并提出查看或维修请求。",
+          "feedback_rule": "不猜故障原因，只检查问题描述和请求是否齐全。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：宿舍淋浴没有热水。请给维修人员发一条完整、礼貌的信息。",
+          "answer_rule": "回答必须包含“淋浴、没有热水”，并包含“请、麻烦、帮”中的至少一个礼貌标记。",
+          "feedback_rule": "通过时确认信息足以让对方处理；不足时只指出缺少的要素。"
+        },
+        "completion_evidence": "无提示完成含物品、问题和礼貌请求的宿舍报修信息。",
+        "next_review": "建议 3 天后换成网络或门锁问题再次完成报修。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["台灯", "坏了", "不能开"],
+          "required_any": ["请", "麻烦", "帮"],
+          "success_feedback": "物品、问题和礼貌请求都清楚，可以进入无提示报修。",
+          "retry_feedback": "请补全台灯的具体问题，并加一个礼貌请求。"
+        },
+        "retrieval": {
+          "required_all": ["洗衣机", "不能用了"],
+          "required_any": ["看看", "维修", "修", "帮"],
+          "success_feedback": "你没有猜原因，也完整提出了处理请求。",
+          "retry_feedback": "先说洗衣机不能用了，再明确希望对方查看或维修。"
+        },
+        "transfer": {
+          "required_all": ["淋浴", "没有热水"],
+          "required_any": ["请", "麻烦", "帮"],
+          "success_feedback": "报修结构已迁移到新的宿舍问题，本课完成。",
+          "retry_feedback": "请明确淋浴没有热水，并保留一个礼貌请求。"
+        }
+      }
+    },
+    {
+      "position": 5,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000105",
+        "slug": "parcel-pickup-code",
+        "version": 1,
+        "title": "用取件码和手机尾号取快递",
+        "track": "daily-life",
+        "framework": "daily-life",
+        "level": "HSK2–3",
+        "objective": "在快递点说明来意，并准确报出一个取件码和手机尾号。",
+        "prerequisites": ["能读出 0–9", "知道手机号码和快递"],
+        "estimated_minutes": 8,
+        "targets": ["取快递", "取件码", "手机尾号", "数字确认"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "取快递时先说“我来取快递”，再报取件码。对方需要核对电话时，可以说“手机尾号是……”。连续数字要一位一位读；对方没听清时，主动再说一遍。",
+        "examples": [
+          {
+            "chinese": "我来取快递，取件码是三八二一。",
+            "pinyin": "Wǒ lái qǔ kuàidì, qǔjiànmǎ shì sān bā èr yī.",
+            "support_text": "I am here to collect a parcel; the pickup code is 3821.",
+            "note": "先说明来意，再逐位报号码。"
+          },
+          {
+            "chinese": "我的手机尾号是六零九四。",
+            "pinyin": "Wǒ de shǒujī wěihào shì liù líng jiǔ sì.",
+            "support_text": "The last four digits of my phone number are 6094.",
+            "note": "“尾号”表示号码最后几位。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "你来取快递，取件码是 3821。请说一句完整的话。",
+          "answer_rule": "回答必须包含“取快递、取件码、三八二一”。",
+          "feedback_rule": "只检查来意、号码标签和数字是否齐全。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：工作人员问手机最后四位，号码是 6094。请回答。",
+          "answer_rule": "回答必须包含“手机尾号、六零九四”。",
+          "feedback_rule": "数字错误时要求逐位重说，不加入额外身份信息。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：你要取快递，取件码是 5176，手机尾号是 2048。请一次说清两个号码。",
+          "answer_rule": "回答必须包含“取件码、五一七六、手机尾号、二零四八”。",
+          "feedback_rule": "分别核对两个号码及其标签；通过后记录数字沟通证据。"
+        },
+        "completion_evidence": "无提示准确说明取件来意、取件码和手机尾号。",
+        "next_review": "建议 2–3 天后换成外卖电话核对场景再次读连续数字。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["取快递", "取件码", "三八二一"],
+          "required_any": [],
+          "success_feedback": "来意和取件码都准确，进入无提示号码核对。",
+          "retry_feedback": "请先说明取快递，再逐位说出取件码三八二一。"
+        },
+        "retrieval": {
+          "required_all": ["手机尾号", "六零九四"],
+          "required_any": [],
+          "success_feedback": "你正确使用“手机尾号”并逐位读出了号码。",
+          "retry_feedback": "请先说号码类型，再逐位读六零九四。"
+        },
+        "transfer": {
+          "required_all": ["取件码", "五一七六", "手机尾号", "二零四八"],
+          "required_any": [],
+          "success_feedback": "两个号码及其标签都准确，本课完成。",
+          "retry_feedback": "请分别标明取件码和手机尾号，再检查每一位数字。"
+        }
+      }
+    },
+    {
+      "position": 6,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000106",
+        "slug": "reschedule-campus-appointment",
+        "version": 1,
+        "title": "改约时把原时间和新时间说清楚",
+        "track": "daily-life",
+        "framework": "daily-life",
+        "level": "HSK3",
+        "objective": "改约校园办事时间时说明原预约、新时间，并询问对方是否方便。",
+        "prerequisites": ["能表达星期和整点", "会使用可以吗"],
+        "estimated_minutes": 9,
+        "targets": ["改约", "原来", "改到", "以后", "是否方便"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "改约要避免只说一个孤立时间。先用“原来约的是……”指出旧时间，再用“想改到……”给出新时间，最后问“可以吗/方便吗”确认。",
+        "examples": [
+          {
+            "chinese": "我原来约的是周三下午两点，想改到周四上午十点，可以吗？",
+            "pinyin": "Wǒ yuánlái yuē de shì Zhōusān xiàwǔ liǎng diǎn, xiǎng gǎi dào Zhōusì shàngwǔ shí diǎn, kěyǐ ma?",
+            "support_text": "I was booked for Wednesday at 2 p.m. and would like Thursday at 10 a.m. Is that possible?",
+            "note": "旧时间、新时间和确认问题都完整。"
+          },
+          {
+            "chinese": "我五点以后都有时间，您六点方便吗？",
+            "pinyin": "Wǒ wǔ diǎn yǐhòu dōu yǒu shíjiān, nín liù diǎn fāngbiàn ma?",
+            "support_text": "I am available after five; is six convenient for you?",
+            "note": "“以后”表达可接受的时间范围。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "原预约是周一上午九点，新时间是周二下午三点。请完整改约。",
+          "answer_rule": "回答必须包含“周一上午九点、改到周二下午三点”，并询问是否可以。",
+          "feedback_rule": "先核对两个时间，再提醒补确认问题。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：你四点以后有时间，想问对方五点是否方便。",
+          "answer_rule": "回答必须包含“四点以后、五点、方便吗”。",
+          "feedback_rule": "只检查时间范围、建议时间和确认语气。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：你原来约周五下午两点去国际处，想改到周一上午十点。请发一条完整消息。",
+          "answer_rule": "回答必须包含“周五下午两点、改到周一上午十点”，并包含“可以吗、方便吗”之一。",
+          "feedback_rule": "核对地点语境与两个时间；通过后记录改约沟通证据。"
+        },
+        "completion_evidence": "无提示完成含原时间、新时间和确认问题的改约信息。",
+        "next_review": "建议 3 天后换成小组讨论或维修上门场景再次改约。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["周一上午九点", "改到周二下午三点"],
+          "required_any": ["可以吗", "方便吗"],
+          "success_feedback": "原时间、新时间和确认问题完整，进入无提示时间协商。",
+          "retry_feedback": "请同时保留旧时间和新时间，并询问对方是否可以。"
+        },
+        "retrieval": {
+          "required_all": ["四点以后", "五点", "方便吗"],
+          "required_any": [],
+          "success_feedback": "你正确表达了可用范围并提出一个明确时间。",
+          "retry_feedback": "请先说四点以后的范围，再询问五点是否方便。"
+        },
+        "transfer": {
+          "required_all": ["周五下午两点", "改到周一上午十点"],
+          "required_any": ["可以吗", "方便吗"],
+          "success_feedback": "改约结构已迁移到国际处办事场景，本课完成。",
+          "retry_feedback": "请核对原预约和新预约，并补一个确认问题。"
+        }
+      }
+    },
+    {
+      "position": 7,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000107",
+        "slug": "hsk-bi-comparison",
+        "version": 1,
+        "title": "用“比”比较两个校园选择",
+        "track": "hsk",
+        "framework": "hsk-3.0",
+        "level": "HSK3",
+        "objective": "使用“A 比 B + 形容词 + 程度”比较两个校园地点并给出选择。",
+        "prerequisites": ["认识常见形容词", "能说明两个地点"],
+        "estimated_minutes": 9,
+        "targets": ["比字句", "更", "一点儿", "比较", "选择"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "“A 比 B + 形容词”说明 A 在某方面超过 B；需要表示差距时可在形容词后加“一点儿/多了”。“很”一般不直接放在比字句的形容词前。",
+        "examples": [
+          {
+            "chinese": "新图书馆比旧图书馆安静一点儿。",
+            "pinyin": "Xīn túshūguǎn bǐ jiù túshūguǎn ānjìng yìdiǎnr.",
+            "support_text": "The new library is a little quieter than the old one.",
+            "note": "差距放在形容词“安静”之后。"
+          },
+          {
+            "chinese": "东食堂比西食堂近多了。",
+            "pinyin": "Dōng shítáng bǐ Xī shítáng jìn duō le.",
+            "support_text": "The east canteen is much closer than the west canteen.",
+            "note": "“多了”表示差距明显。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "新图书馆更安静。请用“比”和“一点儿”比较新、旧图书馆。",
+          "answer_rule": "回答必须包含“新图书馆比旧图书馆安静一点儿”。",
+          "feedback_rule": "只检查比较双方、比和程度成分的位置。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：新宿舍离教室更远。请用“比”比较新宿舍和旧宿舍。",
+          "answer_rule": "回答必须包含“新宿舍比旧宿舍远”。",
+          "feedback_rule": "错误时只提醒形容词放在比较双方之后。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：东食堂比西食堂近，但是西食堂便宜。请用两个比字句说明后选择一个。",
+          "answer_rule": "回答必须包含“东食堂比西食堂近”和“西食堂比东食堂便宜”，并表达选择。",
+          "feedback_rule": "核对两个比较方向，再确认学习者给出了选择。"
+        },
+        "completion_evidence": "无提示完成两个方向正确的比字句并据此作出选择。",
+        "next_review": "建议 3–5 天后比较两门课程或两种交通方式。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["新图书馆比旧图书馆安静一点儿"],
+          "required_any": [],
+          "success_feedback": "比较双方和程度成分位置正确，进入无提示提取。",
+          "retry_feedback": "请按“新图书馆比旧图书馆安静一点儿”的信息顺序重组。"
+        },
+        "retrieval": {
+          "required_all": ["新宿舍比旧宿舍远"],
+          "required_any": [],
+          "success_feedback": "你正确提取了比字句的基本语序。",
+          "retry_feedback": "先说新宿舍，再用“比”引出旧宿舍，最后说“远”。"
+        },
+        "transfer": {
+          "required_all": ["东食堂比西食堂近", "西食堂比东食堂便宜"],
+          "required_any": ["我选", "我选择", "我去", "我想去"],
+          "success_feedback": "两个比较方向和最终选择都清楚，本课完成。",
+          "retry_feedback": "请分别比较距离和价格，再明确选择哪一个食堂。"
+        }
+      }
+    },
+    {
+      "position": 8,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000108",
+        "slug": "hsk-experience-guo",
+        "version": 1,
+        "title": "用“过”谈有过和没有过的经历",
+        "track": "hsk",
+        "framework": "hsk-3.0",
+        "level": "HSK3",
+        "objective": "用“动词 + 过”和“没 + 动词 + 过”各表达一次学习或文化经历。",
+        "prerequisites": ["能使用常见活动动词", "理解过去经历"],
+        "estimated_minutes": 9,
+        "targets": ["动态助词过", "经历", "没…过", "文化活动"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "“动词 + 过”表示过去有过某种经历，不强调具体时间；否定用“没 + 动词 + 过”，不用“没…了”。如果要说具体哪一次发生了什么，再使用时间词和“了”。",
+        "examples": [
+          {
+            "chinese": "我去过西安。",
+            "pinyin": "Wǒ qùguo Xī'ān.",
+            "support_text": "I have been to Xi'an.",
+            "note": "“过”紧跟动词“去”。"
+          },
+          {
+            "chinese": "我没参加过中文比赛。",
+            "pinyin": "Wǒ méi cānjiāguo Zhōngwén bǐsài.",
+            "support_text": "I have never taken part in a Chinese-language contest.",
+            "note": "否定经历使用“没…过”。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "表达一项经历：I have been to Shanghai。",
+          "answer_rule": "回答必须包含“我去过上海”。",
+          "feedback_rule": "只检查“过”是否紧跟经历动词。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：I have never participated in a Chinese contest。",
+          "answer_rule": "回答必须包含“我没参加过中文比赛”。",
+          "feedback_rule": "错误时只提醒否定经历用“没…过”。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：向同学说你去过博物馆，但没看过京剧。请用两句或一个复句表达。",
+          "answer_rule": "回答必须包含“去过博物馆”和“没看过京剧”。",
+          "feedback_rule": "分别检查肯定和否定经历；通过后记录对比证据。"
+        },
+        "completion_evidence": "无提示在新场景中正确表达一项有过和一项没有过的经历。",
+        "next_review": "建议 4 天后用旅行、饮食或课程经历再次提取“过”。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["我去过上海"],
+          "required_any": [],
+          "success_feedback": "“过”紧跟经历动词，进入否定经历提取。",
+          "retry_feedback": "请把“过”放在“去”后面，再说完整地点。"
+        },
+        "retrieval": {
+          "required_all": ["我没参加过中文比赛"],
+          "required_any": [],
+          "success_feedback": "你正确提取了“没 + 动词 + 过”的否定结构。",
+          "retry_feedback": "否定经历要保留“没”和动词后的“过”。"
+        },
+        "transfer": {
+          "required_all": ["去过博物馆", "没看过京剧"],
+          "required_any": [],
+          "success_feedback": "肯定和否定经历都迁移到了文化场景，本课完成。",
+          "retry_feedback": "请分别保留“去过”和“没看过”，不要省略经历标记。"
+        }
+      }
+    },
+    {
+      "position": 9,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000109",
+        "slug": "hsk-notice-only-then",
+        "version": 1,
+        "title": "从通知中找出“只有…才…”的条件",
+        "track": "hsk",
+        "framework": "hsk-3.0",
+        "level": "HSK3–4",
+        "objective": "读一则原创校园通知后，用“只有…才…”准确复述办理条件。",
+        "prerequisites": ["能阅读时间和证件词", "理解条件和结果"],
+        "estimated_minutes": 11,
+        "targets": ["只有…才…", "阅读提取", "条件", "校园通知"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "“只有 A，才 B”表示 A 是实现 B 的必要条件。读通知时先圈出条件，再找条件成立后能做的事；复述时不要把条件和结果说反。",
+        "examples": [
+          {
+            "chinese": "只有带学生证，才能进入阅览室。",
+            "support_text": "Only with a student card can you enter the reading room.",
+            "note": "带学生证是进入阅览室的必要条件。"
+          },
+          {
+            "chinese": "只有在周五以前申请，才能参加活动。",
+            "support_text": "Only applications submitted before Friday can join the event.",
+            "note": "时间限制属于条件，不是活动结果。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "原创通知：进入语言实验室必须带学生证。请用“只有…才…”复述。",
+          "answer_rule": "回答必须包含“只有带学生证”和“才能进入语言实验室”。",
+          "feedback_rule": "只检查条件与结果是否对应，不扩展通知内容。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：周五以前报名的人可以参加比赛。请用“只有…才…”复述。",
+          "answer_rule": "回答必须包含“只有周五以前报名”和“才能参加比赛”。",
+          "feedback_rule": "错误时只提醒先说必要条件，再说可实现的结果。"
+        },
+        "transfer_task": {
+          "prompt": "新通知：完成线上预约并带护照，才可以领取证明。请用“只有…才…”准确转告同学。",
+          "answer_rule": "回答必须包含“只有、线上预约、护照、才能领取证明”。",
+          "feedback_rule": "检查两个并列条件和结果；通过后记录通知复述证据。"
+        },
+        "completion_evidence": "无提示从新通知中提取两个条件，并用“只有…才…”复述。",
+        "next_review": "建议 3–5 天后用图书馆或考试报名通知再次提取必要条件。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["只有带学生证", "才能进入语言实验室"],
+          "required_any": [],
+          "success_feedback": "条件和结果方向正确，进入无提示通知复述。",
+          "retry_feedback": "请先说带学生证这个条件，再说能进入语言实验室。"
+        },
+        "retrieval": {
+          "required_all": ["只有周五以前报名", "才能参加比赛"],
+          "required_any": [],
+          "success_feedback": "你正确从句子中提取并重组了必要条件。",
+          "retry_feedback": "把周五以前报名放在“只有”后，把参加比赛放在“才”后。"
+        },
+        "transfer": {
+          "required_all": ["只有", "线上预约", "护照", "才能领取证明"],
+          "required_any": [],
+          "success_feedback": "两个条件和领取结果都准确，本课完成。",
+          "retry_feedback": "请保留线上预约和护照两个条件，再说明才能领取证明。"
+        }
+      }
+    },
+    {
+      "position": 10,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000110",
+        "slug": "hsk-although-but-choice",
+        "version": 1,
+        "title": "用“虽然…但是…”表达权衡",
+        "track": "hsk",
+        "framework": "hsk-3.0",
+        "level": "HSK3–4",
+        "objective": "使用“虽然…但是…”说明两个相反因素，并据此表达一个选择。",
+        "prerequisites": ["能使用常见形容词", "能表达选择"],
+        "estimated_minutes": 9,
+        "targets": ["虽然…但是…", "转折", "权衡", "选择理由"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "“虽然 A，但是 B”先承认一个事实，再突出与它相反或更重要的信息 B。表达选择时，通常根据“但是”后的信息作决定。口语里可以省略“但是”，本课先练完整结构。",
+        "examples": [
+          {
+            "chinese": "虽然这门课很难，但是老师讲得很清楚。",
+            "support_text": "Although the course is difficult, the teacher explains it clearly.",
+            "note": "后半句提供与“难”相对的积极信息。"
+          },
+          {
+            "chinese": "虽然宿舍离教室远，但是环境很安静。",
+            "support_text": "Although the dorm is far from class, it is quiet.",
+            "note": "两个因素共同支持后续权衡。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "课程很难；老师讲得很清楚。请用完整转折结构连接。",
+          "answer_rule": "回答必须包含“虽然这门课很难”和“但是老师讲得很清楚”。",
+          "feedback_rule": "只检查两个因素和转折标记是否完整。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：宿舍离教室远；环境很安静。请用“虽然…但是…”。",
+          "answer_rule": "回答必须包含“虽然宿舍离教室远”和“但是环境很安静”。",
+          "feedback_rule": "错误时只提醒“但是”后放更想强调的信息。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：早课开始得早，但内容很有用。请用转折结构说明，并表达你决定去上课。",
+          "answer_rule": "回答必须包含“虽然早课开始得早、但是内容很有用”，并表达去上课的决定。",
+          "feedback_rule": "检查转折和选择是否一致；通过后记录权衡表达证据。"
+        },
+        "completion_evidence": "无提示用完整转折结构说明两个因素并表达一致的选择。",
+        "next_review": "建议 4 天后权衡交通、课程或住宿选择。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["虽然这门课很难", "但是老师讲得很清楚"],
+          "required_any": [],
+          "success_feedback": "两个相反因素连接完整，进入无提示提取。",
+          "retry_feedback": "请把课程难放在“虽然”后，把老师讲得清楚放在“但是”后。"
+        },
+        "retrieval": {
+          "required_all": ["虽然宿舍离教室远", "但是环境很安静"],
+          "required_any": [],
+          "success_feedback": "你正确突出转折后的信息。",
+          "retry_feedback": "请保留完整的“虽然…但是…”并放入两个给定因素。"
+        },
+        "transfer": {
+          "required_all": ["虽然早课开始得早", "但是内容很有用"],
+          "required_any": ["我去上课", "我会去", "我要去", "我还是去"],
+          "success_feedback": "转折信息和上课决定一致，本课完成。",
+          "retry_feedback": "请先完成两个因素的转折，再明确你会去上课。"
+        }
+      }
+    },
+    {
+      "position": 11,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000111",
+        "slug": "hsk-directional-complements",
+        "version": 1,
+        "title": "用“出来、回去、过去”说清移动方向",
+        "track": "hsk",
+        "framework": "hsk-3.0",
+        "level": "HSK4",
+        "objective": "根据说话者位置，正确使用“拿出来、带回去、送过去”完成三个物品移动指令。",
+        "prerequisites": ["认识来和去", "能使用拿、带、送"],
+        "estimated_minutes": 11,
+        "targets": ["复合趋向补语", "出来", "回去", "过去", "说话者视角"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "趋向补语以说话者或当前参照点为中心：“出来”表示从里面到外面或进入视线；“回去”表示返回原处并远离参照点；“过去”表示移向另一处。先判断移动方向，再选择“来”或“去”。",
+        "examples": [
+          {
+            "chinese": "请把学生证拿出来。",
+            "support_text": "Please take out your student card.",
+            "note": "学生证从包里移动到外面并进入视线。"
+          },
+          {
+            "chinese": "下课后把这本书带回去。",
+            "support_text": "Take this book back after class.",
+            "note": "书返回原处，方向远离当前参照点。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "学生证在包里。请让同学把学生证拿到外面给你看。",
+          "answer_rule": "回答必须包含“把学生证拿出来”。",
+          "feedback_rule": "只检查物品从里面到外面的方向。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子：让同学下课后把图书馆的书带回原处。",
+          "answer_rule": "回答必须包含“把书带回去”。",
+          "feedback_rule": "错误时只提示书要返回原处并远离当前地点。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：老师在办公室，你在教室。请同学把申请表送到老师那里。",
+          "answer_rule": "回答必须包含“把申请表送过去”。",
+          "feedback_rule": "检查参照点和移动方向；通过后记录趋向补语证据。"
+        },
+        "completion_evidence": "无提示根据新参照点正确选择趋向补语并完成指令。",
+        "next_review": "建议 3–5 天后用拿进来、搬出去等新动词复习方向。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["把学生证拿出来"],
+          "required_any": [],
+          "success_feedback": "你正确判断了从里面到外面的方向。",
+          "retry_feedback": "学生证要从包里到你面前，请检查“拿”后的方向。"
+        },
+        "retrieval": {
+          "required_all": ["把书带回去"],
+          "required_any": [],
+          "success_feedback": "你正确表达了返回原处并远离当前地点。",
+          "retry_feedback": "书要回到原处，请保留“带回去”这个方向。"
+        },
+        "transfer": {
+          "required_all": ["把申请表送过去"],
+          "required_any": [],
+          "success_feedback": "你根据老师所在的另一处正确选择了“过去”，本课完成。",
+          "retry_feedback": "申请表要从教室到老师那里，请检查“送”后的方向。"
+        }
+      }
+    },
+    {
+      "position": 12,
+      "lesson": {
+        "id": "12000000-0000-4000-8000-000000000112",
+        "slug": "hsk-sequenced-narration",
+        "version": 1,
+        "title": "用“先、然后、最后”完成短叙述",
+        "track": "hsk",
+        "framework": "hsk-3.0",
+        "level": "HSK4",
+        "objective": "把三个给定信息按时间顺序组织成包含“先、然后、最后”的三步短叙述。",
+        "prerequisites": ["能写三个简单句", "理解事件先后"],
+        "estimated_minutes": 12,
+        "targets": ["短文组织", "先", "然后", "最后", "时间顺序"],
+        "sources": ["GF0025-2021", "HSK3.0-SYLLABUS"],
+        "explanation": "短叙述先确定事件顺序，再用连接词把句子组织起来。“先”标记第一步，“然后”推进中间事件，“最后”给出结尾或结果。连接词后仍要有完整动作。",
+        "examples": [
+          {
+            "chinese": "我先查了路线，然后坐地铁去学校，最后按时到了教室。",
+            "support_text": "I first checked the route, then took the metro, and finally arrived at the classroom on time.",
+            "note": "三个连接词对应三个按时间发生的动作。"
+          },
+          {
+            "chinese": "她先复习生词，然后做练习，最后检查答案。",
+            "support_text": "She first reviewed vocabulary, then did exercises, and finally checked the answers.",
+            "note": "每一步都服务于同一个学习任务。"
+          }
+        ],
+        "guided_practice": {
+          "prompt": "按顺序组织：查路线 → 坐地铁 → 到教室。必须使用“先、然后、最后”。",
+          "answer_rule": "回答必须包含“先查路线、然后坐地铁、最后到教室”。",
+          "feedback_rule": "只检查连接词和三个动作是否按给定顺序出现。"
+        },
+        "retrieval_practice": {
+          "prompt": "不看例子，组织学习过程：复习生词 → 做练习 → 检查答案。",
+          "answer_rule": "回答必须包含“先复习生词、然后做练习、最后检查答案”。",
+          "feedback_rule": "错误时指出顺序断点，不直接重写整段。"
+        },
+        "transfer_task": {
+          "prompt": "新场景：描述第一次去校医院的过程：网上预约 → 到前台登记 → 见到医生。只描述流程，不提供医疗建议。",
+          "answer_rule": "回答必须包含“先网上预约、然后到前台登记、最后见到医生”。",
+          "feedback_rule": "检查流程完整和顺序；不评价或补充任何医疗处理。"
+        },
+        "completion_evidence": "无提示把新场景的三个信息组织成顺序清楚的短叙述。",
+        "next_review": "建议 4–6 天后用一次旅行或考试经历完成新的三步叙述。"
+      },
+      "assessment_config": {
+        "guided": {
+          "required_all": ["先查路线", "然后坐地铁", "最后到教室"],
+          "required_any": [],
+          "success_feedback": "三个动作和连接词顺序正确，进入无提示写作。",
+          "retry_feedback": "请按查路线、坐地铁、到教室的顺序分别使用三个连接词。"
+        },
+        "retrieval": {
+          "required_all": ["先复习生词", "然后做练习", "最后检查答案"],
+          "required_any": [],
+          "success_feedback": "你从记忆中组织出了完整的三步学习过程。",
+          "retry_feedback": "请检查每个连接词后是否保留了对应动作。"
+        },
+        "transfer": {
+          "required_all": ["先网上预约", "然后到前台登记", "最后见到医生"],
+          "required_any": [],
+          "success_feedback": "三步结构已迁移到新的流程叙述，本课完成。",
+          "retry_feedback": "请只按预约、登记、见到医生的顺序重组，不增加医疗建议。"
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://hanzimate.local/schemas/learner-profile.schema.json",
+  "title": "Learner Profile Projection",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "user_id",
+    "support_language",
+    "mission_id",
+    "skill_estimates",
+    "preferences",
+    "projection_version",
+    "evidence_updated_at"
+  ],
+  "properties": {
+    "user_id": {"type": "string", "minLength": 1},
+    "support_language": {"type": "string", "minLength": 2},
+    "mission_id": {"type": "string", "minLength": 1},
+    "estimated_hsk_band": {"type": ["string", "null"]},
+    "skill_estimates": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["listening", "speaking", "reading", "writing"],
+      "properties": {
+        "listening": {"$ref": "#/$defs/estimate"},
+        "speaking": {"$ref": "#/$defs/estimate"},
+        "reading": {"$ref": "#/$defs/estimate"},
+        "writing": {"$ref": "#/$defs/estimate"}
+      }
+    },
+    "preferences": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["correction_mode", "speech_rate", "show_pinyin"],
+      "properties": {
+        "correction_mode": {"type": "string", "enum": ["immersion", "coach", "exam"]},
+        "speech_rate": {"type": "string", "enum": ["slow", "normal"]},
+        "show_pinyin": {"type": "boolean"}
+      }
+    },
+    "projection_version": {"type": "integer", "minimum": 1},
+    "evidence_updated_at": {"type": "string", "format": "date-time"}
+  },
+  "$defs": {
+    "estimate": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["score", "confidence", "evidence_count"],
+      "properties": {
+        "score": {"type": "number", "minimum": 0, "maximum": 1},
+        "confidence": {"type": "number", "minimum": 0, "maximum": 1},
+        "evidence_count": {"type": "integer", "minimum": 0}
+      }
+    }
+  }
+}
